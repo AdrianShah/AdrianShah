@@ -50,7 +50,11 @@ Recent commits across my repos _(auto-updated, excludes this profile repo)_.
 <!-- COMMITS:AUTO:START -->
 | When | Repo | Commit | Message |
 |---|---|---|---|
-_No recent commits found in other repos yet._
+| 2026-06-25 | [`Codessey`](https://github.com/AdrianShah/Codessey) | [`f3df4c8`](https://github.com/AdrianShah/Codessey/commit/f3df4c821f12204593271b92655c8f8f1a58ba37) | fix: rewrote root to index.html on Vercel |
+| 2026-06-25 | [`Codessey`](https://github.com/AdrianShah/Codessey) | [`f7c671c`](https://github.com/AdrianShah/Codessey/commit/f7c671c745b50c86298a807c2500bc28a4d5bd60) | fix: rewrote root to index.html on Vercel |
+| 2026-06-25 | [`Codessey`](https://github.com/AdrianShah/Codessey) | [`9438f4e`](https://github.com/AdrianShah/Codessey/commit/9438f4e0fcd8e2da92e585b5bb3dc7b557cd1123) | fix: simplify Vercel config and remove redundant index.html… |
+| 2026-06-25 | [`Codessey`](https://github.com/AdrianShah/Codessey) | [`2251126`](https://github.com/AdrianShah/Codessey/commit/225112617c0a649e137d20fe519dcd0b23c9ce84) | feat: Gemini-only LLM client with retry, Vercel deploy conf… |
+| 2026-06-23 | [`Codessey`](https://github.com/AdrianShah/Codessey) | [`595b6bf`](https://github.com/AdrianShah/Codessey/commit/595b6bf2126c90307801a817f311595f06310453) | Update review workflow and renderer |
 <!-- COMMITS:AUTO:END -->
 
 ---
