@@ -33,6 +33,21 @@ async function fetchJson(url, token) {
   return res.json();
 }
 
+async function fetchCommit(repoFullName, sha, token) {
+  try {
+    const commit = await fetchJson(
+      `https://api.github.com/repos/${repoFullName}/commits/${sha}`,
+      token
+    );
+    return {
+      sha: commit.sha,
+      message: commit.commit?.message || "",
+    };
+  } catch {
+    return { sha, message: "" };
+  }
+}
+
 async function collectRecentCommits(owner, token) {
   const profileRepo = `${owner}/${owner}`.toLowerCase();
   const seen = new Set();
@@ -54,8 +69,16 @@ async function collectRecentCommits(owner, token) {
       const repoName = event.repo.name;
       const repoUrl = `https://github.com/${repoName}`;
       const pushCommits = event.payload?.commits || [];
+      const headSha = event.payload?.head;
 
-      for (const commit of pushCommits) {
+      const commitEntries =
+        pushCommits.length > 0
+          ? pushCommits.map((c) => ({ sha: c.sha, message: c.message }))
+          : headSha
+            ? [await fetchCommit(repoName, headSha, token)]
+            : [];
+
+      for (const commit of commitEntries) {
         const sha = commit.sha;
         if (!sha || seen.has(sha)) continue;
         seen.add(sha);
