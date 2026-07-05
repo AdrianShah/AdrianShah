@@ -124,7 +124,7 @@ function buildMatchCard(match) {
     : "<em>upcoming</em>";
 
   return [
-    "<table>",
+    "<table width=\"100%\">",
     "<tr>",
     `<td align="center" width="40%">${teamCell(match.home)}</td>`,
     `<td align="center" width="20%"><strong>vs</strong><br/><sub>${escapeHtml(match.round)}</sub></td>`,
@@ -135,6 +135,13 @@ function buildMatchCard(match) {
     "</tr>",
     "</table>",
   ].join("\n");
+}
+
+function buildSideBySideRow(matches) {
+  const cells = matches.map(
+    (m) => `<td valign="top" width="${Math.floor(100 / matches.length)}%">${buildMatchCard(m)}</td>`
+  );
+  return `<table width="100%"><tr>${cells.join("")}</tr></table>`;
 }
 
 function buildReadmeContent(matches) {
@@ -150,9 +157,9 @@ function buildReadmeContent(matches) {
   }
 
   const header = `<p><strong>Today's slate (EST): ${formatDateEST(today)}</strong></p>`;
-  const cards = todayMatches.map((m) => buildMatchCard(m)).join("\n<br/>\n");
+  const row = buildSideBySideRow(todayMatches);
 
-  return [header, cards].join("\n");
+  return [header, row].join("\n");
 }
 
 async function scoreMatches(matches, token) {

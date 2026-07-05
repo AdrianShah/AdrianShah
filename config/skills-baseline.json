@@ -1,0 +1,19 @@
+{
+  "icons": [
+    "html",
+    "css",
+    "js",
+    "ts",
+    "react",
+    "nextjs",
+    "tailwind",
+    "nodejs",
+    "electron",
+    "vite",
+    "firebase",
+    "supabase",
+    "git",
+    "github",
+    "githubactions"
+  ]
+}

@@ -25,14 +25,18 @@ without it, none of the auto-updated sections will work.
 2. Go to **Actions** and manually run each workflow once:
    - **Update Pitchside Commits**: fills the commits table
    - **Update World Cup Predictions**: renders your picks table
+   - **Update Tech Stack Icons**: merges GitHub repo languages with `config/skills-baseline.json`
 
-> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits and the World Cup predictions tracker are the active automation workflows.
+> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, World Cup predictions, and tech stack icons are the active automation workflows.
 
 ## 4. Manual maintenance
 - **Predictions → Quarterfinal/Semifinal/Final rows**: `predictions/predictions.yml`
   has placeholder `"TBD"` teams for every round after Round of 16. Swap in real
   team names once each bracket is set, then add your pick (`home`, `away`, or team name).
 - **Pitchside Commits** is fully automated. No manual edits needed.
+- **Tech stack icons**: edit `config/skills-baseline.json` to always show tools GitHub
+  cannot detect (e.g. Convex, Clerk). The weekly workflow also scans your public repos
+  and adds icons when you commit in a new language.
 
 ## 5. Configuration notes
 - **Team-name matching** in `update_predictions.js` uses substring matching and

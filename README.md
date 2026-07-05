@@ -1,20 +1,30 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Adrian Shahnazari Darcheh" width="100%" />
 
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=6000&pause=2500&color=58A6FF&center=true&vCenter=true&width=700&lines=Adrian+Shahnazari+Darcheh)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=6000&pause=2500&color=58A6FF&center=true&vCenter=true&width=700&lines=Adrian+Shahnazari+Darcheh)
 
-  <p>
-    <a href="https://portfolio-20-two.vercel.app/"><img src="https://img.shields.io/badge/Website-portfolio--20--two.vercel.app-0aa?style=flat-square" alt="Website" /></a>
-    <a href="https://www.linkedin.com/in/adrian-shahnazari-darcheh-03b7782a9"><img src="https://img.shields.io/badge/LinkedIn-Adrian-0077b5?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
-    <a href="mailto:adrianshahnazari@gmail.com"><img src="https://img.shields.io/badge/Gmail-adrianshahnazari@gmail.com-ea4335?style=flat-square&logo=gmail" alt="Gmail" /></a>
-  </p>
+<p>
+  <a href="https://adrianshahnazari.vercel.app/"><img src="https://img.shields.io/badge/Website-adrianshahnazari.vercel.app-0aa?style=flat-square" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/adrian-shahnazari-darcheh-03b7782a9"><img src="https://img.shields.io/badge/LinkedIn-Adrian-0077b5?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:adrianshahnazari@gmail.com"><img src="https://img.shields.io/badge/Gmail-adrianshahnazari@gmail.com-ea4335?style=flat-square&logo=gmail" alt="Gmail" /></a>
+</p>
+
 </div>
 
 ---
 
 ### About
 
-First-year **Computer Engineering** student at **York University** and a full-stack builder. Currently working on **Codessey**, a multi-agent AI code review tool. More at [portfolio-20-two.vercel.app](https://portfolio-20-two.vercel.app/).
+First-year **Computer Engineering** student at **York University** and a full-stack builder focused on performance, clarity, and responsive UX. Portfolio: [adrianshahnazari.vercel.app](https://adrianshahnazari.vercel.app/).
+
+---
+
+### Tech Stack
+
+<!-- SKILLS:AUTO:START -->
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,electron,vite,firebase,supabase,git,github,githubactions&perline=8" alt="Tech stack" />
+</a>
+<!-- SKILLS:AUTO:END -->
 
 ---
 
@@ -43,7 +53,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 
 <!-- PREDICTIONS:AUTO:START -->
 <p><strong>Today's slate (EST): July 4, 2026</strong></p>
-<table>
+<table width="100%"><tr><td valign="top" width="50%"><table width="100%">
 <tr>
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ma.png" width="20" alt="Morocco" /><br/>Morocco</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
@@ -52,9 +62,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <tr>
 <td colspan="3" align="center"><strong>Pick:</strong> Morocco &nbsp;|&nbsp; <strong>Result:</strong> Canada 0-3 Morocco &nbsp;|&nbsp; ✅</td>
 </tr>
-</table>
-<br/>
-<table>
+</table></td><td valign="top" width="50%"><table width="100%">
 <tr>
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /><br/>France</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
@@ -63,7 +71,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <tr>
 <td colspan="3" align="center"><strong>Pick:</strong> France &nbsp;|&nbsp; <strong>Result:</strong> Paraguay 0-1 France &nbsp;|&nbsp; ✅</td>
 </tr>
-</table>
+</table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
 
 ---
@@ -71,5 +79,5 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <div align="center">
 <sub>Built with GitHub Actions · <a href="./SETUP.md">Setup notes</a></sub>
 <br/><br/>
-<img src="https://komment.ai/api/v1/view/profile?username=AdrianShah" alt="Profile views" />
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAdrianShah&count_bg=%230d1117&title_bg=%23555555&icon=0&icon_color=%23FFFFFF&title=Profile+views&edge_flat=true" alt="Profile views" />
 </div>
