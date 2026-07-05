@@ -37,6 +37,8 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="48" height="48" alt="Git" title="Git" />
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/baf52aa6-ff71-412d-9607-db8feb17874b" width="48" height="48" alt="Github" title="Github" />
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="48" height="48" alt="Githubactions" title="Githubactions" />
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="48" height="48" alt="Python" title="Python" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="48" height="48" alt="Go" title="Go" />
 </p>
 <!-- SKILLS:AUTO:END -->
 
