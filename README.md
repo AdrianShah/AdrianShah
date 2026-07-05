@@ -48,7 +48,9 @@ alongside agentic pipelines and football analytics on the side.
 Recent commits across my repos _(auto-updated, excludes this profile repo)_.
 
 <!-- COMMITS:AUTO:START -->
-_Nothing generated yet — this fills in after the Pitchside Commits workflow first runs._
+| When | Repo | Commit | Message |
+|---|---|---|---|
+_No recent commits found in other repos yet._
 <!-- COMMITS:AUTO:END -->
 
 ---
