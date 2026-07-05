@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "config/skill-gifs.json"
+      - "config/skill-icons.json"
       - "config/skills-baseline.json"
       - "scripts/update_skills.js"
 
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Refresh animated skill icons from repo languages
+      - name: Refresh tech stack icons from repo languages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}

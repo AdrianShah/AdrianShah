@@ -1,6 +1,6 @@
 /**
- * Rebuilds the animated tech stack block in README.md from GitHub repo languages
- * plus a static baseline. Uses GIF icons from Cool-GIFs-For-GitHub (moving logos).
+ * Rebuilds the tech stack table in README.md from GitHub repo languages
+ * plus a static baseline. Uses static SVG icons (skillicons.dev / techstack-generator).
  *
  * Requires: GITHUB_TOKEN and GITHUB_REPOSITORY_OWNER env vars.
  */
@@ -8,10 +8,9 @@
 const fs = require("fs");
 
 const README_PATH = "README.md";
-const CONFIG_PATH = "config/skill-gifs.json";
+const CONFIG_PATH = "config/skill-icons.json";
 const START_MARKER = "<!-- SKILLS:AUTO:START -->";
 const END_MARKER = "<!-- SKILLS:AUTO:END -->";
-const ICON_SIZE = 48;
 
 /** GitHub API language name -> icon id */
 const LANGUAGE_TO_ICON = {
@@ -44,9 +43,47 @@ const LANGUAGE_TO_ICON = {
   Jupyter: "python",
 };
 
+const TECHSTACK_SLUGS = new Set([
+  "cs",
+  "cpp",
+  "c",
+  "bash",
+  "kotlin",
+  "swift",
+  "ruby",
+  "php",
+  "scala",
+  "r",
+  "lua",
+  "haskell",
+  "elixir",
+  "clojure",
+  "apple",
+  "dart",
+]);
+
 function loadConfig() {
   const raw = fs.readFileSync(CONFIG_PATH, "utf8");
   return JSON.parse(raw);
+}
+
+function titleCase(id) {
+  return id.charAt(0).toUpperCase() + id.slice(1);
+}
+
+function resolveIcon(id, overrides = {}) {
+  const custom = overrides[id] || {};
+  const slug = custom.slug || id;
+  const label = custom.label || titleCase(id);
+  const provider =
+    custom.provider || (TECHSTACK_SLUGS.has(slug) ? "techstack" : "skillicons");
+  const size = provider === "techstack" ? 65 : 48;
+  const src =
+    provider === "techstack"
+      ? `https://techstack-generator.vercel.app/${slug}-icon.svg`
+      : `https://skillicons.dev/icons?i=${slug}&theme=dark`;
+
+  return { label, src, size, alt: label };
 }
 
 async function fetchJson(url, token) {
@@ -96,21 +133,28 @@ async function collectLanguageIcons(owner, token) {
   return icons;
 }
 
-function buildSkillsBlock(iconIds, gifMap) {
-  const imgs = iconIds
-    .map((id) => {
-      const src = gifMap[id];
-      if (!src) return "";
-      const label = id.charAt(0).toUpperCase() + id.slice(1);
-      return `<img src="${src}" width="${ICON_SIZE}" height="${ICON_SIZE}" alt="${label}" title="${label}" />`;
-    })
-    .filter(Boolean);
-
+function buildCell(id, overrides) {
+  const icon = resolveIcon(id, overrides);
   return [
-    `<p align="center">`,
-    imgs.join("\n"),
-    `</p>`,
+    `    <td align="center" width="96">`,
+    `      <img src="${icon.src}" width="${icon.size}" height="${icon.size}" alt="${icon.alt}" />`,
+    `      <br>${icon.label}`,
+    `    </td>`,
   ].join("\n");
+}
+
+function buildSkillsBlock(iconIds, config) {
+  const overrides = config.overrides || {};
+  const iconsPerRow = config.iconsPerRow || 9;
+  const rows = [];
+
+  for (let i = 0; i < iconIds.length; i += iconsPerRow) {
+    const chunk = iconIds.slice(i, i + iconsPerRow);
+    const cells = chunk.map((id) => buildCell(id, overrides)).join("\n");
+    rows.push(`  <tr>\n${cells}\n  </tr>`);
+  }
+
+  return `<table>\n${rows.join("\n")}\n</table>`;
 }
 
 async function main() {
@@ -124,16 +168,10 @@ async function main() {
 
   const config = loadConfig();
   const baseline = config.baseline || [];
-  const gifMap = config.gifs || {};
   const detected = await collectLanguageIcons(owner, token);
-  const merged = [...new Set([...baseline, ...detected])].filter((id) => gifMap[id]);
+  const merged = [...new Set([...baseline, ...detected])];
 
-  const skipped = [...new Set([...baseline, ...detected])].filter((id) => !gifMap[id]);
-  if (skipped.length) {
-    console.warn(`No GIF configured for: ${skipped.join(", ")}`);
-  }
-
-  const block = buildSkillsBlock(merged, gifMap);
+  const block = buildSkillsBlock(merged, config);
 
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
@@ -147,7 +185,7 @@ async function main() {
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
   fs.writeFileSync(README_PATH, `${before}\n${block}\n${after}`);
-  console.log(`Skills updated (${merged.length} animated icons): ${merged.join(", ")}`);
+  console.log(`Skills updated (${merged.length} icons): ${merged.join(", ")}`);
 }
 
 main().catch((err) => {

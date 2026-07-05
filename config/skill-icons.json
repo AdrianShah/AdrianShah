@@ -1,0 +1,35 @@
+{
+  "iconsPerRow": 9,
+  "baseline": [
+    "html",
+    "css",
+    "js",
+    "ts",
+    "react",
+    "nextjs",
+    "tailwind",
+    "nodejs",
+    "electron",
+    "vite",
+    "firebase",
+    "supabase",
+    "git",
+    "github",
+    "githubactions"
+  ],
+  "overrides": {
+    "html": { "label": "HTML" },
+    "css": { "label": "CSS" },
+    "js": { "label": "JavaScript" },
+    "ts": { "label": "TypeScript" },
+    "nextjs": { "label": "Next.js" },
+    "nodejs": { "label": "Node.js" },
+    "githubactions": { "label": "GitHub Actions", "slug": "actions" },
+    "python": { "label": "Python" },
+    "docker": { "label": "Docker" },
+    "java": { "label": "Java" },
+    "go": { "label": "Go" },
+    "rust": { "label": "Rust" },
+    "vue": { "label": "Vue" }
+  }
+}

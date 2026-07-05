@@ -25,18 +25,21 @@ without it, none of the auto-updated sections will work.
 2. Go to **Actions** and manually run each workflow once:
    - **Update Pitchside Commits**: fills the commits table
    - **Update World Cup Predictions**: renders your picks table
-   - **Update Tech Stack Icons**: merges GitHub repo languages with `config/skill-gifs.json`
+   - **Update Tech Stack Icons**: merges GitHub repo languages with `config/skill-icons.json`
 
-> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, World Cup predictions, and animated tech stack icons are the active automation workflows.
+> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, World Cup predictions, and tech stack icons are the active automation workflows.
 
 ## 4. Manual maintenance
 - **Predictions → Quarterfinal/Semifinal/Final rows**: `predictions/predictions.yml`
   has placeholder `"TBD"` teams for every round after Round of 16. Swap in real
   team names once each bracket is set, then add your pick (`home`, `away`, or team name).
 - **Pitchside Commits** is fully automated. No manual edits needed.
-- **Tech stack icons**: animated GIF URLs live in `config/skill-gifs.json`. Edit the
-  `baseline` list or add GIF URLs under `gifs`. The weekly workflow scans public repos
-  and adds icons when you commit in a new language (if a GIF exists for that language).
+- **Tech stack icons**: static SVG icons are generated from `config/skill-icons.json`
+  using [skillicons.dev](https://skillicons.dev) and
+  [techstack-generator](https://techstack-generator.vercel.app), styled like
+  [rzashakeri's profile](https://github.com/rzashakeri). Edit the `baseline` list or
+  add labels/slugs under `overrides`. The weekly workflow scans public repos and adds
+  icons when you commit in a new language.
 - **Profile views**: uses [komarev.com](https://komarev.com/ghpvc/?username=AdrianShah)
   inside a collapsible **Profile stats** section at the bottom of the README.
 
