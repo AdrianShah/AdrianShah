@@ -50,7 +50,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ca.png" width="20" alt="Canada" /><br/>Canada</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Morocco &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Morocco &nbsp;|&nbsp; <strong>Result:</strong> Canada 0-3 Morocco &nbsp;|&nbsp; ✅</td>
 </tr>
 </table>
 <br/>
@@ -61,7 +61,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/py.png" width="20" alt="Paraguay" /><br/>Paraguay</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> France &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> France &nbsp;|&nbsp; <strong>Result:</strong> Paraguay 0-1 France &nbsp;|&nbsp; ✅</td>
 </tr>
 </table>
 <!-- PREDICTIONS:AUTO:END -->
