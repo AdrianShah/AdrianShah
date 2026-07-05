@@ -1,8 +1,6 @@
 /**
- * Rebuilds the skill-icons block in README.md from GitHub repo languages
- * plus a static baseline (frameworks/tools not always detected by GitHub).
- *
- * Uses https://skillicons.dev (tandpfun/skill-icons style animated icons).
+ * Rebuilds the animated tech stack block in README.md from GitHub repo languages
+ * plus a static baseline. Uses GIF icons from Cool-GIFs-For-GitHub (moving logos).
  *
  * Requires: GITHUB_TOKEN and GITHUB_REPOSITORY_OWNER env vars.
  */
@@ -10,12 +8,12 @@
 const fs = require("fs");
 
 const README_PATH = "README.md";
-const BASELINE_PATH = "config/skills-baseline.json";
+const CONFIG_PATH = "config/skill-gifs.json";
 const START_MARKER = "<!-- SKILLS:AUTO:START -->";
 const END_MARKER = "<!-- SKILLS:AUTO:END -->";
-const PER_LINE = 8;
+const ICON_SIZE = 48;
 
-/** GitHub API language name -> skillicons.dev icon id */
+/** GitHub API language name -> icon id */
 const LANGUAGE_TO_ICON = {
   JavaScript: "js",
   TypeScript: "ts",
@@ -42,9 +40,14 @@ const LANGUAGE_TO_ICON = {
   Haskell: "haskell",
   Elixir: "elixir",
   Clojure: "clojure",
-  Objective-C: "apple",
+  "Objective-C": "apple",
   Jupyter: "python",
 };
+
+function loadConfig() {
+  const raw = fs.readFileSync(CONFIG_PATH, "utf8");
+  return JSON.parse(raw);
+}
 
 async function fetchJson(url, token) {
   const res = await fetch(url, {
@@ -71,7 +74,7 @@ async function collectLanguageIcons(owner, token) {
     if (!repos.length) break;
 
     for (const repo of repos) {
-      if (repo.fork || repo.name === owner) continue;
+      if (repo.fork || repo.name.toLowerCase() === owner.toLowerCase()) continue;
       try {
         const langs = await fetchJson(
           `https://api.github.com/repos/${owner}/${repo.name}/languages`,
@@ -93,19 +96,20 @@ async function collectLanguageIcons(owner, token) {
   return icons;
 }
 
-function loadBaselineIcons() {
-  const raw = fs.readFileSync(BASELINE_PATH, "utf8");
-  const doc = JSON.parse(raw);
-  return doc.icons || [];
-}
+function buildSkillsBlock(iconIds, gifMap) {
+  const imgs = iconIds
+    .map((id) => {
+      const src = gifMap[id];
+      if (!src) return "";
+      const label = id.charAt(0).toUpperCase() + id.slice(1);
+      return `<img src="${src}" width="${ICON_SIZE}" height="${ICON_SIZE}" alt="${label}" title="${label}" />`;
+    })
+    .filter(Boolean);
 
-function buildSkillsBlock(iconList) {
-  const icons = iconList.join(",");
-  const url = `https://skillicons.dev/icons?i=${icons}&perline=${PER_LINE}`;
   return [
-    `<a href="https://skillicons.dev">`,
-    `<img src="${url}" alt="Tech stack" />`,
-    `</a>`,
+    `<p align="center">`,
+    imgs.join("\n"),
+    `</p>`,
   ].join("\n");
 }
 
@@ -118,11 +122,18 @@ async function main() {
     process.exit(1);
   }
 
-  const baseline = loadBaselineIcons();
+  const config = loadConfig();
+  const baseline = config.baseline || [];
+  const gifMap = config.gifs || {};
   const detected = await collectLanguageIcons(owner, token);
-  const merged = [...new Set([...baseline, ...detected])];
+  const merged = [...new Set([...baseline, ...detected])].filter((id) => gifMap[id]);
 
-  const block = buildSkillsBlock(merged);
+  const skipped = [...new Set([...baseline, ...detected])].filter((id) => !gifMap[id]);
+  if (skipped.length) {
+    console.warn(`No GIF configured for: ${skipped.join(", ")}`);
+  }
+
+  const block = buildSkillsBlock(merged, gifMap);
 
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
@@ -136,7 +147,7 @@ async function main() {
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
   fs.writeFileSync(README_PATH, `${before}\n${block}\n${after}`);
-  console.log(`Skills updated (${merged.length} icons): ${merged.join(", ")}`);
+  console.log(`Skills updated (${merged.length} animated icons): ${merged.join(", ")}`);
 }
 
 main().catch((err) => {

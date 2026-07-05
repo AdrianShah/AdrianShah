@@ -21,9 +21,23 @@ First-year **Computer Engineering** student at **York University** and a full-st
 ### Tech Stack
 
 <!-- SKILLS:AUTO:START -->
-<a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,electron,vite,firebase,supabase,git,github,githubactions&perline=8" alt="Tech stack" />
-</a>
+<p align="center">
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/76036311-c8ea-4247-8bf8-a7077623036c" width="48" height="48" alt="Html" title="Html" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9c351cb9-c9a2-4b20-8420-e96b8331a53b" width="48" height="48" alt="Css" title="Css" />
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="48" height="48" alt="Js" title="Js" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/34376b0e-4ae2-4278-9d3d-82e8016a87d6" width="48" height="48" alt="Ts" title="Ts" />
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="48" height="48" alt="React" title="React" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f7ba88c3-6090-48bc-919d-39c17944ea04" width="48" height="48" alt="Nextjs" title="Nextjs" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/6f564d9a-467a-4bba-ad3a-8527c8ab79ae" width="48" height="48" alt="Tailwind" title="Tailwind" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/87b72768-3740-4648-b118-c3164ff654cd" width="48" height="48" alt="Nodejs" title="Nodejs" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7cc5988c-f607-4d4f-ab01-360a4f9321eb" width="48" height="48" alt="Electron" title="Electron" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/2c0eef4b-7b75-42bd-9722-4bea97a2d532" width="48" height="48" alt="Vite" title="Vite" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/e379a33a-b428-4385-b44f-3da16e7bac9f" width="48" height="48" alt="Firebase" title="Firebase" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/a2605358-6b87-44ab-87fb-20dcdc5f9ef2" width="48" height="48" alt="Supabase" title="Supabase" />
+<img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="48" height="48" alt="Git" title="Git" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/baf52aa6-ff71-412d-9607-db8feb17874b" width="48" height="48" alt="Github" title="Github" />
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/4503d891-510a-4ebd-94c4-ef8958a2e8d4" width="48" height="48" alt="Githubactions" title="Githubactions" />
+</p>
 <!-- SKILLS:AUTO:END -->
 
 ---
@@ -78,6 +92,12 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 
 <div align="center">
 <sub>Built with GitHub Actions · <a href="./SETUP.md">Setup notes</a></sub>
-<br/><br/>
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAdrianShah&count_bg=%230d1117&title_bg=%23555555&icon=0&icon_color=%23FFFFFF&title=Profile+views&edge_flat=true" alt="Profile views" />
+
+<details>
+<summary>Profile stats</summary>
+<br />
+
+![Profile views](https://komarev.com/ghpvc/?username=AdrianShah&style=flat-square&color=58a6ff)
+
+</details>
 </div>
