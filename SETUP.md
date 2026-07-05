@@ -1,8 +1,9 @@
 # Setup Notes — The Olympian Pitch
 
-Copy everything in this folder into your `adrianshah/adrianshah` repo root
+Copy everything in this folder into your `AdrianShah/AdrianShah` repo root
 (same structure: `.github/`, `assets/`, `predictions/`, `scripts/`, `README.md`,
-`package.json`). Then do the following:
+`package.json`). **The `.github/` folder must be present on the remote repo** —
+without it, none of the auto-updated sections will work.
 
 ## 1. Repo settings
 - **Settings → Actions → General → Workflow permissions** → set to
@@ -11,49 +12,42 @@ Copy everything in this folder into your `adrianshah/adrianshah` repo root
   profile README.
 
 ## 2. Secrets
-- `predictions-tracker.yml` needs a **`FOOTBALL_DATA_TOKEN`** secret.
+- `predictions-tracker.yml` needs a **`FOOTBALL_DATA_TOKEN`** secret for live
+  scoring (the README table still renders without it).
   1. Register for a free key at https://www.football-data.org/client/register
   2. Repo → Settings → Secrets and variables → Actions → New repository secret
      → name it `FOOTBALL_DATA_TOKEN`.
-  - Free tier covers the World Cup competition, but is rate-limited (10
-    requests/minute). The script only queries dates with unresolved picks,
-    so this should never be an issue at this scale — flagging it so you're
-    not surprised if you ever expand scope.
 - The other two workflows use the built-in `secrets.GITHUB_TOKEN` — nothing
   to add.
 
-## 3. Fill in what automation can't reach
-- **Trophy Cabinet → Elenchus block**: the three-lane breakdown is static
-  text in `README.md` (I left `<!-- TODO -->` placeholders) — there's no API
-  for past competition placements, so this part stays manual.
+## 3. First-time setup
+1. Push the full repo including `.github/workflows/` and `.github/sample-settings/`.
+2. Go to **Actions** and manually run each workflow once:
+   - **Generate 3D Pitch** — creates `profile-3d-pitch.svg`
+   - **Update Pitchside Commits** — fills the commits table
+   - **Update World Cup Predictions** — renders your picks table
+
+## 4. Manual maintenance
 - **Predictions → Quarterfinal/Semifinal/Final rows**: `predictions/predictions.yml`
-  has placeholder `"TBD"` teams for every round after Round of 16, because
-  those matchups aren't determined yet. Swap in real team names once each
-  bracket is set (usually the day after the previous round ends), then add
-  your pick.
+  has placeholder `"TBD"` teams for every round after Round of 16. Swap in real
+  team names once each bracket is set, then add your pick (`home`, `away`, or team name).
+- **Pitchside Commits** is fully automated — no manual edits needed.
 
-## 4. Things I approximated — verify before relying on them
-- **`.github/sample-settings/olympian-pitch.json`**: this is my best-guess
-  color/theme schema for `yoshi389111/github-profile-3d-contrib`. That
-  project's schema has changed across versions — check the `sample-settings/`
-  folder in [the project itself](https://github.com/yoshi389111/github-profile-3d-contrib)
-  before your first real run, and adjust key names if they don't match.
-- **Team-name matching** in `update_predictions.js` uses simple substring
-  matching (e.g. "USA" vs "United States") — check the first couple of runs
-  to make sure football-data.org's naming lines up with what you typed in
-  `predictions.yml`. Round of 16 entries I filled in should match, but double
-  check before kickoff.
+## 5. Configuration notes
+- **`.github/sample-settings/olympian-pitch.json`** uses the `normal` type schema
+  from [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)
+  with a green→gold palette and outputs `profile-3d-pitch.svg`.
+- **Team-name matching** in `update_predictions.js` uses substring matching and
+  resolves `home`/`away` shorthand to team names before scoring.
+- **Pitchside Commits** reads public `PushEvent` activity via the GitHub Events
+  API and excludes commits to this profile repo.
 
-## 5. Known platform limits (can't be worked around)
-- **No custom snake sprite.** We dropped this per your call — just noting
-  it stays a hard platform limit if you ever revisit it: `Platane/snk` only
-  exposes color options, not custom images/sprites.
-- **No texture-mapped grass** on the 3D pitch — `github-profile-3d-contrib`
-  only supports flat color palettes per contribution tier, so "grass growing
-  thicker" is simulated with a green→gold color ramp, not an actual texture.
+## 6. Known platform limits
+- **No custom snake sprite** — `Platane/snk` only exposes color options.
+- **No texture-mapped grass** on the 3D pitch — contribution intensity is
+  simulated with a green→gold color ramp, not an actual texture.
 
-## 6. After July 19, 2026
-- `update_predictions.js` no-ops once the tournament ends, so it's safe to
-  leave `predictions-tracker.yml` running — but you may want to disable it
-  (Actions tab → workflow → "..." → Disable workflow) once you're done
-  refreshing your final record, just to stop the daily commit noise.
+## 7. After July 19, 2026
+- `update_predictions.js` no-ops once the tournament ends. Disable
+  `predictions-tracker.yml` from the Actions tab when you're done refreshing
+  your final record.

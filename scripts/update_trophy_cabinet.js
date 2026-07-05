@@ -1,23 +1,85 @@
 /**
- * Rebuilds the auto-generated part of the "Trophy Cabinet" section in README.md.
+ * Rebuilds the auto-generated "Pitchside Commits" section in README.md.
  *
- * What this script DOES automate:
- *   - Pulls your most recently pushed-to public repos via the GitHub REST API
- *     and lists them with a short blurb + last-updated date.
+ * Pulls recent PushEvent commits from public repos via the GitHub Events API,
+ * excluding this profile repo (owner/owner).
  *
- * What this script CANNOT automate (no API exists for this):
- *   - Past competition results, placements, or team breakdowns (e.g. your
- *     Elenchus win). Those live in the STATIC block above the markers in
- *     README.md — edit that block by hand whenever you want to add a new
- *     static highlight.
- *
- * Requires: GITHUB_TOKEN env var (the default Actions token is enough for
- * public repo reads) and GITHUB_REPOSITORY_OWNER env var (set automatically
- * in GitHub Actions).
+ * Requires: GITHUB_TOKEN and GITHUB_REPOSITORY_OWNER env vars.
  */
 
-const START_MARKER = "<!-- TROPHY:AUTO:START -->";
-const END_MARKER = "<!-- TROPHY:AUTO:END -->";
+const START_MARKER = "<!-- COMMITS:AUTO:START -->";
+const END_MARKER = "<!-- COMMITS:AUTO:END -->";
+const MAX_COMMITS = 8;
+
+function escapeCell(text) {
+  return (text || "").replace(/\|/g, "-").replace(/\n/g, " ").trim();
+}
+
+function truncate(text, maxLen) {
+  const clean = escapeCell(text);
+  return clean.length > maxLen ? `${clean.slice(0, maxLen - 1)}…` : clean;
+}
+
+async function fetchJson(url, token) {
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github+json",
+    },
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub API error: ${res.status} ${await res.text()}`);
+  }
+  return res.json();
+}
+
+async function collectRecentCommits(owner, token) {
+  const profileRepo = `${owner}/${owner}`.toLowerCase();
+  const seen = new Set();
+  const commits = [];
+  let page = 1;
+
+  while (commits.length < MAX_COMMITS && page <= 5) {
+    const events = await fetchJson(
+      `https://api.github.com/users/${owner}/events/public?per_page=100&page=${page}`,
+      token
+    );
+
+    if (!events.length) break;
+
+    for (const event of events) {
+      if (event.type !== "PushEvent") continue;
+      if ((event.repo?.name || "").toLowerCase() === profileRepo) continue;
+
+      const repoName = event.repo.name;
+      const repoUrl = `https://github.com/${repoName}`;
+      const pushCommits = event.payload?.commits || [];
+
+      for (const commit of pushCommits) {
+        const sha = commit.sha;
+        if (!sha || seen.has(sha)) continue;
+        seen.add(sha);
+
+        commits.push({
+          when: event.created_at.slice(0, 10),
+          repo: repoName.split("/")[1],
+          repoUrl,
+          sha: sha.slice(0, 7),
+          commitUrl: `${repoUrl}/commit/${sha}`,
+          message: commit.message,
+        });
+
+        if (commits.length >= MAX_COMMITS) break;
+      }
+
+      if (commits.length >= MAX_COMMITS) break;
+    }
+
+    page += 1;
+  }
+
+  return commits;
+}
 
 async function main() {
   const owner = process.env.GITHUB_REPOSITORY_OWNER;
@@ -28,35 +90,19 @@ async function main() {
     process.exit(1);
   }
 
-  const res = await fetch(
-    `https://api.github.com/users/${owner}/repos?sort=pushed&direction=desc&per_page=6`,
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        Accept: "application/vnd.github+json",
-      },
-    }
-  );
+  const commits = await collectRecentCommits(owner, token);
 
-  if (!res.ok) {
-    console.error(`GitHub API error: ${res.status} ${await res.text()}`);
-    process.exit(1);
-  }
-
-  const repos = await res.json();
-
-  const rows = repos
-    .filter((r) => !r.fork && !r.archived)
-    .slice(0, 5)
-    .map((r) => {
-      const updated = new Date(r.pushed_at).toISOString().slice(0, 10);
-      const desc = r.description ? r.description.replace(/\|/g, "-") : "_no description yet_";
-      return `| [\`${r.name}\`](${r.html_url}) | ${desc} | ${updated} |`;
-    });
+  const rows =
+    commits.length === 0
+      ? ["_No recent commits found in other repos yet._"]
+      : commits.map(
+          (c) =>
+            `| ${c.when} | [\`${c.repo}\`](${c.repoUrl}) | [\`${c.sha}\`](${c.commitUrl}) | ${truncate(c.message, 60)} |`
+        );
 
   const table = [
-    "| Repo | What it is | Last activity |",
-    "|---|---|---|",
+    "| When | Repo | Commit | Message |",
+    "|---|---|---|---|",
     ...rows,
   ].join("\n");
 
@@ -68,16 +114,15 @@ async function main() {
   const endIdx = readme.indexOf(END_MARKER);
 
   if (startIdx === -1 || endIdx === -1) {
-    console.error("Trophy cabinet markers not found in README.md");
+    console.error("Pitchside Commits markers not found in README.md");
     process.exit(1);
   }
 
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
 
-  const newReadme = `${before}\n${table}\n${after}`;
-  fs.writeFileSync(readmePath, newReadme);
-  console.log("Trophy cabinet section updated.");
+  fs.writeFileSync(readmePath, `${before}\n${table}\n${after}`);
+  console.log("Pitchside Commits section updated.");
 }
 
 main().catch((err) => {

@@ -2,7 +2,7 @@
 #
 # HOW TO USE THIS FILE
 #   1. Before each matchday, fill in `adrian_pick` with the team you think
-#      will win (exact string match to `home` or `away`).
+#      will win — use the exact team name, or shorthand: "home" / "away".
 #   2. Leave `actual_result` and `correct` blank — the Action fills those in
 #      automatically the morning after the match is played.
 #   3. Commit your picks *before* kickoff. The workflow only overwrites
@@ -10,8 +10,7 @@
 #
 # Round of 16 matchups below are the real fixtures. Quarterfinal, semifinal,
 # third-place, and final rows are placeholders — replace "TBD" with the real
-# team names once each round's bracket is set (usually the day after the
-# previous round finishes).
+# team names once each round's bracket is set.
 
 matches:
   - date: "2026-07-04"

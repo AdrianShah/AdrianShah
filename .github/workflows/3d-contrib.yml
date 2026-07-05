@@ -1,0 +1,33 @@
+name: Generate 3D Pitch (Isometric Contribution Graph)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # once a day, 06:00 UTC
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-olympian-pitch-3d
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/sample-settings/olympian-pitch.json
+
+      - name: Commit & push generated pitch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          if git commit -m "chore: regenerate 3D pitch graph"; then
+            git push
+          else
+            echo "No changes to commit."
+          fi

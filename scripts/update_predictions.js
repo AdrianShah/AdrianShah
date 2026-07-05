@@ -4,14 +4,11 @@
  * of the README predictions table.
  *
  * Data source: football-data.org (competition code "WC"), free tier.
- * Requires FOOTBALL_DATA_TOKEN secret.
+ * Requires FOOTBALL_DATA_TOKEN secret for live scoring (table still renders without it).
  *
- * Only picks with a non-empty `adrian_pick` and an empty `actual_result`
- * are touched — your picks are never overwritten, only the outcome
- * columns.
+ * adrian_pick accepts team names or shorthand: "home" / "away".
  *
- * The tournament ends 2026-07-19. After that date this script is a no-op
- * (safe to leave the schedule running, or just disable the workflow).
+ * The tournament ends 2026-07-19. After that date this script is a no-op.
  */
 
 const fs = require("fs");
@@ -21,10 +18,18 @@ const PREDICTIONS_PATH = "predictions/predictions.yml";
 const README_PATH = "README.md";
 const START_MARKER = "<!-- PREDICTIONS:AUTO:START -->";
 const END_MARKER = "<!-- PREDICTIONS:AUTO:END -->";
-const TOURNAMENT_END = new Date("2026-07-20T00:00:00Z"); // day after the final
+const TOURNAMENT_END = new Date("2026-07-20T00:00:00Z");
 
 function normalize(name) {
   return (name || "").toLowerCase().trim();
+}
+
+function resolvePick(match) {
+  const pick = (match.adrian_pick || "").trim();
+  if (!pick) return "";
+  if (normalize(pick) === "home") return match.home;
+  if (normalize(pick) === "away") return match.away;
+  return pick;
 }
 
 async function fetchResultsForDate(dateStr, token) {
@@ -64,8 +69,6 @@ function winnerName(apiMatch) {
   const { home, away } = apiMatch.score.fullTime;
   if (home > away) return apiMatch.homeTeam.name;
   if (away > home) return apiMatch.awayTeam.name;
-  // knockout matches don't end level after extra time/penalties;
-  // fall back to penalties score if fullTime is tied
   const pens = apiMatch.score.penalties;
   if (pens && pens.home != null && pens.away != null) {
     return pens.home > pens.away ? apiMatch.homeTeam.name : apiMatch.awayTeam.name;
@@ -79,39 +82,23 @@ function buildReadmeTable(matches) {
   const accuracy = scored.length ? Math.round((correctCount / scored.length) * 100) : 0;
 
   const rows = matches.map((m) => {
-    const pick = m.adrian_pick || "_not picked yet_";
+    const resolved = resolvePick(m);
+    const pick = resolved || "_not picked yet_";
     const result = m.actual_result || "_upcoming_";
     const mark = m.correct === true ? "✅" : m.correct === false ? "❌" : "—";
     return `| ${m.date} | ${m.round} | ${m.home} vs ${m.away} | ${pick} | ${result} | ${mark} |`;
   });
 
-  const table = [
+  return [
     `**Record so far: ${correctCount}/${scored.length} correct (${accuracy}%)**`,
     "",
     "| Date | Round | Fixture | My Pick | Result | Called it? |",
     "|---|---|---|---|---|---|",
     ...rows,
   ].join("\n");
-
-  return table;
 }
 
-async function main() {
-  const token = process.env.FOOTBALL_DATA_TOKEN;
-  if (!token) {
-    console.error("Missing FOOTBALL_DATA_TOKEN secret.");
-    process.exit(1);
-  }
-
-  if (new Date() > TOURNAMENT_END) {
-    console.log("Tournament is over — nothing to update.");
-    return;
-  }
-
-  const doc = yaml.load(fs.readFileSync(PREDICTIONS_PATH, "utf8"));
-  const matches = doc.matches || [];
-
-  // Only need to hit the API for dates that still have unresolved picks
+async function scoreMatches(matches, token) {
   const pendingDates = [
     ...new Set(
       matches
@@ -125,15 +112,16 @@ async function main() {
     for (const m of matches) {
       if (m.date !== date || !m.adrian_pick || m.actual_result) continue;
       const apiMatch = findResult(m, apiMatches);
-      if (!apiMatch) continue; // not played yet, or name mismatch — leave for next run
+      if (!apiMatch) continue;
       m.actual_result = scoreLine(apiMatch);
       const winner = winnerName(apiMatch);
-      m.correct = winner ? normalize(winner) === normalize(m.adrian_pick) : null;
+      const resolvedPick = resolvePick(m);
+      m.correct = winner ? normalize(winner) === normalize(resolvedPick) : null;
     }
   }
+}
 
-  fs.writeFileSync(PREDICTIONS_PATH, yaml.dump(doc, { lineWidth: -1 }));
-
+function updateReadmeTable(matches) {
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
   const endIdx = readme.indexOf(END_MARKER);
@@ -145,7 +133,26 @@ async function main() {
   const after = readme.slice(endIdx);
   const table = buildReadmeTable(matches);
   fs.writeFileSync(README_PATH, `${before}\n${table}\n${after}`);
+}
 
+async function main() {
+  if (new Date() > TOURNAMENT_END) {
+    console.log("Tournament is over — nothing to update.");
+    return;
+  }
+
+  const doc = yaml.load(fs.readFileSync(PREDICTIONS_PATH, "utf8"));
+  const matches = doc.matches || [];
+
+  const token = process.env.FOOTBALL_DATA_TOKEN;
+  if (token) {
+    await scoreMatches(matches, token);
+    fs.writeFileSync(PREDICTIONS_PATH, yaml.dump(doc, { lineWidth: -1 }));
+  } else {
+    console.warn("FOOTBALL_DATA_TOKEN not set — skipping live scoring, rendering table only.");
+  }
+
+  updateReadmeTable(matches);
   console.log("Predictions updated.");
 }
 

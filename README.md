@@ -19,10 +19,15 @@
 
 ### ⚔️ About
 
-Computer science student building **Codessey** — a multi-agent AI code review tool
-using the Gemini API and Google ADK — for the GDG YorkU × Google Toronto Engineering
-Immersion Case Competition. Also tinkering with automated content pipelines and
-football analytics on the side.
+First-year **Computer Engineering** student at **York University** and a full-stack engineer
+in progress — turning ideas into reliable products with performance, clarity, accessibility,
+and responsive UX at the core. I lead with empathy for the user, pairing thoughtful design
+with pragmatic engineering.
+
+Currently building **Codessey**, a multi-agent AI code review tool (Gemini API + Google ADK),
+alongside agentic pipelines and football analytics on the side.
+
+**Portfolio:** [portfolio-20-two.vercel.app](https://portfolio-20-two.vercel.app/)
 
 ---
 
@@ -34,32 +39,47 @@ football analytics on the side.
 
 > Generated daily by GitHub Actions — see `.github/workflows/3d-contrib.yml`.
 > Deeper green = a quiet day, gold = you were locked in.
+> _First visit? Trigger the workflow once from the Actions tab if the graph hasn't appeared yet._
 
 ---
 
-### 🏆 Trophy Cabinet
+### ⚡ Pitchside Commits
 
-**Elenchus — 1st Place Finish**
-_Three-person lane breakdown:_
-- 🛠️ **Adrian Shah** — <!-- TODO: your lane on Elenchus -->
-- 🧩 **Teammate 2** — <!-- TODO: their lane -->
-- 🧩 **Teammate 3** — <!-- TODO: their lane -->
+Recent commits across my repos _(auto-updated, excludes this profile repo)_.
 
-**Latest activity** _(auto-updated)_
-
-<!-- TROPHY:AUTO:START -->
-_Nothing generated yet — this fills in after the trophy-cabinet workflow first runs._
-<!-- TROPHY:AUTO:END -->
+<!-- COMMITS:AUTO:START -->
+_Nothing generated yet — this fills in after the Pitchside Commits workflow first runs._
+<!-- COMMITS:AUTO:END -->
 
 ---
 
 ### 🔮 World Cup 2026 Predictions
 
 Tracking my knockout-stage picks through the July 19 final. I fill in `predictions/predictions.yml`
-before each matchday; the Action scores it against real results the next morning.
+before each matchday (`home` / `away` shorthand works); the Action scores it against real results
+the next morning.
 
 <!-- PREDICTIONS:AUTO:START -->
-_No predictions scored yet — fill in `predictions/predictions.yml` and wait for the next scheduled run, or trigger `predictions-tracker.yml` manually._
+**Record so far: 0/0 correct (0%)**
+
+| Date | Round | Fixture | My Pick | Result | Called it? |
+|---|---|---|---|---|---|
+| 2026-07-04 | Round of 16 | Morocco vs Canada | Morocco | _upcoming_ | — |
+| 2026-07-04 | Round of 16 | France vs Paraguay | France | _upcoming_ | — |
+| 2026-07-05 | Round of 16 | Brazil vs Norway | Brazil | _upcoming_ | — |
+| 2026-07-05 | Round of 16 | Mexico vs England | England | _upcoming_ | — |
+| 2026-07-06 | Round of 16 | Portugal vs Spain | Portugal | _upcoming_ | — |
+| 2026-07-06 | Round of 16 | USA vs Belgium | Belgium | _upcoming_ | — |
+| 2026-07-07 | Round of 16 | Argentina vs Egypt | Argentina | _upcoming_ | — |
+| 2026-07-07 | Round of 16 | Switzerland vs Colombia | Colombia | _upcoming_ | — |
+| 2026-07-09 | Quarterfinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-10 | Quarterfinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-11 | Quarterfinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-11 | Quarterfinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-14 | Semifinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-15 | Semifinal | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-18 | Third-place | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
+| 2026-07-19 | Final | TBD vs TBD | _not picked yet_ | _upcoming_ | — |
 <!-- PREDICTIONS:AUTO:END -->
 
 ---
