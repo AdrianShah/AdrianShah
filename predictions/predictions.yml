@@ -18,7 +18,7 @@ matches:
     round: "Round of 16"
     home: "Morocco"
     away: "Canada"
-    adrian_pick: ""
+    adrian_pick: "home"
     actual_result: ""
     correct: null
 
@@ -26,7 +26,7 @@ matches:
     round: "Round of 16"
     home: "France"
     away: "Paraguay"
-    adrian_pick: ""
+    adrian_pick: "home"
     actual_result: ""
     correct: null
 
@@ -34,7 +34,7 @@ matches:
     round: "Round of 16"
     home: "Brazil"
     away: "Norway"
-    adrian_pick: ""
+    adrian_pick: "home"
     actual_result: ""
     correct: null
 
@@ -42,7 +42,7 @@ matches:
     round: "Round of 16"
     home: "Mexico"
     away: "England"
-    adrian_pick: ""
+    adrian_pick: "away"
     actual_result: ""
     correct: null
 
@@ -50,7 +50,7 @@ matches:
     round: "Round of 16"
     home: "Portugal"
     away: "Spain"
-    adrian_pick: ""
+    adrian_pick: "home"
     actual_result: ""
     correct: null
 
@@ -58,7 +58,7 @@ matches:
     round: "Round of 16"
     home: "USA"
     away: "Belgium"
-    adrian_pick: ""
+    adrian_pick: "away"
     actual_result: ""
     correct: null
 
@@ -66,7 +66,7 @@ matches:
     round: "Round of 16"
     home: "Argentina"
     away: "Egypt"
-    adrian_pick: ""
+    adrian_pick: "home"
     actual_result: ""
     correct: null
 
@@ -74,7 +74,7 @@ matches:
     round: "Round of 16"
     home: "Switzerland"
     away: "Colombia"
-    adrian_pick: ""
+    adrian_pick: "away"
     actual_result: ""
     correct: null
 
