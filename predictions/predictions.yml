@@ -1,15 +1,15 @@
-# World Cup 2026 — The Olympian Pitch Predictions
+# World Cup 2026: The Olympian Pitch Predictions
 #
 # HOW TO USE THIS FILE
 #   1. Before each matchday, fill in `adrian_pick` with the team you think
-#      will win — use the exact team name, or shorthand: "home" / "away".
-#   2. Leave `actual_result` and `correct` blank — the Action fills those in
+#      will win. Use the exact team name, or shorthand: "home" / "away".
+#   2. Leave `actual_result` and `correct` blank. The Action fills those in
 #      automatically the morning after the match is played.
 #   3. Commit your picks *before* kickoff. The workflow only overwrites
 #      actual_result/correct, never your pick.
 #
 # Round of 16 matchups below are the real fixtures. Quarterfinal, semifinal,
-# third-place, and final rows are placeholders — replace "TBD" with the real
+# third-place, and final rows are placeholders. Replace "TBD" with the real
 # team names once each round's bracket is set.
 
 matches:

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banner preview · Adrian Shahnazari Darcheh</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      padding: 2rem 1.25rem;
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .page > h1 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #8b949e;
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .page > p.note {
+      font-size: 0.8125rem;
+      color: #8b949e;
+      margin-bottom: 1.25rem;
+      line-height: 1.55;
+    }
+
+    .readme-frame {
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    /* ── Banner ── */
+    .banner {
+      position: relative;
+      min-height: 220px;
+      overflow: hidden;
+      background: linear-gradient(180deg, #020617 0%, #0a1628 35%, #0f1f3d 70%, #141820 100%);
+    }
+
+    /* Star field */
+    .stars {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.9), transparent),
+        radial-gradient(1px 1px at 25% 8%, rgba(255,255,255,0.7), transparent),
+        radial-gradient(1.5px 1.5px at 40% 22%, rgba(255,255,255,0.85), transparent),
+        radial-gradient(1px 1px at 55% 12%, rgba(255,255,255,0.6), transparent),
+        radial-gradient(1px 1px at 70% 18%, rgba(255,255,255,0.75), transparent),
+        radial-gradient(1.5px 1.5px at 85% 10%, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1px 1px at 15% 35%, rgba(255,255,255,0.5), transparent),
+        radial-gradient(1px 1px at 92% 28%, rgba(255,255,255,0.65), transparent),
+        radial-gradient(1px 1px at 33% 42%, rgba(255,255,255,0.45), transparent),
+        radial-gradient(1px 1px at 62% 38%, rgba(255,255,255,0.55), transparent),
+        radial-gradient(1px 1px at 78% 45%, rgba(255,255,255,0.4), transparent);
+      opacity: 0.85;
+    }
+
+    /* Milky way band */
+    .milky-way {
+      position: absolute;
+      inset: -20% -10%;
+      background: linear-gradient(
+        125deg,
+        transparent 30%,
+        rgba(120, 140, 200, 0.08) 42%,
+        rgba(180, 190, 230, 0.14) 48%,
+        rgba(120, 140, 200, 0.08) 54%,
+        transparent 66%
+      );
+      pointer-events: none;
+    }
+
+    /* Distant city glow through arches */
+    .horizon-glow {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 52px;
+      height: 40px;
+      background: linear-gradient(
+        180deg,
+        transparent,
+        rgba(255, 180, 80, 0.06) 40%,
+        rgba(255, 140, 50, 0.12) 100%
+      );
+      pointer-events: none;
+    }
+
+    /* Kamares aqueduct SVG layer */
+    .aqueduct-layer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      line-height: 0;
+      pointer-events: none;
+    }
+
+    .aqueduct-layer svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Foreground content */
+    .banner-content {
+      position: relative;
+      z-index: 2;
+      padding: 1.1rem 1.35rem 4.5rem;
+    }
+
+    .filepath {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.75rem;
+      color: #8b949e;
+      margin-bottom: 0.65rem;
+    }
+
+    .name-block {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: clamp(1.35rem, 4vw, 2rem);
+      font-weight: 700;
+      color: #58a6ff;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.1rem;
+      line-height: 1.2;
+    }
+
+    .name-block .prompt {
+      color: #79c0ff;
+      margin-right: 0.35rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: #30363d;
+      margin-bottom: 0.85rem;
+      max-width: 100%;
+    }
+
+    /* Shield-style link badges (inspired by reference layout) */
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: stretch;
+      text-decoration: none;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 3px;
+      overflow: hidden;
+      line-height: 1;
+      transition: opacity 0.15s;
+    }
+
+    .badge:hover { opacity: 0.88; }
+
+    .badge .label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.32rem 0.5rem;
+      background: #555;
+      color: #fff;
+    }
+
+    .badge .value {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.32rem 0.55rem;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .badge-website .value { background: #0aa; color: #fff; }
+    .badge-linkedin .value { background: #0077b5; }
+    .badge-gmail .value { background: #ea4335; font-size: 0.7rem; }
+
+    .badge svg.icon {
+      width: 12px;
+      height: 12px;
+      fill: currentColor;
+    }
+
+    .toggle-row {
+      display: flex;
+      gap: 0.65rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      background: #21262d;
+      border: 1px solid #30363d;
+      color: #c9d1d9;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.78rem;
+    }
+
+    button.active { border-color: #58a6ff; color: #58a6ff; }
+
+    .readme-frame.light .banner {
+      background: linear-gradient(180deg, #dbeafe 0%, #93c5fd 40%, #64748b 100%);
+    }
+
+    .readme-frame.light .filepath { color: #57606a; }
+    .readme-frame.light .name-block { color: #0969da; }
+    .readme-frame.light .divider { background: #d0d7de; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Proposed README header</h1>
+    <p class="note">
+      Terminal-style layout with a CSS/SVG Kamares night sky (no PNG).
+      Intended for the top of your GitHub profile README.
+    </p>
+
+    <div class="toggle-row">
+      <button id="btn-dark" class="active" type="button">GitHub dark</button>
+      <button id="btn-light" type="button">GitHub light</button>
+    </div>
+
+    <div id="frame" class="readme-frame">
+      <header class="banner" aria-label="Profile header">
+        <div class="stars" aria-hidden="true"></div>
+        <div class="milky-way" aria-hidden="true"></div>
+        <div class="horizon-glow" aria-hidden="true"></div>
+
+        <div class="aqueduct-layer" aria-hidden="true">
+          <svg viewBox="0 0 920 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="archStone" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3d3528"/>
+                <stop offset="100%" stop-color="#1a1510"/>
+              </linearGradient>
+              <filter id="archGlow" x="-20%" y="-80%" width="140%" height="260%">
+                <feGaussianBlur stdDeviation="3" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+              <radialGradient id="uplight" cx="50%" cy="100%" r="80%">
+                <stop offset="0%" stop-color="#ffb347" stop-opacity="0.55"/>
+                <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+
+            <!-- uplight pools under each arch -->
+            <g opacity="0.7">
+              <ellipse cx="46" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="92" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="138" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="184" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="230" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="276" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="322" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="368" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="414" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="460" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="506" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="552" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="598" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="644" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="690" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="736" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="782" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="828" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+              <ellipse cx="874" cy="78" rx="18" ry="8" fill="url(#uplight)"/>
+            </g>
+
+            <!-- aqueduct structure -->
+            <rect x="0" y="68" width="920" height="22" fill="#0c0a08"/>
+            <g fill="url(#archStone)" filter="url(#archGlow)">
+              <path d="M 0 90 L 0 68 L 920 68 L 920 90 Z"/>
+              <path d="M 12 90 L 12 52 A 22 22 0 0 1 56 52 L 56 90 Z"/>
+              <path d="M 58 90 L 58 52 A 22 22 0 0 1 102 52 L 102 90 Z"/>
+              <path d="M 104 90 L 104 52 A 22 22 0 0 1 148 52 L 148 90 Z"/>
+              <path d="M 150 90 L 150 52 A 22 22 0 0 1 194 52 L 194 90 Z"/>
+              <path d="M 196 90 L 196 52 A 22 22 0 0 1 240 52 L 240 90 Z"/>
+              <path d="M 242 90 L 242 52 A 22 22 0 0 1 286 52 L 286 90 Z"/>
+              <path d="M 288 90 L 288 52 A 22 22 0 0 1 332 52 L 332 90 Z"/>
+              <path d="M 334 90 L 334 52 A 22 22 0 0 1 378 52 L 378 90 Z"/>
+              <path d="M 380 90 L 380 52 A 22 22 0 0 1 424 52 L 424 90 Z"/>
+              <path d="M 426 90 L 426 52 A 22 22 0 0 1 470 52 L 470 90 Z"/>
+              <path d="M 472 90 L 472 52 A 22 22 0 0 1 516 52 L 516 90 Z"/>
+              <path d="M 518 90 L 518 52 A 22 22 0 0 1 562 52 L 562 90 Z"/>
+              <path d="M 564 90 L 564 52 A 22 22 0 0 1 608 52 L 608 90 Z"/>
+              <path d="M 610 90 L 610 52 A 22 22 0 0 1 654 52 L 654 90 Z"/>
+              <path d="M 656 90 L 656 52 A 22 22 0 0 1 700 52 L 700 90 Z"/>
+              <path d="M 702 90 L 702 52 A 22 22 0 0 1 746 52 L 746 90 Z"/>
+              <path d="M 748 90 L 748 52 A 22 22 0 0 1 792 52 L 792 90 Z"/>
+              <path d="M 794 90 L 794 52 A 22 22 0 0 1 838 52 L 838 90 Z"/>
+              <path d="M 840 90 L 840 52 A 22 22 0 0 1 884 52 L 884 90 Z"/>
+            </g>
+            <!-- warm inner arch highlights -->
+            <g fill="none" stroke="#e8a040" stroke-width="1" opacity="0.35">
+              <path d="M 14 88 L 14 54 A 20 20 0 0 1 54 54 L 54 88"/>
+              <path d="M 60 88 L 60 54 A 20 20 0 0 1 100 54 L 100 88"/>
+              <path d="M 106 88 L 106 54 A 20 20 0 0 1 146 54 L 146 88"/>
+              <path d="M 152 88 L 152 54 A 20 20 0 0 1 192 54 L 192 88"/>
+              <path d="M 198 88 L 198 54 A 20 20 0 0 1 238 54 L 238 88"/>
+              <path d="M 244 88 L 244 54 A 20 20 0 0 1 284 54 L 284 88"/>
+              <path d="M 290 88 L 290 54 A 20 20 0 0 1 330 54 L 330 88"/>
+              <path d="M 336 88 L 336 54 A 20 20 0 0 1 376 54 L 376 88"/>
+              <path d="M 382 88 L 382 54 A 20 20 0 0 1 422 54 L 422 88"/>
+              <path d="M 428 88 L 428 54 A 20 20 0 0 1 468 54 L 468 88"/>
+              <path d="M 474 88 L 474 54 A 20 20 0 0 1 514 54 L 514 88"/>
+              <path d="M 520 88 L 520 54 A 20 20 0 0 1 560 54 L 560 88"/>
+              <path d="M 566 88 L 566 54 A 20 20 0 0 1 606 54 L 606 88"/>
+              <path d="M 612 88 L 612 54 A 20 20 0 0 1 652 54 L 652 88"/>
+              <path d="M 658 88 L 658 54 A 20 20 0 0 1 698 54 L 698 88"/>
+              <path d="M 704 88 L 704 54 A 20 20 0 0 1 744 54 L 744 88"/>
+              <path d="M 750 88 L 750 54 A 20 20 0 0 1 790 54 L 790 88"/>
+              <path d="M 796 88 L 796 54 A 20 20 0 0 1 836 54 L 836 88"/>
+              <path d="M 842 88 L 842 54 A 20 20 0 0 1 882 54 L 882 88"/>
+            </g>
+            <!-- crescent moon -->
+            <circle cx="868" cy="18" r="7" fill="#f4ecd0" opacity="0.85"/>
+          </svg>
+        </div>
+
+        <div class="banner-content">
+          <div class="filepath">AdrianShah / README.md</div>
+
+          <h1 class="name-block">
+            <span class="prompt">$</span> Adrian Shahnazari Darcheh
+          </h1>
+
+          <div class="divider"></div>
+
+          <nav class="badges" aria-label="Contact links">
+            <a class="badge badge-website" href="https://portfolio-20-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <span class="label">
+                <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0zm13.471 0a6.5 6.5 0 0 1-2.025 4.708 6.5 6.5 0 0 1-4.708 2.025V8h6.733zm-13.471 0v6.733a6.5 6.5 0 0 1-2.025-4.708A6.5 6.5 0 0 1 1.5 8zm6.733 0H8a6.5 6.5 0 0 1 2.025-4.708A6.5 6.5 0 0 1 8.233 8zM8 14.5a6.5 6.5 0 0 1-4.708-2.025A6.5 6.5 0 0 1 1.267 8H8v6.5zm0-13V1.267A6.5 6.5 0 0 1 12.708 3.29 6.5 6.5 0 0 1 14.733 8H8V1.5z"/></svg>
+                Website
+              </span>
+              <span class="value">portfolio-20-two.vercel.app</span>
+            </a>
+
+            <a class="badge badge-linkedin" href="https://www.linkedin.com/in/adrian-shahnazari-darcheh-03b7782a9" target="_blank" rel="noopener noreferrer">
+              <span class="label">LinkedIn</span>
+              <span class="value">Adrian</span>
+            </a>
+
+            <a class="badge badge-gmail" href="mailto:adrianshahnazari@gmail.com">
+              <span class="label">
+                <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2zm0 1.5a.25.25 0 0 0-.25.25v.26l6.24 3.99a.75.75 0 0 0 .78 0l6.24-3.99v-.26a.25.25 0 0 0-.25-.25H1.75zm13.5 2.14-5.76 3.68a2.25 2.25 0 0 1-2.34 0L1.5 5.64v6.61c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.64z"/></svg>
+                Gmail
+              </span>
+              <span class="value">adrianshahnazari@gmail.com</span>
+            </a>
+          </nav>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <script>
+    const frame = document.getElementById("frame");
+    document.getElementById("btn-dark").addEventListener("click", () => {
+      frame.classList.remove("light");
+      document.getElementById("btn-dark").classList.add("active");
+      document.getElementById("btn-light").classList.remove("active");
+    });
+    document.getElementById("btn-light").addEventListener("click", () => {
+      frame.classList.add("light");
+      document.getElementById("btn-light").classList.add("active");
+      document.getElementById("btn-dark").classList.remove("active");
+    });
+  </script>
+</body>
+</html>

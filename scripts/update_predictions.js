@@ -1,10 +1,10 @@
 /**
  * Scores yesterday's World Cup predictions against real results and
  * rewrites both predictions/predictions.yml and the auto-generated part
- * of the README predictions table.
+ * of the README predictions section.
  *
  * Data source: football-data.org (competition code "WC"), free tier.
- * Requires FOOTBALL_DATA_TOKEN secret for live scoring (table still renders without it).
+ * Requires FOOTBALL_DATA_TOKEN secret for live scoring (cards still render without it).
  *
  * adrian_pick accepts team names or shorthand: "home" / "away".
  *
@@ -13,6 +13,7 @@
 
 const fs = require("fs");
 const yaml = require("js-yaml");
+const { teamCell } = require("./team_flags");
 
 const PREDICTIONS_PATH = "predictions/predictions.yml";
 const README_PATH = "README.md";
@@ -22,6 +23,34 @@ const TOURNAMENT_END = new Date("2026-07-20T00:00:00Z");
 
 function normalize(name) {
   return (name || "").toLowerCase().trim();
+}
+
+function escapeHtml(text) {
+  return (text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function todayInEST() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+function formatDateEST(dateStr) {
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+  return date.toLocaleDateString("en-US", {
+    timeZone: "America/New_York",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 }
 
 function resolvePick(match) {
@@ -76,26 +105,54 @@ function winnerName(apiMatch) {
   return null;
 }
 
-function buildReadmeTable(matches) {
+function tournamentRecord(matches) {
   const scored = matches.filter((m) => m.actual_result);
   const correctCount = scored.filter((m) => m.correct).length;
   const accuracy = scored.length ? Math.round((correctCount / scored.length) * 100) : 0;
+  return { correctCount, total: scored.length, accuracy };
+}
 
-  const rows = matches.map((m) => {
-    const resolved = resolvePick(m);
-    const pick = resolved || "_not picked yet_";
-    const result = m.actual_result || "_upcoming_";
-    const mark = m.correct === true ? "✅" : m.correct === false ? "❌" : "—";
-    return `| ${m.date} | ${m.round} | ${m.home} vs ${m.away} | ${pick} | ${result} | ${mark} |`;
-  });
+function buildMatchCard(match) {
+  const resolved = resolvePick(match);
+  const mark = match.correct === true ? "✅" : match.correct === false ? "❌" : "-";
+
+  const pickHtml = resolved
+    ? escapeHtml(resolved)
+    : "<em>not picked yet</em>";
+  const resultHtml = match.actual_result
+    ? escapeHtml(match.actual_result)
+    : "<em>upcoming</em>";
 
   return [
-    `**Record so far: ${correctCount}/${scored.length} correct (${accuracy}%)**`,
-    "",
-    "| Date | Round | Fixture | My Pick | Result | Called it? |",
-    "|---|---|---|---|---|---|",
-    ...rows,
+    "<table>",
+    "<tr>",
+    `<td align="center" width="40%">${teamCell(match.home)}</td>`,
+    `<td align="center" width="20%"><strong>vs</strong><br/><sub>${escapeHtml(match.round)}</sub></td>`,
+    `<td align="center" width="40%">${teamCell(match.away)}</td>`,
+    "</tr>",
+    "<tr>",
+    `<td colspan="3" align="center"><strong>Pick:</strong> ${pickHtml} &nbsp;|&nbsp; <strong>Result:</strong> ${resultHtml} &nbsp;|&nbsp; ${mark}</td>`,
+    "</tr>",
+    "</table>",
   ].join("\n");
+}
+
+function buildReadmeContent(matches) {
+  const today = todayInEST();
+  const todayMatches = matches.filter((m) => m.date === today);
+  const { correctCount, total, accuracy } = tournamentRecord(matches);
+
+  if (todayMatches.length === 0) {
+    return [
+      `<p>No matches on today's slate (EST).</p>`,
+      `<p><strong>Tournament record: ${correctCount}/${total} correct (${accuracy}%)</strong></p>`,
+    ].join("\n");
+  }
+
+  const header = `<p><strong>Today's slate (EST): ${formatDateEST(today)}</strong></p>`;
+  const cards = todayMatches.map((m) => buildMatchCard(m)).join("\n<br/>\n");
+
+  return [header, cards].join("\n");
 }
 
 async function scoreMatches(matches, token) {
@@ -121,7 +178,7 @@ async function scoreMatches(matches, token) {
   }
 }
 
-function updateReadmeTable(matches) {
+function updateReadmeContent(matches) {
   const readme = fs.readFileSync(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
   const endIdx = readme.indexOf(END_MARKER);
@@ -131,13 +188,13 @@ function updateReadmeTable(matches) {
   }
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
-  const table = buildReadmeTable(matches);
-  fs.writeFileSync(README_PATH, `${before}\n${table}\n${after}`);
+  const content = buildReadmeContent(matches);
+  fs.writeFileSync(README_PATH, `${before}\n${content}\n${after}`);
 }
 
 async function main() {
   if (new Date() > TOURNAMENT_END) {
-    console.log("Tournament is over — nothing to update.");
+    console.log("Tournament is over - nothing to update.");
     return;
   }
 
@@ -149,10 +206,10 @@ async function main() {
     await scoreMatches(matches, token);
     fs.writeFileSync(PREDICTIONS_PATH, yaml.dump(doc, { lineWidth: -1 }));
   } else {
-    console.warn("FOOTBALL_DATA_TOKEN not set — skipping live scoring, rendering table only.");
+    console.warn("FOOTBALL_DATA_TOKEN not set - skipping live scoring, rendering cards only.");
   }
 
-  updateReadmeTable(matches);
+  updateReadmeContent(matches);
   console.log("Predictions updated.");
 }
 

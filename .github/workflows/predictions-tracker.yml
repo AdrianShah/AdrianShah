@@ -2,13 +2,15 @@ name: Update World Cup Predictions
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC daily — after the previous day's matches finish
+    - cron: "0 9 * * *"      # 09:00 UTC daily, after the previous day's matches finish
+    - cron: "0 * 4-19 7 *"   # hourly UTC during WC (July 4-19) for EST-today slate
   workflow_dispatch: {}
   push:
     branches: [main]
     paths:
       - "predictions/**"
       - "scripts/update_predictions.js"
+      - "scripts/team_flags.js"
 
 permissions:
   contents: write

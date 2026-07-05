@@ -9,14 +9,18 @@
 
 const START_MARKER = "<!-- COMMITS:AUTO:START -->";
 const END_MARKER = "<!-- COMMITS:AUTO:END -->";
-const MAX_COMMITS = 8;
+const MAX_COMMITS = 3;
 
-function escapeCell(text) {
-  return (text || "").replace(/\|/g, "-").replace(/\n/g, " ").trim();
+function escapeHtml(text) {
+  return (text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 function truncate(text, maxLen) {
-  const clean = escapeCell(text);
+  const clean = (text || "").replace(/\n/g, " ").trim();
   return clean.length > maxLen ? `${clean.slice(0, maxLen - 1)}…` : clean;
 }
 
@@ -104,6 +108,24 @@ async function collectRecentCommits(owner, token) {
   return commits;
 }
 
+function buildHtmlTable(commits) {
+  if (commits.length === 0) {
+    return "<p><em>No recent commits found in other repos yet.</em></p>";
+  }
+
+  const rows = commits.map(
+    (c) =>
+      `<tr><td>${escapeHtml(c.when)}</td><td><a href="${c.repoUrl}"><code>${escapeHtml(c.repo)}</code></a></td><td><a href="${c.commitUrl}"><code>${escapeHtml(c.sha)}</code></a></td><td>${escapeHtml(truncate(c.message, 60))}</td></tr>`
+  );
+
+  return [
+    "<table>",
+    "<tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>",
+    ...rows,
+    "</table>",
+  ].join("\n");
+}
+
 async function main() {
   const owner = process.env.GITHUB_REPOSITORY_OWNER;
   const token = process.env.GITHUB_TOKEN;
@@ -114,20 +136,7 @@ async function main() {
   }
 
   const commits = await collectRecentCommits(owner, token);
-
-  const rows =
-    commits.length === 0
-      ? ["_No recent commits found in other repos yet._"]
-      : commits.map(
-          (c) =>
-            `| ${c.when} | [\`${c.repo}\`](${c.repoUrl}) | [\`${c.sha}\`](${c.commitUrl}) | ${truncate(c.message, 60)} |`
-        );
-
-  const table = [
-    "| When | Repo | Commit | Message |",
-    "|---|---|---|---|",
-    ...rows,
-  ].join("\n");
+  const table = buildHtmlTable(commits);
 
   const fs = require("fs");
   const readmePath = "README.md";
