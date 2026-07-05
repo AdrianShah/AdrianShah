@@ -1,0 +1,112 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e2a"/>
+      <stop offset="55%" stop-color="#141b40"/>
+      <stop offset="100%" stop-color="#1f1436"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8c874"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <radialGradient id="ballGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1400" height="360" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#f4e9c9">
+    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="90" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="35" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="70" r="1.1"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="30" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="55" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="25" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="65" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="40" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="70" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="30" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1300" cy="60" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1360" cy="20" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- moon -->
+  <circle cx="1250" cy="70" r="26" fill="#f4ecd0" opacity="0.9" filter="url(#softGlow)"/>
+
+  <!-- Kamares Aqueduct silhouette -->
+  <g fill="#0d1128" opacity="0.95">
+    <rect x="0" y="260" width="1400" height="20"/>
+    <!-- repeated arches -->
+    <path d="
+      M 40 280 L 40 240 A 40 40 0 0 1 120 240 L 120 280 Z
+      M 130 280 L 130 240 A 40 40 0 0 1 210 240 L 210 280 Z
+      M 220 280 L 220 240 A 40 40 0 0 1 300 240 L 300 280 Z
+      M 310 280 L 310 240 A 40 40 0 0 1 390 240 L 390 280 Z
+      M 1010 280 L 1010 240 A 40 40 0 0 1 1090 240 L 1090 280 Z
+      M 1100 280 L 1100 240 A 40 40 0 0 1 1180 240 L 1180 280 Z
+      M 1190 280 L 1190 240 A 40 40 0 0 1 1270 240 L 1270 280 Z
+      M 1280 280 L 1280 240 A 40 40 0 0 1 1360 240 L 1360 280 Z
+    " fill="#0a0e22"/>
+  </g>
+
+  <!-- Spartan helmet silhouette, left of title -->
+  <g transform="translate(150,150)" fill="url(#gold)" filter="url(#softGlow)">
+    <path d="
+      M 40 0
+      C 10 0 -5 25 0 55
+      C 3 75 15 95 20 115
+      L 30 115
+      C 26 95 24 78 30 60
+      C 33 70 33 90 38 115
+      L 48 115
+      C 46 90 46 70 50 58
+      C 55 78 55 96 52 115
+      L 62 115
+      C 68 92 78 72 78 50
+      C 78 20 65 0 40 0 Z
+    "/>
+    <!-- crest -->
+    <path d="M 20 -6 C 30 -34 50 -34 60 -6 C 48 -14 32 -14 20 -6 Z" fill="#b8860b"/>
+  </g>
+
+  <!-- glowing soccer ball held aloft -->
+  <g transform="translate(230,145)">
+    <circle r="34" fill="url(#ballGlow)"/>
+    <circle r="20" fill="#fdfaf0" stroke="#c9a227" stroke-width="1.5"/>
+    <g stroke="#1a1a1a" stroke-width="1.3" fill="none" opacity="0.85">
+      <polygon points="0,-8 7,-2 4,7 -4,7 -7,-2" fill="#1a1a1a"/>
+      <line x1="0" y1="-8" x2="0" y2="-20"/>
+      <line x1="7" y1="-2" x2="18" y2="-4"/>
+      <line x1="4" y1="7" x2="10" y2="17"/>
+      <line x1="-4" y1="7" x2="-10" y2="17"/>
+      <line x1="-7" y1="-2" x2="-18" y2="-4"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="700" y="150" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="url(#gold)" filter="url(#softGlow)" letter-spacing="4">
+    THE OLYMPIAN PITCH
+  </text>
+  <text x="700" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#cfc6a5" letter-spacing="2">
+    ADRIAN SHAH &#8212; ARCHITECT OF AGENTS. COMMANDER OF THE PITCH.
+  </text>
+
+  <!-- laurel accents -->
+  <g stroke="url(#gold)" stroke-width="2.2" fill="none" opacity="0.9">
+    <path d="M 520 200 C 500 210 490 225 495 240"/>
+    <path d="M 880 200 C 900 210 910 225 905 240"/>
+  </g>
+</svg>

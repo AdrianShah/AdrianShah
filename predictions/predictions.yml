@@ -1,0 +1,143 @@
+# World Cup 2026 — The Olympian Pitch Predictions
+#
+# HOW TO USE THIS FILE
+#   1. Before each matchday, fill in `adrian_pick` with the team you think
+#      will win (exact string match to `home` or `away`).
+#   2. Leave `actual_result` and `correct` blank — the Action fills those in
+#      automatically the morning after the match is played.
+#   3. Commit your picks *before* kickoff. The workflow only overwrites
+#      actual_result/correct, never your pick.
+#
+# Round of 16 matchups below are the real fixtures. Quarterfinal, semifinal,
+# third-place, and final rows are placeholders — replace "TBD" with the real
+# team names once each round's bracket is set (usually the day after the
+# previous round finishes).
+
+matches:
+  - date: "2026-07-04"
+    round: "Round of 16"
+    home: "Morocco"
+    away: "Canada"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-04"
+    round: "Round of 16"
+    home: "France"
+    away: "Paraguay"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-05"
+    round: "Round of 16"
+    home: "Brazil"
+    away: "Norway"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-05"
+    round: "Round of 16"
+    home: "Mexico"
+    away: "England"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-06"
+    round: "Round of 16"
+    home: "Portugal"
+    away: "Spain"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-06"
+    round: "Round of 16"
+    home: "USA"
+    away: "Belgium"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-07"
+    round: "Round of 16"
+    home: "Argentina"
+    away: "Egypt"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-07"
+    round: "Round of 16"
+    home: "Switzerland"
+    away: "Colombia"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-09"
+    round: "Quarterfinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-10"
+    round: "Quarterfinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-11"
+    round: "Quarterfinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-11"
+    round: "Quarterfinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-14"
+    round: "Semifinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-15"
+    round: "Semifinal"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-18"
+    round: "Third-place"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
+
+  - date: "2026-07-19"
+    round: "Final"
+    home: "TBD"
+    away: "TBD"
+    adrian_pick: ""
+    actual_result: ""
+    correct: null
