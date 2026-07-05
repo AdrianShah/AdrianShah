@@ -127,24 +127,24 @@ First-year **Computer Engineering** student at **York University** and a full-st
 Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions.yml).
 
 <!-- PREDICTIONS:AUTO:START -->
-<p><strong>Today's slate (EST): July 4, 2026</strong></p>
+<p><strong>Today's slate (EST): July 5, 2026</strong></p>
 <table width="100%"><tr><td valign="top" width="50%"><table width="100%">
 <tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ma.png" width="20" alt="Morocco" /><br/>Morocco</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/br.png" width="20" alt="Brazil" /><br/>Brazil</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ca.png" width="20" alt="Canada" /><br/>Canada</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /><br/>Norway</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Morocco &nbsp;|&nbsp; <strong>Result:</strong> Canada 0-3 Morocco &nbsp;|&nbsp; ✅</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Brazil &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
 </tr>
 </table></td><td valign="top" width="50%"><table width="100%">
 <tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /><br/>France</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/mx.png" width="20" alt="Mexico" /><br/>Mexico</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/py.png" width="20" alt="Paraguay" /><br/>Paraguay</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/gb-eng.png" width="20" alt="England" /><br/>England</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> France &nbsp;|&nbsp; <strong>Result:</strong> Paraguay 0-1 France &nbsp;|&nbsp; ✅</td>
+<td colspan="3" align="center"><strong>Pick:</strong> England &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
 </tr>
 </table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
