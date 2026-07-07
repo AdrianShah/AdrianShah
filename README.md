@@ -127,24 +127,24 @@ First-year **Computer Engineering** student at **York University** and a full-st
 Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions.yml).
 
 <!-- PREDICTIONS:AUTO:START -->
-<p><strong>Today's slate (EST): July 6, 2026</strong></p>
+<p><strong>Today's slate (EST): July 7, 2026</strong></p>
 <table width="100%"><tr><td valign="top" width="50%"><table width="100%">
 <tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/pt.png" width="20" alt="Portugal" /><br/>Portugal</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ar.png" width="20" alt="Argentina" /><br/>Argentina</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /><br/>Spain</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/eg.png" width="20" alt="Egypt" /><br/>Egypt</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Portugal &nbsp;|&nbsp; <strong>Result:</strong> Portugal 0-1 Spain &nbsp;|&nbsp; ❌</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Argentina &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
 </tr>
 </table></td><td valign="top" width="50%"><table width="100%">
 <tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/us.png" width="20" alt="USA" /><br/>USA</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ch.png" width="20" alt="Switzerland" /><br/>Switzerland</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/be.png" width="20" alt="Belgium" /><br/>Belgium</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia" /><br/>Colombia</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Belgium &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Colombia &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
 </tr>
 </table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
