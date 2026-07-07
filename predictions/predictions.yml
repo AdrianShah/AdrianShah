@@ -53,7 +53,7 @@ matches:
     home: Switzerland
     away: Colombia
     adrian_pick: away
-    actual_result: ''
+    actual_result: Switzerland 0-0 Colombia
     correct: null
   - date: '2026-07-09'
     round: Quarterfinal

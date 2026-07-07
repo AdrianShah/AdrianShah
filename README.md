@@ -144,7 +144,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia" /><br/>Colombia</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Colombia &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Colombia &nbsp;|&nbsp; <strong>Result:</strong> Switzerland 0-0 Colombia &nbsp;|&nbsp; -</td>
 </tr>
 </table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
