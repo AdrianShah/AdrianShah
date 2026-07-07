@@ -46,8 +46,8 @@ matches:
     home: Argentina
     away: Egypt
     adrian_pick: home
-    actual_result: ''
-    correct: null
+    actual_result: Argentina 3-2 Egypt
+    correct: true
   - date: '2026-07-07'
     round: Round of 16
     home: Switzerland

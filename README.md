@@ -135,7 +135,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/eg.png" width="20" alt="Egypt" /><br/>Egypt</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Argentina &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Argentina &nbsp;|&nbsp; <strong>Result:</strong> Argentina 3-2 Egypt &nbsp;|&nbsp; ✅</td>
 </tr>
 </table></td><td valign="top" width="50%"><table width="100%">
 <tr>
