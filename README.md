@@ -127,26 +127,8 @@ First-year **Computer Engineering** student at **York University** and a full-st
 Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions.yml).
 
 <!-- PREDICTIONS:AUTO:START -->
-<p><strong>Today's slate (EST): July 7, 2026</strong></p>
-<table width="100%"><tr><td valign="top" width="50%"><table width="100%">
-<tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ar.png" width="20" alt="Argentina" /><br/>Argentina</div></td>
-<td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/eg.png" width="20" alt="Egypt" /><br/>Egypt</div></td>
-</tr>
-<tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Argentina &nbsp;|&nbsp; <strong>Result:</strong> Argentina 3-2 Egypt &nbsp;|&nbsp; ✅</td>
-</tr>
-</table></td><td valign="top" width="50%"><table width="100%">
-<tr>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/ch.png" width="20" alt="Switzerland" /><br/>Switzerland</div></td>
-<td align="center" width="20%"><strong>vs</strong><br/><sub>Round of 16</sub></td>
-<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia" /><br/>Colombia</div></td>
-</tr>
-<tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Colombia &nbsp;|&nbsp; <strong>Result:</strong> Switzerland 0-0 Colombia &nbsp;|&nbsp; -</td>
-</tr>
-</table></td></tr></table>
+<p>No matches on today's slate (EST).</p>
+<p><strong>Tournament record: 3/6 correct (50%)</strong></p>
 <!-- PREDICTIONS:AUTO:END -->
 
 ---
