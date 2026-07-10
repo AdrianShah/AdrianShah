@@ -25,8 +25,8 @@ matches:
     home: Mexico
     away: England
     adrian_pick: away
-    actual_result: ''
-    correct: null
+    actual_result: Mexico 2-3 England
+    correct: true
   - date: '2026-07-06'
     round: Round of 16
     home: Portugal
@@ -39,8 +39,8 @@ matches:
     home: USA
     away: Belgium
     adrian_pick: away
-    actual_result: ''
-    correct: null
+    actual_result: USA 1-4 Belgium
+    correct: true
   - date: '2026-07-07'
     round: Round of 16
     home: Argentina
@@ -53,8 +53,8 @@ matches:
     home: Switzerland
     away: Colombia
     adrian_pick: away
-    actual_result: Switzerland 0-0 Colombia
-    correct: null
+    actual_result: Switzerland 0-0 (4-3 pens) Colombia
+    correct: false
   - date: '2026-07-09'
     round: Quarterfinal
     home: Morocco
@@ -64,22 +64,22 @@ matches:
     correct: true
   - date: '2026-07-10'
     round: Quarterfinal
-    home: Norway
-    away: TBD
-    adrian_pick: Norway
-    actual_result: ''
-    correct: null
-  - date: '2026-07-11'
-    round: Quarterfinal
     home: Spain
-    away: TBD
+    away: Belgium
     adrian_pick: Spain
     actual_result: ''
     correct: null
   - date: '2026-07-11'
     round: Quarterfinal
+    home: Norway
+    away: England
+    adrian_pick: Norway
+    actual_result: ''
+    correct: null
+  - date: '2026-07-11'
+    round: Quarterfinal
     home: Argentina
-    away: TBD
+    away: Switzerland
     adrian_pick: Argentina
     actual_result: ''
     correct: null

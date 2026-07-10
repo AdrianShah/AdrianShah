@@ -92,6 +92,12 @@ function scoreLine(apiMatch) {
   const as = apiMatch.score.fullTime.away;
   const home = apiMatch.homeTeam.name;
   const away = apiMatch.awayTeam.name;
+  if (hs === as) {
+    const pens = apiMatch.score.penalties;
+    if (pens && pens.home != null && pens.away != null) {
+      return `${home} ${hs}-${as} (${pens.home}-${pens.away} pens) ${away}`;
+    }
+  }
   return `${home} ${hs}-${as} ${away}`;
 }
 

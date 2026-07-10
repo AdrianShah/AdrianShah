@@ -4,9 +4,29 @@
  * once feeder matches have a recorded result.
  *
  * Match indices match the fixed order in predictions/predictions.yml.
+ *
+ * Quarterfinal schedule (feeder R16 indices in parentheses):
+ *   idx 8  Jul 9  — winners of 0,1  (Morocco/France side)
+ *   idx 9  Jul 10 — winners of 4,5  (Spain/Belgium)
+ *   idx 10 Jul 11 — winners of 2,3  (Norway/England)
+ *   idx 11 Jul 11 — winners of 6,7  (Argentina/Switzerland)
  */
 
 function parseActualResult(actualResult) {
+  const pensFirst = (actualResult || "").match(
+    /^(.+?)\s+(\d+)-(\d+)\s+\((\d+)-(\d+)\s+pens?\)\s+(.+)$/i
+  );
+  if (pensFirst) {
+    return {
+      team1: pensFirst[1].trim(),
+      score1: Number(pensFirst[2]),
+      team2: pensFirst[6].trim(),
+      score2: Number(pensFirst[3]),
+      pens1: Number(pensFirst[4]),
+      pens2: Number(pensFirst[5]),
+    };
+  }
+
   const parsed = (actualResult || "").match(/^(.+?)\s+(\d+)-(\d+)\s+(.+)$/);
   if (!parsed) return null;
   return {
@@ -23,6 +43,9 @@ function getMatchWinner(match) {
   if (!parsed) return null;
   if (parsed.score1 > parsed.score2) return parsed.team1;
   if (parsed.score2 > parsed.score1) return parsed.team2;
+  if (parsed.pens1 != null && parsed.pens2 != null) {
+    return parsed.pens1 > parsed.pens2 ? parsed.team1 : parsed.team2;
+  }
   return null;
 }
 
@@ -38,8 +61,8 @@ function getMatchLoser(match) {
 /** @type {Array<{ idx: number, homeFrom?: number, awayFrom?: number, homeLoserFrom?: number, awayLoserFrom?: number }>} */
 const PROPAGATION_RULES = [
   { idx: 8, homeFrom: 0, awayFrom: 1 },
-  { idx: 9, homeFrom: 2, awayFrom: 3 },
-  { idx: 10, homeFrom: 4, awayFrom: 5 },
+  { idx: 9, homeFrom: 4, awayFrom: 5 },
+  { idx: 10, homeFrom: 2, awayFrom: 3 },
   { idx: 11, homeFrom: 6, awayFrom: 7 },
   { idx: 12, homeFrom: 8, awayFrom: 9 },
   { idx: 13, homeFrom: 10, awayFrom: 11 },
