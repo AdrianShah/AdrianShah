@@ -60,8 +60,8 @@ matches:
     home: Morocco
     away: France
     adrian_pick: France
-    actual_result: ''
-    correct: null
+    actual_result: France 2-0 Morocco
+    correct: true
   - date: '2026-07-10'
     round: Quarterfinal
     home: Norway
@@ -85,7 +85,7 @@ matches:
     correct: null
   - date: '2026-07-14'
     round: Semifinal
-    home: TBD
+    home: France
     away: TBD
     adrian_pick: ''
     actual_result: ''
