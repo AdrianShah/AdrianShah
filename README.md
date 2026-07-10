@@ -127,7 +127,7 @@ First-year **Computer Engineering** student at **York University** and a full-st
 Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions.yml).
 
 <!-- PREDICTIONS:AUTO:START -->
-<p><strong>Today's slate (EST): July 9, 2026</strong></p>
+<p><strong>Today's slate (EST): July 10, 2026</strong></p>
 <table width="100%"><tr><td valign="top" width="100%"><table width="100%">
 <tr>
 <td align="center" width="40%"><div align="center"><br/>TBD</div></td>
