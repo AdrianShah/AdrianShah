@@ -128,14 +128,15 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 
 <!-- PREDICTIONS:AUTO:START -->
 <p><strong>Today's slate (EST): July 10, 2026</strong></p>
+<p><strong>Tournament record: 3/6 correct (50%)</strong></p>
 <table width="100%"><tr><td valign="top" width="100%"><table width="100%">
 <tr>
-<td align="center" width="40%"><div align="center"><br/>TBD</div></td>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /><br/>Norway</div></td>
 <td align="center" width="20%"><strong>vs</strong><br/><sub>Quarterfinal</sub></td>
 <td align="center" width="40%"><div align="center"><br/>TBD</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> <em>not picked yet</em> &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Norway &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
 </tr>
 </table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->

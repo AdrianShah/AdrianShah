@@ -57,30 +57,30 @@ matches:
     correct: null
   - date: '2026-07-09'
     round: Quarterfinal
-    home: TBD
-    away: TBD
-    adrian_pick: ''
+    home: Morocco
+    away: France
+    adrian_pick: France
     actual_result: ''
     correct: null
   - date: '2026-07-10'
     round: Quarterfinal
-    home: TBD
+    home: Norway
     away: TBD
-    adrian_pick: ''
+    adrian_pick: Norway
     actual_result: ''
     correct: null
   - date: '2026-07-11'
     round: Quarterfinal
-    home: TBD
+    home: Spain
     away: TBD
-    adrian_pick: ''
+    adrian_pick: Spain
     actual_result: ''
     correct: null
   - date: '2026-07-11'
     round: Quarterfinal
-    home: TBD
+    home: Argentina
     away: TBD
-    adrian_pick: ''
+    adrian_pick: Argentina
     actual_result: ''
     correct: null
   - date: '2026-07-14'

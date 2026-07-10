@@ -13,6 +13,7 @@
 
 const fs = require("fs");
 const yaml = require("js-yaml");
+const { propagateBracket } = require("./bracket");
 const { teamCell } = require("./team_flags");
 
 const PREDICTIONS_PATH = "predictions/predictions.yml";
@@ -148,18 +149,16 @@ function buildReadmeContent(matches) {
   const today = todayInEST();
   const todayMatches = matches.filter((m) => m.date === today);
   const { correctCount, total, accuracy } = tournamentRecord(matches);
+  const recordLine = `<p><strong>Tournament record: ${correctCount}/${total} correct (${accuracy}%)</strong></p>`;
 
   if (todayMatches.length === 0) {
-    return [
-      `<p>No matches on today's slate (EST).</p>`,
-      `<p><strong>Tournament record: ${correctCount}/${total} correct (${accuracy}%)</strong></p>`,
-    ].join("\n");
+    return [`<p>No matches on today's slate (EST).</p>`, recordLine].join("\n");
   }
 
   const header = `<p><strong>Today's slate (EST): ${formatDateEST(today)}</strong></p>`;
   const row = buildSideBySideRow(todayMatches);
 
-  return [header, row].join("\n");
+  return [header, recordLine, row].join("\n");
 }
 
 async function scoreMatches(matches, token) {
@@ -211,10 +210,12 @@ async function main() {
   const token = process.env.FOOTBALL_DATA_TOKEN;
   if (token) {
     await scoreMatches(matches, token);
-    fs.writeFileSync(PREDICTIONS_PATH, yaml.dump(doc, { lineWidth: -1 }));
   } else {
     console.warn("FOOTBALL_DATA_TOKEN not set - skipping live scoring, rendering cards only.");
   }
+
+  propagateBracket(matches);
+  fs.writeFileSync(PREDICTIONS_PATH, yaml.dump(doc, { lineWidth: -1 }));
 
   updateReadmeContent(matches);
   console.log("Predictions updated.");

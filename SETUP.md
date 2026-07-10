@@ -30,9 +30,9 @@ without it, none of the auto-updated sections will work.
 > **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, World Cup predictions, and tech stack icons are the active automation workflows.
 
 ## 4. Manual maintenance
-- **Predictions → Quarterfinal/Semifinal/Final rows**: `predictions/predictions.yml`
-  has placeholder `"TBD"` teams for every round after Round of 16. Swap in real
-  team names once each bracket is set, then add your pick (`home`, `away`, or team name).
+- **Predictions → later rounds**: `update_predictions.js` automatically fills
+  Quarterfinal, Semifinal, Third-place, and Final team slots from match results.
+  You only need to add your pick (`home`, `away`, or team name) before kickoff.
 - **Pitchside Commits** is fully automated. No manual edits needed.
 - **Tech stack icons**: static SVG icons are generated from `config/skill-icons.json`
   using [skillicons.dev](https://skillicons.dev) and
