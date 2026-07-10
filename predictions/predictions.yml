@@ -67,8 +67,8 @@ matches:
     home: Spain
     away: Belgium
     adrian_pick: Spain
-    actual_result: ''
-    correct: null
+    actual_result: Spain 2-1 Belgium
+    correct: true
   - date: '2026-07-11'
     round: Quarterfinal
     home: Norway
@@ -86,7 +86,7 @@ matches:
   - date: '2026-07-14'
     round: Semifinal
     home: France
-    away: TBD
+    away: Spain
     adrian_pick: ''
     actual_result: ''
     correct: null
