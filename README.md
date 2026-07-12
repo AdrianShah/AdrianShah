@@ -128,7 +128,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 
 <!-- PREDICTIONS:AUTO:START -->
 <p><strong>Today's slate (EST): July 11, 2026</strong></p>
-<p><strong>Tournament record: 7/10 correct (70%)</strong></p>
+<p><strong>Tournament record: 7/11 correct (64%)</strong></p>
 <table width="100%"><tr><td valign="top" width="50%"><table width="100%">
 <tr>
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /><br/>Norway</div></td>
@@ -136,7 +136,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/gb-eng.png" width="20" alt="England" /><br/>England</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> Norway &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> Norway &nbsp;|&nbsp; <strong>Result:</strong> Norway 1-2 England &nbsp;|&nbsp; ❌</td>
 </tr>
 </table></td><td valign="top" width="50%"><table width="100%">
 <tr>

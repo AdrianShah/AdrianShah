@@ -74,8 +74,8 @@ matches:
     home: Norway
     away: England
     adrian_pick: Norway
-    actual_result: ''
-    correct: null
+    actual_result: Norway 1-2 England
+    correct: false
   - date: '2026-07-11'
     round: Quarterfinal
     home: Argentina
@@ -92,7 +92,7 @@ matches:
     correct: null
   - date: '2026-07-15'
     round: Semifinal
-    home: TBD
+    home: England
     away: TBD
     adrian_pick: ''
     actual_result: ''
