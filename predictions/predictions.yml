@@ -87,14 +87,14 @@ matches:
     round: Semifinal
     home: France
     away: Spain
-    adrian_pick: ''
+    adrian_pick: 'France'
     actual_result: ''
     correct: null
   - date: '2026-07-15'
     round: Semifinal
     home: England
     away: TBD
-    adrian_pick: ''
+    adrian_pick: 'England'
     actual_result: ''
     correct: null
   - date: '2026-07-18'
