@@ -128,7 +128,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 
 <!-- PREDICTIONS:AUTO:START -->
 <p><strong>Today's slate (EST): July 14, 2026</strong></p>
-<p><strong>Tournament record: 7/11 correct (64%)</strong></p>
+<p><strong>Tournament record: 7/12 correct (58%)</strong></p>
 <table width="100%"><tr><td valign="top" width="100%"><table width="100%">
 <tr>
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /><br/>France</div></td>
@@ -136,7 +136,7 @@ Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions
 <td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /><br/>Spain</div></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><strong>Pick:</strong> <em>not picked yet</em> &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+<td colspan="3" align="center"><strong>Pick:</strong> France &nbsp;|&nbsp; <strong>Result:</strong> France 0-2 Spain &nbsp;|&nbsp; ❌</td>
 </tr>
 </table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
