@@ -111,9 +111,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-06-25</td><td><a href="https://github.com/AdrianShah/Codessey"><code>Codessey</code></a></td><td><a href="https://github.com/AdrianShah/Codessey/commit/f3df4c821f12204593271b92655c8f8f1a58ba37"><code>f3df4c8</code></a></td><td>fix: rewrote root to index.html on Vercel</td></tr>
-<tr><td>2026-06-25</td><td><a href="https://github.com/AdrianShah/Codessey"><code>Codessey</code></a></td><td><a href="https://github.com/AdrianShah/Codessey/commit/f7c671c745b50c86298a807c2500bc28a4d5bd60"><code>f7c671c</code></a></td><td>fix: rewrote root to index.html on Vercel</td></tr>
-<tr><td>2026-06-25</td><td><a href="https://github.com/AdrianShah/Codessey"><code>Codessey</code></a></td><td><a href="https://github.com/AdrianShah/Codessey/commit/9438f4e0fcd8e2da92e585b5bb3dc7b557cd1123"><code>9438f4e</code></a></td><td>fix: simplify Vercel config and remove redundant index.html…</td></tr>
+<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/4b99269300e3c24903c0ae5ed985f5315a3f8ed4"><code>4b99269</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
+<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/692844cac81b3551f874dd403807fd35cb051c7b"><code>692844c</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
+<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/4a436df47d28a49457e2f09a49ead304090bee07"><code>4a436df</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
