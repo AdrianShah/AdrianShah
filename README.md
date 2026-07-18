@@ -127,8 +127,18 @@ First-year **Computer Engineering** student at **York University** and a full-st
 Knockout picks live in [`predictions/predictions.yml`](./predictions/predictions.yml).
 
 <!-- PREDICTIONS:AUTO:START -->
-<p>No matches on today's slate (EST).</p>
+<p><strong>Today's slate (EST): July 18, 2026</strong></p>
 <p><strong>Tournament record: 7/12 correct (58%)</strong></p>
+<table width="100%"><tr><td valign="top" width="100%"><table width="100%">
+<tr>
+<td align="center" width="40%"><div align="center"><img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /><br/>France</div></td>
+<td align="center" width="20%"><strong>vs</strong><br/><sub>Third-place</sub></td>
+<td align="center" width="40%"><div align="center"><br/>TBD</div></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><strong>Pick:</strong> <em>not picked yet</em> &nbsp;|&nbsp; <strong>Result:</strong> <em>upcoming</em> &nbsp;|&nbsp; -</td>
+</tr>
+</table></td></tr></table>
 <!-- PREDICTIONS:AUTO:END -->
 
 ---
