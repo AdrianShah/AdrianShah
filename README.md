@@ -111,9 +111,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/4b99269300e3c24903c0ae5ed985f5315a3f8ed4"><code>4b99269</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
-<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/692844cac81b3551f874dd403807fd35cb051c7b"><code>692844c</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
-<tr><td>2026-07-16</td><td><a href="https://github.com/drahcir8805/fifa_fan_translate"><code>fifa_fan_translate</code></a></td><td><a href="https://github.com/drahcir8805/fifa_fan_translate/commit/4a436df47d28a49457e2f09a49ead304090bee07"><code>4a436df</code></a></td><td>Align web/mobile clients with multipart /translate and devi…</td></tr>
+<tr><td>2026-07-22</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/930cd009ea561ed33a405abf62828690bb8ee945"><code>930cd00</code></a></td><td>Fix Vercel web root, map back navigation, settings, and acc…</td></tr>
+<tr><td>2026-07-22</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/1c598a3d3b96a17748a6816d95723e3c4b014ea0"><code>1c598a3</code></a></td><td>Rebuild HallSense around username auth, live+favourites hom…</td></tr>
+<tr><td>2026-07-21</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/32fe55d6ae9762f09e21755ab6cc97bfdd6720ba"><code>32fe55d</code></a></td><td>Fix demo admin login, shrink campus rooms, default Expo to …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
