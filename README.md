@@ -111,9 +111,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-07-22</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/930cd009ea561ed33a405abf62828690bb8ee945"><code>930cd00</code></a></td><td>Fix Vercel web root, map back navigation, settings, and acc…</td></tr>
-<tr><td>2026-07-22</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/1c598a3d3b96a17748a6816d95723e3c4b014ea0"><code>1c598a3</code></a></td><td>Rebuild HallSense around username auth, live+favourites hom…</td></tr>
-<tr><td>2026-07-21</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/32fe55d6ae9762f09e21755ab6cc97bfdd6720ba"><code>32fe55d</code></a></td><td>Fix demo admin login, shrink campus rooms, default Expo to …</td></tr>
+<tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/13da2519df4dacc93bc1a83fe156512cf20a07e7"><code>13da251</code></a></td><td>reworked prompts showing</td></tr>
+<tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/3fe7d22c7924bbc76f54bf14e6f10976065e4337"><code>3fe7d22</code></a></td><td>Remove test Mock data</td></tr>
+<tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/340e3c46efa59e4749e5883eb84fc15bf3930389"><code>340e3c4</code></a></td><td>Fix merge conflict markers that broke the Vercel build  A s…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
