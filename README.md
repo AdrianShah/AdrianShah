@@ -111,9 +111,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-07-26</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/4d6e1a6a858165ab654d554fbeb64d085173d993"><code>4d6e1a6</code></a></td><td>Add Synergo, Codessey, Delatio, and Elenchus to the portfol…</td></tr>
+<tr><td>2026-07-26</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/495bba5830df0041eb79fc353e4e1109559aa2e5"><code>495bba5</code></a></td><td>Adjust hero styling for light and dark themes</td></tr>
 <tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/13da2519df4dacc93bc1a83fe156512cf20a07e7"><code>13da251</code></a></td><td>reworked prompts showing</td></tr>
-<tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/3fe7d22c7924bbc76f54bf14e6f10976065e4337"><code>3fe7d22</code></a></td><td>Remove test Mock data</td></tr>
-<tr><td>2026-07-25</td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley"><code>HackDay-HacktheValley</code></a></td><td><a href="https://github.com/AdrianShah/HackDay-HacktheValley/commit/340e3c46efa59e4749e5883eb84fc15bf3930389"><code>340e3c4</code></a></td><td>Fix merge conflict markers that broke the Vercel build  A s…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
