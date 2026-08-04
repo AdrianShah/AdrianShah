@@ -117,9 +117,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-08-04</td><td><a href="https://github.com/AdrianShah/1021-Final-Project"><code>1021-Final-Project</code></a></td><td><a href="https://github.com/AdrianShah/1021-Final-Project/commit/3b018343cbe792a1d55cd3f8be5d66c139482df0"><code>3b01834</code></a></td><td>Bug Fixes</td></tr>
 <tr><td>2026-07-28</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/23f18c7f9d5f63664ea572b0c6256d7eb8b0ae61"><code>23f18c7</code></a></td><td>Add multi-Arduino auto-numbering and simpler device setup. …</td></tr>
 <tr><td>2026-07-26</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/4d6e1a6a858165ab654d554fbeb64d085173d993"><code>4d6e1a6</code></a></td><td>Add Synergo, Codessey, Delatio, and Elenchus to the portfol…</td></tr>
-<tr><td>2026-07-26</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/495bba5830df0041eb79fc353e4e1109559aa2e5"><code>495bba5</code></a></td><td>Adjust hero styling for light and dark themes</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
