@@ -94,11 +94,19 @@ First-year **Computer Engineering** student at **York University** and a full-st
       <br>Cpp
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=go&theme=dark" width="48" height="48" alt="Go" />
-      <br>Go
+      <img src="https://techstack-generator.vercel.app/c-icon.svg" width="65" height="65" alt="C" />
+      <br>C
     </td>
   </tr>
   <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" />
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=go&theme=dark" width="48" height="48" alt="Go" />
+      <br>Go
+    </td>
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/bash-icon.svg" width="65" height="65" alt="Bash" />
       <br>Bash
