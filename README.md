@@ -127,7 +127,6 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
 <tr><td>2026-08-04</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/da5fc988b883ea05a4892b4e81dcc660f763eb94"><code>da5fc98</code></a></td><td>&quot;'</td></tr>
 <tr><td>2026-08-04</td><td><a href="https://github.com/AdrianShah/1021-Final-Project"><code>1021-Final-Project</code></a></td><td><a href="https://github.com/AdrianShah/1021-Final-Project/commit/3b018343cbe792a1d55cd3f8be5d66c139482df0"><code>3b01834</code></a></td><td>Bug Fixes</td></tr>
-<tr><td>2026-07-28</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/23f18c7f9d5f63664ea572b0c6256d7eb8b0ae61"><code>23f18c7</code></a></td><td>Add multi-Arduino auto-numbering and simpler device setup. …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
