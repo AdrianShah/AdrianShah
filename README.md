@@ -123,11 +123,7 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <table><tr><td align="center">
 
 <!-- COMMITS:AUTO:START -->
-<table>
-<tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-08-04</td><td><a href="https://github.com/AdrianShah/Hall-Sense"><code>Hall-Sense</code></a></td><td><a href="https://github.com/AdrianShah/Hall-Sense/commit/da5fc988b883ea05a4892b4e81dcc660f763eb94"><code>da5fc98</code></a></td><td>&quot;'</td></tr>
-<tr><td>2026-08-04</td><td><a href="https://github.com/AdrianShah/1021-Final-Project"><code>1021-Final-Project</code></a></td><td><a href="https://github.com/AdrianShah/1021-Final-Project/commit/3b018343cbe792a1d55cd3f8be5d66c139482df0"><code>3b01834</code></a></td><td>Bug Fixes</td></tr>
-</table>
+<p><em>No recent commits found in other repos yet.</em></p>
 <!-- COMMITS:AUTO:END -->
 
 </td></tr></table>
