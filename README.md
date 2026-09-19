@@ -123,7 +123,12 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <table><tr><td align="center">
 
 <!-- COMMITS:AUTO:START -->
-<p><em>No recent commits found in other repos yet.</em></p>
+<table>
+<tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/16af59f22f07cd8ec7ad5c270e348e9c08fd6542"><code>16af59f</code></a></td><td>Merge pull request #1 from elijahzhao24/workflow-2-python-b…</td></tr>
+<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/20fd0554cc15406faca51e91e150782e4082462f"><code>20fd055</code></a></td><td>Add optional Sentry Tracing and structured Logs  observabil…</td></tr>
+<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/c2c8a0b60b122c0cd76379e2528a931d5c95e27e"><code>c2c8a0b</code></a></td><td>Add FastAPI app: health, capture, and character WebSockets …</td></tr>
+</table>
 <!-- COMMITS:AUTO:END -->
 
 </td></tr></table>
