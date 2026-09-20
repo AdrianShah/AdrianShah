@@ -125,9 +125,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/16af59f22f07cd8ec7ad5c270e348e9c08fd6542"><code>16af59f</code></a></td><td>Merge pull request #1 from elijahzhao24/workflow-2-python-b…</td></tr>
-<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/20fd0554cc15406faca51e91e150782e4082462f"><code>20fd055</code></a></td><td>Add optional Sentry Tracing and structured Logs  observabil…</td></tr>
-<tr><td>2026-09-19</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/c2c8a0b60b122c0cd76379e2528a931d5c95e27e"><code>c2c8a0b</code></a></td><td>Add FastAPI app: health, capture, and character WebSockets …</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/6950b0eeb6cc54ffd595b8d48f432a3ad1fb41a9"><code>6950b0e</code></a></td><td>Merge origin/force-callbration-merge (mouse control, player…</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/d954c28657140de27de2bf271367676fa6ea57da"><code>d954c28</code></a></td><td>Let arm swings survive real-rig frame rates and view hand-o…</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/687f5ee2a4340430442dd80ff31ed4bfd399326d"><code>687f5ee</code></a></td><td>Merge origin/force-callbration-merge (forced 180-degree fro…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
