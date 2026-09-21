@@ -125,9 +125,9 @@ First-year **Computer Engineering** student at **York University** and a full-st
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/6950b0eeb6cc54ffd595b8d48f432a3ad1fb41a9"><code>6950b0e</code></a></td><td>Merge origin/force-callbration-merge (mouse control, player…</td></tr>
-<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/d954c28657140de27de2bf271367676fa6ea57da"><code>d954c28</code></a></td><td>Let arm swings survive real-rig frame rates and view hand-o…</td></tr>
-<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/687f5ee2a4340430442dd80ff31ed4bfd399326d"><code>687f5ee</code></a></td><td>Merge origin/force-callbration-merge (forced 180-degree fro…</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/fce48e3ddfacf72e640ebf4c98263ca6543dcb3f"><code>fce48e3</code></a></td><td>Feed reconstruction the LiDAR depth mask, not MediaPipe's R…</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/1a00a80f4bddc4d2378aefd0fd141b8f5c0f76f5"><code>1a00a80</code></a></td><td>Keep the separate avatar alive and stop rebinding it every …</td></tr>
+<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/740c9f8753ffda5640a597e761233e1cdd8963c6"><code>740c9f8</code></a></td><td>Align two hand-placed phones using the person as the calibr…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
