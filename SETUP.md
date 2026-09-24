@@ -1,7 +1,7 @@
 # Setup Notes: The Olympian Pitch
 
 Copy everything in this folder into your `AdrianShah/AdrianShah` repo root
-(same structure: `.github/`, `assets/`, `predictions/`, `scripts/`, `README.md`,
+(same structure: `.github/`, `assets/`, `data/`, `config/`, `scripts/`, `README.md`,
 `package.json`). **The `.github/` folder must be present on the remote repo**;
 without it, none of the auto-updated sections will work.
 
@@ -12,8 +12,8 @@ without it, none of the auto-updated sections will work.
   profile README.
 
 ## 2. Secrets
-- `predictions-tracker.yml` needs a **`FOOTBALL_DATA_TOKEN`** secret for live
-  scoring (the README table still renders without it).
+- `fixtures.yml` and `results.yml` need a **`FOOTBALL_DATA_TOKEN`** secret.
+  The token only lives in Actions; the phone app never holds it.
   1. Register for a free key at https://www.football-data.org/client/register
   2. Repo → Settings → Secrets and variables → Actions → New repository secret
      → name it `FOOTBALL_DATA_TOKEN`.
@@ -24,15 +24,21 @@ without it, none of the auto-updated sections will work.
 1. Push the full repo including `.github/workflows/`.
 2. Go to **Actions** and manually run each workflow once:
    - **Update Pitchside Commits**: fills the commits table
-   - **Update World Cup Predictions**: renders your picks table
+   - **Import Fixtures**, then **Render Picks README**
    - **Update Tech Stack Icons**: merges GitHub repo languages with `config/skill-icons.json`
 
-> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, World Cup predictions, and tech stack icons are the active automation workflows.
+> **Note:** The 3D contribution pitch workflow was removed. Pitchside Commits, picks (fixtures / results / render), and tech stack icons are the active automation workflows.
 
 ## 4. Manual maintenance
-- **Predictions → later rounds**: `update_predictions.js` automatically fills
-  Quarterfinal, Semifinal, Third-place, and Final team slots from match results.
-  You only need to add your pick (`home`, `away`, or team name) before kickoff.
+- **Picks** come from the iOS app, which writes `data/picks.json` through the
+  GitHub Contents API with a fine-grained PAT (this repo only, Contents read/write).
+  Each file has one writer: the app writes `picks.json`; Actions write
+  `fixtures.json`, `results.json` and `README.md`.
+  - `fixtures.yml` (daily): last 7 + next 14 days of fixtures for `config/competitions.json`
+  - `results.yml` (every 3h): scores picked matches, re-renders the README
+  - `readme.yml` (on push to `data/picks.json`): tests + re-renders the README
+  - Draw is a valid soccer pick. Picks locked after kickoff don't count.
+  - World Cup 2026 YAML and scripts are in `archive/` (migrated by `scripts/migrate_wc.js`).
 - **Pitchside Commits** is fully automated. No manual edits needed.
 - **Tech stack icons**: static SVG icons are generated from `config/skill-icons.json`
   using [skillicons.dev](https://skillicons.dev) and
@@ -44,12 +50,5 @@ without it, none of the auto-updated sections will work.
   inside a collapsible **Profile stats** section at the bottom of the README.
 
 ## 5. Configuration notes
-- **Team-name matching** in `update_predictions.js` uses substring matching and
-  resolves `home`/`away` shorthand to team names before scoring.
 - **Pitchside Commits** reads public `PushEvent` activity via the GitHub Events
   API and excludes commits to this profile repo.
-
-## 6. After July 19, 2026
-- `update_predictions.js` no-ops once the tournament ends. Disable
-  `predictions-tracker.yml` from the Actions tab when you're done refreshing
-  your final record.

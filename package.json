@@ -5,5 +5,9 @@
   "description": "Automation scripts for adrianshah/adrianshah GitHub profile README",
   "dependencies": {
     "js-yaml": "^4.1.0"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "render": "node scripts/render_readme.js"
   }
 }

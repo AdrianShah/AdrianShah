@@ -1,0 +1,47 @@
+name: Score Results
+
+on:
+  schedule:
+    - cron: "30 */3 * * *"   # every 3h
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-automation
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Score finished picks
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: node scripts/score_results.js
+
+      # Pushes made with GITHUB_TOKEN don't trigger readme.yml, so render here.
+      - name: Render README
+        run: node scripts/render_readme.js
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/results.json README.md
+          if git commit -m "chore: score results"; then
+            git pull --rebase origin main
+            git push
+          else
+            echo "No changes to commit."
+          fi

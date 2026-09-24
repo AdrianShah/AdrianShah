@@ -1,0 +1,91 @@
+{
+  "manualEvents": [],
+  "picks": [
+    {
+      "eventId": "wc26:01",
+      "pick": "Morocco",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:02",
+      "pick": "France",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:03",
+      "pick": "Brazil",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:04",
+      "pick": "England",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:05",
+      "pick": "Portugal",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:06",
+      "pick": "Belgium",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:07",
+      "pick": "Argentina",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:08",
+      "pick": "Colombia",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:09",
+      "pick": "France",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:10",
+      "pick": "Spain",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:11",
+      "pick": "Norway",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:12",
+      "pick": "Argentina",
+      "lockedAt": null,
+      "legacy": true,
+      "void": "result never recorded"
+    },
+    {
+      "eventId": "wc26:13",
+      "pick": "France",
+      "lockedAt": null,
+      "legacy": true
+    },
+    {
+      "eventId": "wc26:14",
+      "pick": "England",
+      "lockedAt": null,
+      "legacy": true,
+      "void": "result never recorded"
+    }
+  ]
+}

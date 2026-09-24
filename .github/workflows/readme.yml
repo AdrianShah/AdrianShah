@@ -1,0 +1,48 @@
+name: Render Picks README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/picks.json"
+      - "scripts/render_readme.js"
+      - "scripts/lib/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-automation
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Render README
+        run: node scripts/render_readme.js
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git commit -m "chore: render picks"; then
+            git pull --rebase origin main
+            git push
+          else
+            echo "No changes to commit."
+          fi

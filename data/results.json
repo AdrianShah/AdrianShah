@@ -1,0 +1,152 @@
+{
+  "wc26:01": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Morocco",
+    "b": "Canada",
+    "scheduledAt": "2026-07-04T16:00:00Z",
+    "winner": "Morocco",
+    "score": "Canada 0-3 Morocco",
+    "finishedAt": "2026-07-04T16:00:00Z"
+  },
+  "wc26:02": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "France",
+    "b": "Paraguay",
+    "scheduledAt": "2026-07-04T16:00:00Z",
+    "winner": "France",
+    "score": "Paraguay 0-1 France",
+    "finishedAt": "2026-07-04T16:00:00Z"
+  },
+  "wc26:03": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Brazil",
+    "b": "Norway",
+    "scheduledAt": "2026-07-05T16:00:00Z",
+    "winner": "Norway",
+    "score": "Brazil 1-2 Norway",
+    "finishedAt": "2026-07-05T16:00:00Z"
+  },
+  "wc26:04": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Mexico",
+    "b": "England",
+    "scheduledAt": "2026-07-05T16:00:00Z",
+    "winner": "England",
+    "score": "Mexico 2-3 England",
+    "finishedAt": "2026-07-05T16:00:00Z"
+  },
+  "wc26:05": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Portugal",
+    "b": "Spain",
+    "scheduledAt": "2026-07-06T16:00:00Z",
+    "winner": "Spain",
+    "score": "Portugal 0-1 Spain",
+    "finishedAt": "2026-07-06T16:00:00Z"
+  },
+  "wc26:06": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "USA",
+    "b": "Belgium",
+    "scheduledAt": "2026-07-06T16:00:00Z",
+    "winner": "Belgium",
+    "score": "USA 1-4 Belgium",
+    "finishedAt": "2026-07-06T16:00:00Z"
+  },
+  "wc26:07": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Argentina",
+    "b": "Egypt",
+    "scheduledAt": "2026-07-07T16:00:00Z",
+    "winner": "Argentina",
+    "score": "Argentina 3-2 Egypt",
+    "finishedAt": "2026-07-07T16:00:00Z"
+  },
+  "wc26:08": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Round of 16",
+    "a": "Switzerland",
+    "b": "Colombia",
+    "scheduledAt": "2026-07-07T16:00:00Z",
+    "winner": "Switzerland",
+    "score": "Switzerland 0-0 (4-3 pens) Colombia",
+    "finishedAt": "2026-07-07T16:00:00Z"
+  },
+  "wc26:09": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Quarterfinal",
+    "a": "Morocco",
+    "b": "France",
+    "scheduledAt": "2026-07-09T16:00:00Z",
+    "winner": "France",
+    "score": "France 2-0 Morocco",
+    "finishedAt": "2026-07-09T16:00:00Z"
+  },
+  "wc26:10": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Quarterfinal",
+    "a": "Spain",
+    "b": "Belgium",
+    "scheduledAt": "2026-07-10T16:00:00Z",
+    "winner": "Spain",
+    "score": "Spain 2-1 Belgium",
+    "finishedAt": "2026-07-10T16:00:00Z"
+  },
+  "wc26:11": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Quarterfinal",
+    "a": "Norway",
+    "b": "England",
+    "scheduledAt": "2026-07-11T16:00:00Z",
+    "winner": "England",
+    "score": "Norway 1-2 England",
+    "finishedAt": "2026-07-11T16:00:00Z"
+  },
+  "wc26:12": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Quarterfinal",
+    "a": "Argentina",
+    "b": "Switzerland",
+    "scheduledAt": "2026-07-11T16:00:00Z",
+    "status": "cancelled"
+  },
+  "wc26:13": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Semifinal",
+    "a": "France",
+    "b": "Spain",
+    "scheduledAt": "2026-07-14T16:00:00Z",
+    "winner": "Spain",
+    "score": "France 0-2 Spain",
+    "finishedAt": "2026-07-14T16:00:00Z"
+  },
+  "wc26:14": {
+    "sport": "soccer",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Semifinal",
+    "a": "England",
+    "b": "TBD",
+    "scheduledAt": "2026-07-15T16:00:00Z",
+    "status": "cancelled"
+  }
+}

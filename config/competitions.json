@@ -1,0 +1,4 @@
+{
+  "_comment": "football-data.org competition codes imported into data/fixtures.json. Free tier covers PL, CL, WC, EC, PD, BL1, SA, FL1, DED, PPL, ELC, BSA.",
+  "soccer": ["PL", "CL"]
+}
