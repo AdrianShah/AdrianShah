@@ -1,1 +1,105 @@
-{"syncedAt":null,"events":[]}
+{
+  "syncedAt": "2026-09-24T14:14:06.553Z",
+  "events": [
+    {
+      "id": "fd:560591",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Brentford FC",
+      "b": "Chelsea FC",
+      "scheduledAt": "2026-09-18T19:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560587",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Tottenham Hotspur FC",
+      "b": "Aston Villa FC",
+      "scheduledAt": "2026-09-19T11:30:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560584",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Everton FC",
+      "b": "Ipswich Town FC",
+      "scheduledAt": "2026-09-19T14:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560586",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Brighton & Hove Albion FC",
+      "b": "Arsenal FC",
+      "scheduledAt": "2026-09-19T14:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560588",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Newcastle United FC",
+      "b": "Hull City AFC",
+      "scheduledAt": "2026-09-19T14:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560589",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Nottingham Forest FC",
+      "b": "Coventry City FC",
+      "scheduledAt": "2026-09-19T16:30:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560582",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "AFC Bournemouth",
+      "b": "Liverpool FC",
+      "scheduledAt": "2026-09-20T13:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560585",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Leeds United FC",
+      "b": "Crystal Palace FC",
+      "scheduledAt": "2026-09-20T13:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560590",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Manchester City FC",
+      "b": "Sunderland AFC",
+      "scheduledAt": "2026-09-20T13:00:00.000Z",
+      "status": "finished"
+    },
+    {
+      "id": "fd:560583",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Fulham FC",
+      "b": "Manchester United FC",
+      "scheduledAt": "2026-09-20T15:30:00.000Z",
+      "status": "finished"
+    }
+  ]
+}
