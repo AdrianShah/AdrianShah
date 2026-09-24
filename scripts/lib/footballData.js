@@ -85,14 +85,22 @@ function scoreLine(match) {
   return line;
 }
 
-/** All matches for the given competitions between two dates, in <=10-day chunks. */
+/**
+ * All matches for the given competitions between two dates. Uses the
+ * per-competition endpoint (the cross-competition /matches endpoint returned
+ * incomplete windows on the free tier), in <=10-day chunks.
+ */
 async function fetchMatches(codes, from, to, token) {
   const out = [];
-  for (let start = from; start <= to; start = addDays(start, MAX_RANGE_DAYS)) {
-    const end = new Date(Math.min(addDays(start, MAX_RANGE_DAYS - 1).getTime(), to.getTime()));
-    const q = `competitions=${codes.join(",")}&dateFrom=${isoDay(start)}&dateTo=${isoDay(end)}`;
-    const data = await get(`/matches?${q}`, token);
-    out.push(...(data.matches || []));
+  for (const code of codes) {
+    for (let start = from; start <= to; start = addDays(start, MAX_RANGE_DAYS)) {
+      const end = new Date(Math.min(addDays(start, MAX_RANGE_DAYS - 1).getTime(), to.getTime()));
+      const range = `dateFrom=${isoDay(start)}&dateTo=${isoDay(end)}`;
+      const data = await get(`/competitions/${code}/matches?${range}`, token);
+      const matches = data.matches || [];
+      console.log(`${code} ${isoDay(start)}..${isoDay(end)}: ${matches.length} matches`);
+      out.push(...matches);
+    }
   }
   return out;
 }
