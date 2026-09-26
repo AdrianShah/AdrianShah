@@ -1,26 +1,6 @@
 {
-  "syncedAt": "2026-09-25T14:19:22.021Z",
+  "syncedAt": "2026-09-26T13:30:20.596Z",
   "events": [
-    {
-      "id": "fd:560591",
-      "sport": "soccer",
-      "competition": "Premier League",
-      "stage": null,
-      "a": "Brentford FC",
-      "b": "Chelsea FC",
-      "scheduledAt": "2026-09-18T19:00:00.000Z",
-      "status": "finished"
-    },
-    {
-      "id": "fd:560587",
-      "sport": "soccer",
-      "competition": "Premier League",
-      "stage": null,
-      "a": "Tottenham Hotspur FC",
-      "b": "Aston Villa FC",
-      "scheduledAt": "2026-09-19T11:30:00.000Z",
-      "status": "finished"
-    },
     {
       "id": "fd:560584",
       "sport": "soccer",
@@ -100,6 +80,66 @@
       "b": "Manchester United FC",
       "scheduledAt": "2026-09-20T15:30:00.000Z",
       "status": "finished"
+    },
+    {
+      "id": "fd:560593",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Arsenal FC",
+      "b": "Leeds United FC",
+      "scheduledAt": "2026-10-10T11:30:00.000Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fd:560592",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Sunderland AFC",
+      "b": "Brighton & Hove Albion FC",
+      "scheduledAt": "2026-10-10T14:00:00.000Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fd:560595",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Chelsea FC",
+      "b": "AFC Bournemouth",
+      "scheduledAt": "2026-10-10T14:00:00.000Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fd:560599",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Ipswich Town FC",
+      "b": "Fulham FC",
+      "scheduledAt": "2026-10-10T14:00:00.000Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fd:560601",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Aston Villa FC",
+      "b": "Brentford FC",
+      "scheduledAt": "2026-10-10T14:00:00.000Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "fd:560600",
+      "sport": "soccer",
+      "competition": "Premier League",
+      "stage": null,
+      "a": "Manchester United FC",
+      "b": "Tottenham Hotspur FC",
+      "scheduledAt": "2026-10-10T16:30:00.000Z",
+      "status": "upcoming"
     }
   ]
 }
