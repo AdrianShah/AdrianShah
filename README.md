@@ -150,6 +150,7 @@ Olympiacos vs PAOK · Greek Basketball Super Cup · Today, 1:00 PM EDT
 | When | Match | Competition | Pick |
 |---|---|---|---|
 | Sep 27, 2026 | Olympiacos vs PAOK | Greek Basketball Super Cup | Olympiacos |
+| Sep 27, 2026 | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w16/pt.png" width="16" alt="Portugal" /> Portugal | UEFA Nations League | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway |
 | Sep 27, 2026 | Germany vs Greece | UEFA Nations League | Germany |
 
 <details><summary>Recent results</summary>
