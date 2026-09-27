@@ -1,91 +1,92 @@
 {
-  "manualEvents": [],
-  "picks": [
+  "manualEvents" : [
     {
-      "eventId": "wc26:01",
-      "pick": "Morocco",
-      "lockedAt": null,
-      "legacy": true
+      "a" : "Germany",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "b" : "Greece",
+      "status" : "upcoming",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "competition" : "UEFA Nations League",
+      "sport" : "soccer"
+    }
+  ],
+  "picks" : [
+    {
+      "pick" : "Morocco",
+      "legacy" : true,
+      "eventId" : "wc26:01"
     },
     {
-      "eventId": "wc26:02",
-      "pick": "France",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "France",
+      "legacy" : true,
+      "eventId" : "wc26:02"
     },
     {
-      "eventId": "wc26:03",
-      "pick": "Brazil",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Brazil",
+      "legacy" : true,
+      "eventId" : "wc26:03"
     },
     {
-      "eventId": "wc26:04",
-      "pick": "England",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "England",
+      "legacy" : true,
+      "eventId" : "wc26:04"
     },
     {
-      "eventId": "wc26:05",
-      "pick": "Portugal",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Portugal",
+      "legacy" : true,
+      "eventId" : "wc26:05"
     },
     {
-      "eventId": "wc26:06",
-      "pick": "Belgium",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Belgium",
+      "legacy" : true,
+      "eventId" : "wc26:06"
     },
     {
-      "eventId": "wc26:07",
-      "pick": "Argentina",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Argentina",
+      "legacy" : true,
+      "eventId" : "wc26:07"
     },
     {
-      "eventId": "wc26:08",
-      "pick": "Colombia",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Colombia",
+      "legacy" : true,
+      "eventId" : "wc26:08"
     },
     {
-      "eventId": "wc26:09",
-      "pick": "France",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "France",
+      "legacy" : true,
+      "eventId" : "wc26:09"
     },
     {
-      "eventId": "wc26:10",
-      "pick": "Spain",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Spain",
+      "legacy" : true,
+      "eventId" : "wc26:10"
     },
     {
-      "eventId": "wc26:11",
-      "pick": "Norway",
-      "lockedAt": null,
-      "legacy": true
+      "pick" : "Norway",
+      "legacy" : true,
+      "eventId" : "wc26:11"
     },
     {
-      "eventId": "wc26:12",
-      "pick": "Argentina",
-      "lockedAt": null,
-      "legacy": true,
-      "void": "result never recorded"
+      "void" : "result never recorded",
+      "eventId" : "wc26:12",
+      "legacy" : true,
+      "pick" : "Argentina"
     },
     {
-      "eventId": "wc26:13",
-      "pick": "France",
-      "lockedAt": null,
-      "legacy": true
+      "eventId" : "wc26:13",
+      "legacy" : true,
+      "pick" : "France"
     },
     {
-      "eventId": "wc26:14",
-      "pick": "England",
-      "lockedAt": null,
-      "legacy": true,
-      "void": "result never recorded"
+      "void" : "result never recorded",
+      "eventId" : "wc26:14",
+      "legacy" : true,
+      "pick" : "England"
+    },
+    {
+      "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "lockedAt" : "2026-09-27T14:22:37Z",
+      "pick" : "Germany"
     }
   ]
 }
