@@ -1,116 +1,121 @@
 {
+  "manualEvents" : [
+    {
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "status" : "upcoming",
+      "competition" : "UEFA Nations League",
+      "a" : "Germany",
+      "b" : "Greece",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "sport" : "soccer"
+    },
+    {
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "status" : "upcoming",
+      "competition" : "Greek Basketball Super Cup",
+      "a" : "Olympiacos",
+      "b" : "PAOK",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "sport" : "nba"
+    }
+  ],
   "picks" : [
     {
-      "eventId" : "wc26:01",
       "legacy" : true,
+      "eventId" : "wc26:01",
       "pick" : "Morocco"
     },
     {
-      "eventId" : "wc26:02",
       "legacy" : true,
+      "eventId" : "wc26:02",
       "pick" : "France"
     },
     {
-      "eventId" : "wc26:03",
       "legacy" : true,
+      "eventId" : "wc26:03",
       "pick" : "Brazil"
     },
     {
-      "eventId" : "wc26:04",
       "legacy" : true,
+      "eventId" : "wc26:04",
       "pick" : "England"
     },
     {
-      "eventId" : "wc26:05",
       "legacy" : true,
+      "eventId" : "wc26:05",
       "pick" : "Portugal"
     },
     {
-      "eventId" : "wc26:06",
       "legacy" : true,
+      "eventId" : "wc26:06",
       "pick" : "Belgium"
     },
     {
-      "eventId" : "wc26:07",
       "legacy" : true,
+      "eventId" : "wc26:07",
       "pick" : "Argentina"
     },
     {
-      "eventId" : "wc26:08",
       "legacy" : true,
+      "eventId" : "wc26:08",
       "pick" : "Colombia"
     },
     {
-      "eventId" : "wc26:09",
       "legacy" : true,
+      "eventId" : "wc26:09",
       "pick" : "France"
     },
     {
-      "eventId" : "wc26:10",
       "legacy" : true,
+      "eventId" : "wc26:10",
       "pick" : "Spain"
     },
     {
-      "eventId" : "wc26:11",
       "legacy" : true,
+      "eventId" : "wc26:11",
       "pick" : "Norway"
     },
     {
-      "eventId" : "wc26:12",
+      "void" : "result never recorded",
       "legacy" : true,
-      "pick" : "Argentina",
-      "void" : "result never recorded"
+      "eventId" : "wc26:12",
+      "pick" : "Argentina"
     },
     {
-      "eventId" : "wc26:13",
       "legacy" : true,
+      "eventId" : "wc26:13",
       "pick" : "France"
     },
     {
-      "eventId" : "wc26:14",
+      "void" : "result never recorded",
       "legacy" : true,
-      "pick" : "England",
-      "void" : "result never recorded"
+      "eventId" : "wc26:14",
+      "pick" : "England"
     },
     {
-      "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
       "lockedAt" : "2026-09-27T14:22:37Z",
+      "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
       "pick" : "Germany"
     },
     {
-      "eventId" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
       "lockedAt" : "2026-09-27T14:29:05Z",
+      "eventId" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
       "pick" : "Olympiacos"
     },
     {
-      "eventId" : "espn:soccer:all:401861073",
       "lockedAt" : "2026-09-27T14:47:59Z",
+      "eventId" : "espn:soccer:all:401861073",
       "pick" : "Norway"
     },
     {
-      "eventId" : "espn:soccer:all:401902901",
       "lockedAt" : "2026-09-27T14:48:15Z",
+      "eventId" : "espn:soccer:all:401902901",
       "pick" : "Chelsea"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "a" : "Germany",
-      "competition" : "UEFA Nations League",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "sport" : "soccer",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "b" : "Greece",
-      "status" : "upcoming"
     },
     {
-      "a" : "Olympiacos",
-      "competition" : "Greek Basketball Super Cup",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "sport" : "nba",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "b" : "PAOK",
-      "status" : "upcoming"
+      "lockedAt" : "2026-09-27T14:48:42Z",
+      "eventId" : "espn:soccer:all:401861081",
+      "pick" : "France"
     }
   ]
 }
