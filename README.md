@@ -145,7 +145,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 Olympiacos vs PAOK · Greek Basketball Super Cup · Today, 1:00 PM EDT
 
-**Record: 7/12 (58%)** · NBA: no results yet · Soccer: 7/12 (58%)
+**Record: 7/12 (58%)**
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
