@@ -141,17 +141,19 @@ First-year **Computer Engineering** student at **York University** and a full-st
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-**🎯 Featured pick: Olympiacos**
+**🎯 Featured pick: Chelsea**
 
-Olympiacos vs PAOK · Greek Basketball Super Cup · Today, 1:00 PM EDT
+Chelsea vs Arsenal · English Women's Super League · Today, 11:30 AM EDT
 
 **Record: 7/12 (58%)**
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
+| Sep 27, 2026 | Chelsea vs Arsenal | English Women's Super League | Chelsea |
 | Sep 27, 2026 | Olympiacos vs PAOK | Greek Basketball Super Cup | Olympiacos |
 | Sep 27, 2026 | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w16/pt.png" width="16" alt="Portugal" /> Portugal | UEFA Nations League | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway |
 | Sep 27, 2026 | Germany vs Greece | UEFA Nations League | Germany |
+| Sep 28, 2026 | <img src="https://flagcdn.com/w16/be.png" width="16" alt="Belgium" /> Belgium vs <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France | UEFA Nations League | <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France |
 
 <details><summary>Recent results</summary>
 
