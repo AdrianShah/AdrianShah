@@ -141,11 +141,15 @@ First-year **Computer Engineering** student at **York University** and a full-st
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-**Latest result: ❌ picked <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France**
+**🎯 Featured pick: Germany**
 
-<img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France vs <img src="https://flagcdn.com/w16/es.png" width="16" alt="Spain" /> Spain · FIFA World Cup 2026 · France 0-2 Spain
+Germany vs Greece · UEFA Nations League · Today, 2:45 PM EDT
 
 **Record: 7/12 (58%)**
+
+| When | Match | Competition | Pick |
+|---|---|---|---|
+| Sep 27, 2026 | Germany vs Greece | UEFA Nations League | Germany |
 
 <details><summary>Recent results</summary>
 
