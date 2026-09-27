@@ -9,6 +9,7 @@
     "nextjs",
     "tailwind",
     "nodejs",
+    "swift",
     "electron",
     "vite",
     "firebase",
@@ -18,18 +19,57 @@
     "githubactions"
   ],
   "overrides": {
-    "html": { "label": "HTML" },
-    "css": { "label": "CSS" },
-    "js": { "label": "JavaScript" },
-    "ts": { "label": "TypeScript" },
-    "nextjs": { "label": "Next.js" },
-    "nodejs": { "label": "Node.js" },
-    "githubactions": { "label": "GitHub Actions", "slug": "actions" },
-    "python": { "label": "Python" },
-    "docker": { "label": "Docker" },
-    "java": { "label": "Java" },
-    "go": { "label": "Go" },
-    "rust": { "label": "Rust" },
-    "vue": { "label": "Vue" }
+    "html": {
+      "label": "HTML"
+    },
+    "css": {
+      "label": "CSS"
+    },
+    "js": {
+      "label": "JavaScript"
+    },
+    "ts": {
+      "label": "TypeScript"
+    },
+    "nextjs": {
+      "label": "Next.js"
+    },
+    "nodejs": {
+      "label": "Node.js"
+    },
+    "githubactions": {
+      "label": "GitHub Actions",
+      "slug": "actions"
+    },
+    "python": {
+      "label": "Python"
+    },
+    "docker": {
+      "label": "Docker"
+    },
+    "java": {
+      "label": "Java"
+    },
+    "go": {
+      "label": "Go"
+    },
+    "rust": {
+      "label": "Rust"
+    },
+    "vue": {
+      "label": "Vue"
+    },
+    "swift": {
+      "label": "Swift"
+    },
+    "cpp": {
+      "label": "C++"
+    },
+    "c": {
+      "label": "C"
+    },
+    "bash": {
+      "label": "Bash"
+    }
   }
 }

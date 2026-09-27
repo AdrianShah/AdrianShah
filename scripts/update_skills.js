@@ -43,24 +43,10 @@ const LANGUAGE_TO_ICON = {
   Jupyter: "python",
 };
 
-const TECHSTACK_SLUGS = new Set([
-  "cs",
-  "cpp",
-  "c",
-  "bash",
-  "kotlin",
-  "swift",
-  "ruby",
-  "php",
-  "scala",
-  "r",
-  "lua",
-  "haskell",
-  "elixir",
-  "clojure",
-  "apple",
-  "dart",
-]);
+// techstack-generator.vercel.app stopped serving several icons (c, bash);
+// skillicons.dev covers every language we map, so everything uses it.
+// A per-icon override can still set { "provider": "techstack" }.
+const TECHSTACK_SLUGS = new Set();
 
 function loadConfig() {
   const raw = fs.readFileSync(CONFIG_PATH, "utf8");

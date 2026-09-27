@@ -50,6 +50,6 @@ test("record counts only scored in-time picks", () => {
 
 test("content shows per-sport record and draw label", () => {
   const out = buildContent(data());
-  assert.match(out, /Record: 1\/2 \(50%\)\*\* · MMA: 0\/1 \(0%\) · Soccer: 1\/1 \(100%\)/);
+  assert.match(out, /Record: 1\/2 \(50%\)<\/b> · MMA: 0\/1 \(0%\) · Soccer: 1\/1 \(100%\)/);
   assert.match(out, /\| Draw \|/);
 });

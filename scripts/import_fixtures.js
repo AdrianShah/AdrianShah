@@ -1,6 +1,8 @@
 /**
  * Refreshes data/fixtures.json from every source in config/competitions.json:
- *   ESPN soccer (all leagues), ESPN NBA/NHL/WNBA, API-Sports basketball.
+ *   ESPN soccer (all leagues), ESPN NBA/NHL/WNBA, API-Sports basketball,
+ *   and TheSportsDB for favourite teams' next games (skipped when another
+ *   source already lists the same game).
  *
  * Each source replaces its own events. If a source fails (or its key is
  * missing), its previous events are kept so one outage doesn't empty the app.
@@ -12,6 +14,8 @@ const fs = require("fs");
 const { load, save } = require("./lib/data");
 const espn = require("./lib/espn");
 const apiSports = require("./lib/apiSports");
+const tsdb = require("./lib/theSportsDb");
+const { sameGame } = require("./lib/teams");
 
 const config = JSON.parse(fs.readFileSync("config/competitions.json", "utf8"));
 
@@ -44,6 +48,12 @@ const SOURCES = [
 async function main() {
   const fixtures = load.fixtures();
   const picks = load.picks();
+  SOURCES.push({
+    name: "TheSportsDB favourites",
+    owns: (id) => id.startsWith("tsdb:"),
+    fetch: () => tsdb.fetchFavorites(picks.favoriteTeams || []),
+    dedupe: true,
+  });
   const results = load.results();
   const pickedUnscored = new Set(picks.picks.map((p) => p.eventId).filter((id) => !results[id]));
 
@@ -52,8 +62,16 @@ async function main() {
   for (const source of SOURCES) {
     try {
       const fetched = await source.fetch();
-      for (const e of fetched) events.set(e.id, e);
-      console.log(`${source.name}: ${fetched.length} events`);
+      let added = 0;
+      for (const e of fetched) {
+        if (source.dedupe) {
+          const others = [...events.values()];
+          if (!pickedUnscored.has(e.id) && others.some((o) => sameGame(o, e))) continue;
+        }
+        events.set(e.id, e);
+        added++;
+      }
+      console.log(`${source.name}: ${added} events`);
     } catch (err) {
       failures++;
       console.warn(`${source.name} failed, keeping previous events: ${err.message}`);

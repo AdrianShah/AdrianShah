@@ -5,6 +5,8 @@
  *
  * One request per day returns every game worldwide; we keep only the
  * configured countries (e.g. "Greece", "Europe" for the continental cups).
+ * The free plan only allows yesterday/today/tomorrow; days it refuses are
+ * skipped, so favourites (TheSportsDB) cover games further out.
  *
  * Event IDs: apib:<gameId>
  */
@@ -53,7 +55,7 @@ function competitionName(game) {
 }
 
 function toEvent(game) {
-  return {
+  const event = {
     id: `apib:${game.id}`,
     sport: "basketball",
     competition: competitionName(game),
@@ -62,6 +64,9 @@ function toEvent(game) {
     scheduledAt: new Date(game.date || game.timestamp * 1000).toISOString(),
     status: STATUS[game.status?.short] || "upcoming",
   };
+  if (game.teams?.home?.logo) event.aLogo = game.teams.home.logo;
+  if (game.teams?.away?.logo) event.bLogo = game.teams.away.logo;
+  return event;
 }
 
 function result(game) {
@@ -77,13 +82,22 @@ async function fetchGames({ pastDays, days, countries }, key) {
   const wanted = new Set(countries.map((c) => c.toLowerCase()));
   const out = [];
   const now = new Date();
+  let failures = 0;
   for (let offset = -pastDays; offset < days; offset++) {
     const date = isoDay(addDays(now, offset));
-    const games = await get(`/games?date=${date}&timezone=UTC`, key);
+    let games;
+    try {
+      games = await get(`/games?date=${date}&timezone=UTC`, key);
+    } catch (err) {
+      console.warn(`API-Sports basketball ${date}: skipped (${err.message})`);
+      failures++;
+      continue;
+    }
     const kept = games.filter((g) => wanted.has((g.country?.name || "").toLowerCase()));
     out.push(...kept.map(toEvent));
     console.log(`API-Sports basketball ${date}: ${kept.length}/${games.length} kept`);
   }
+  if (failures === pastDays + days) throw new Error("every day failed");
   return out;
 }
 

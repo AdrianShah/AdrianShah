@@ -90,7 +90,7 @@ function leagueIdOf(event) {
 function toEvent(event, { sport, league, appSport, competition }) {
   const comp = event.competitions?.[0];
   const { home, away } = sides(comp);
-  return {
+  const out = {
     id: `espn:${sport}:${league}:${event.id}`,
     sport: appSport,
     competition,
@@ -99,6 +99,9 @@ function toEvent(event, { sport, league, appSport, competition }) {
     scheduledAt: new Date(event.date).toISOString(),
     status: status(event.status?.type),
   };
+  if (home?.team?.logo) out.aLogo = home.team.logo;
+  if (away?.team?.logo) out.bLogo = away.team.logo;
+  return out;
 }
 
 // MARK: League name cache (soccer "all" feed)

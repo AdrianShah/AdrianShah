@@ -12,6 +12,7 @@ const fs = require("fs");
 const { load, DRAW } = require("./lib/data");
 const { localDate, formatDate, formatTime } = require("./lib/time");
 const { flagImg } = require("./team_flags");
+const { normalizeTeam, family } = require("./lib/teams");
 
 const README_PATH = "README.md";
 const START_MARKER = "<!-- PREDICTIONS:AUTO:START -->";
@@ -25,13 +26,28 @@ const UPCOMING_LIMIT = 8;
 const norm = (s) => (s || "").toLowerCase().trim();
 const esc = (s) => String(s || "").replace(/\|/g, "\\|").replace(/</g, "&lt;");
 
-function team(name) {
-  const img = flagImg(name, 16);
+const attr = (s) => String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+
+/** Team logo (ESPN / API-Sports / TheSportsDB), else a country flag, else nothing. */
+function logo(name, url, size = 20) {
+  if (url) return `<img src="${attr(url)}" width="${size}" height="${size}" alt="" />`;
+  return flagImg(name, 20); // flagcdn serves w20/w40/...; w16 does not exist
+}
+
+function team(name, url) {
+  const img = logo(name, url);
   return img ? `${img} ${esc(name)}` : esc(name);
 }
 
-function pickLabel(pick) {
-  return norm(pick) === DRAW ? "Draw" : team(pick);
+/** Logo for whichever side was picked. */
+function pickLogo(event, pick) {
+  if (norm(pick) === norm(event.a)) return event.aLogo;
+  if (norm(pick) === norm(event.b)) return event.bLogo;
+  return null;
+}
+
+function pickLabel(pick, event) {
+  return norm(pick) === DRAW ? "Draw" : team(pick, event && pickLogo(event, pick));
 }
 
 /** Merge every source into one view per picked event. */
@@ -39,11 +55,26 @@ function buildRows({ fixtures, picks, results }) {
   const fixtureById = new Map(fixtures.events.map((e) => [e.id, e]));
   const manualById = new Map(picks.manualEvents.map((e) => [e.id, e]));
 
+  // Manual events have no logos; borrow them from any imported event with that team.
+  // Keyed by sport family so soccer Olympiacos never gets the basketball badge.
+  const logoByTeam = new Map();
+  const key = (sport, name) => `${family(sport)}|${normalizeTeam(name)}`;
+  for (const e of [...Object.values(results), ...fixtures.events]) {
+    if (e.aLogo) logoByTeam.set(key(e.sport, e.a), e.aLogo);
+    if (e.bLogo) logoByTeam.set(key(e.sport, e.b), e.bLogo);
+  }
+  const withLogos = (e) => ({
+    ...e,
+    aLogo: e.aLogo || logoByTeam.get(key(e.sport, e.a)),
+    bLogo: e.bLogo || logoByTeam.get(key(e.sport, e.b)),
+  });
+
   return picks.picks
     .map((p) => {
       const result = results[p.eventId];
       const manual = manualById.get(p.eventId);
-      const event = fixtureById.get(p.eventId) || manual || result;
+      const found = fixtureById.get(p.eventId) || manual || result;
+      const event = found && withLogos(found);
       if (!event) {
         console.warn(`pick on unknown event ${p.eventId}, skipping`);
         return null;
@@ -77,7 +108,22 @@ function recordText({ correct, total, pct }) {
 }
 
 function matchup(e) {
-  return `${team(e.a)} vs ${team(e.b)}`;
+  return `${team(e.a, e.aLogo)} vs ${team(e.b, e.bLogo)}`;
+}
+
+/** Big centered card: logo + name on each side, pick underneath. */
+function card(e, middle, footer) {
+  const side = (name, url) => {
+    const img = logo(name, url, 56);
+    return `<td align="center" width="38%">${img ? `${img}<br/>` : ""}<b>${esc(name)}</b></td>`;
+  };
+  return [
+    `<table align="center"><tr>`,
+    side(e.a, e.aLogo),
+    `<td align="center" width="24%">vs<br/><sub>${middle}</sub></td>`,
+    side(e.b, e.bLogo),
+    `</tr><tr><td colspan="3" align="center">${footer}</td></tr></table>`,
+  ].join("");
 }
 
 function featured(rows) {
@@ -88,21 +134,16 @@ function featured(rows) {
   );
   const pickToday = live || next;
   if (pickToday) {
-    const when = pickToday.status === "live" ? "🔴 Live now" : `Today, ${formatTime(pickToday.event.scheduledAt)}`;
-    return [
-      `**🎯 Featured pick: ${pickLabel(pickToday.pick.pick)}**`,
-      "",
-      `${matchup(pickToday.event)} · ${esc(pickToday.event.competition)} · ${when}`,
-    ];
+    const e = pickToday.event;
+    const when = pickToday.status === "live" ? "🔴 Live now" : `Today ${formatTime(e.scheduledAt)}`;
+    const choice = norm(pickToday.pick.pick) === DRAW ? "Draw" : esc(pickToday.pick.pick);
+    return [card(e, `${esc(e.competition)}<br/>${when}`, `🎯 <b>My pick: ${choice}</b>`)];
   }
   const last = [...rows].reverse().find((r) => r.outcome === "correct" || r.outcome === "incorrect");
-  if (!last) return ["_No picks on today's slate._"];
+  if (!last) return ["<p align=\"center\"><i>No picks on today's slate.</i></p>"];
   const mark = last.outcome === "correct" ? "✅" : "❌";
-  return [
-    `**Latest result: ${mark} picked ${pickLabel(last.pick.pick)}**`,
-    "",
-    `${matchup(last.event)} · ${esc(last.event.competition)} · ${esc(last.score)}`,
-  ];
+  const choice = norm(last.pick.pick) === DRAW ? "Draw" : esc(last.pick.pick);
+  return [card(last.event, `${esc(last.event.competition)}<br/>${esc(last.score)}`, `Latest result: ${mark} picked <b>${choice}</b>`)];
 }
 
 function buildContent(data) {
@@ -115,14 +156,14 @@ function buildContent(data) {
     .sort();
   const perSport =
     sports.length > 1 ? " · " + sports.map((s) => `${sportName(s)}: ${recordText(record(rows.filter((r) => r.event.sport === s)))}`).join(" · ") : "";
-  lines.push(`**Record: ${recordText(overall)}**${perSport}`, "");
+  lines.push(`<p align="center"><b>Record: ${recordText(overall)}</b>${perSport}</p>`, "");
 
   const upcoming = rows.filter((r) => r.outcome === "pending").slice(0, UPCOMING_LIMIT);
   if (upcoming.length) {
     lines.push("| When | Match | Competition | Pick |", "|---|---|---|---|");
     for (const r of upcoming) {
       const when = r.status === "live" ? "🔴 Live" : r.status === "postponed" ? "Postponed" : formatDate(r.event.scheduledAt);
-      lines.push(`| ${when} | ${matchup(r.event)} | ${esc(r.event.competition)} | ${pickLabel(r.pick.pick)} |`);
+      lines.push(`| ${when} | ${matchup(r.event)} | ${esc(r.event.competition)} | ${pickLabel(r.pick.pick, r.event)} |`);
     }
     lines.push("");
   }
@@ -139,7 +180,7 @@ function buildContent(data) {
       const mark = r.outcome === "correct" ? "✅" : "❌";
       const label = r.event.stage ? `${esc(r.event.competition)} · ${esc(r.event.stage)}` : esc(r.event.competition);
       lines.push(
-        `| ${formatDate(r.event.scheduledAt)} | ${matchup(r.event)}<br/><sub>${label}</sub> | ${pickLabel(r.pick.pick)} | ${esc(r.score)} | ${mark} |`
+        `| ${formatDate(r.event.scheduledAt)} | ${matchup(r.event)}<br/><sub>${label}</sub> | ${pickLabel(r.pick.pick, r.event)} | ${esc(r.score)} | ${mark} |`
       );
     }
     lines.push("", "</details>", "");

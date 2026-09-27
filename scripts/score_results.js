@@ -7,6 +7,7 @@
 const { load, save } = require("./lib/data");
 const espn = require("./lib/espn");
 const apiSports = require("./lib/apiSports");
+const tsdb = require("./lib/theSportsDb");
 const fd = require("./lib/footballData");
 
 const GRACE_MS = 2 * 60 * 60 * 1000; // don't poll until ~2h after the start
@@ -14,6 +15,7 @@ const GRACE_MS = 2 * 60 * 60 * 1000; // don't poll until ~2h after the start
 /** Returns { status, winner, score } or null if this source can't be used. */
 async function fetchResult(id) {
   if (id.startsWith("espn:")) return espn.fetchResult(id);
+  if (id.startsWith("tsdb:")) return tsdb.fetchResult(id);
   if (id.startsWith("apib:")) {
     const key = process.env.API_SPORTS_KEY;
     return key ? apiSports.fetchResult(id, key) : null;
@@ -61,6 +63,8 @@ async function main() {
       a: event.a,
       b: event.b,
       scheduledAt: event.scheduledAt,
+      ...(event.aLogo && { aLogo: event.aLogo }),
+      ...(event.bLogo && { bLogo: event.bLogo }),
     };
     if (r.status === "cancelled") {
       results[id] = { ...meta, status: "cancelled" };

@@ -54,3 +54,33 @@ test("API-Sports results", () => {
   assert.strictEqual(apiSports.result(game("Q3", 50, 40)).winner, null);
   assert.strictEqual(apiSports.result(game("CANC", null, null)).status, "cancelled");
 });
+
+const tsdb = require("../scripts/lib/theSportsDb");
+const { sameGame, sameTeam } = require("../scripts/lib/teams");
+
+test("TheSportsDB mapping and results", () => {
+  const raw = {
+    idEvent: "2565458", strSport: "Basketball", strLeague: "EuroLeague Basketball",
+    strHomeTeam: "BC Žalgiris", strAwayTeam: "Olympiacos BC", strTimestamp: "2026-09-29T17:00:00",
+    strStatus: "NS", strHomeTeamBadge: "https://x/h.png",
+  };
+  const e = tsdb.toEvent(raw);
+  assert.strictEqual(e.id, "tsdb:2565458");
+  assert.strictEqual(e.sport, "basketball");
+  assert.strictEqual(e.scheduledAt, "2026-09-29T17:00:00.000Z");
+  assert.strictEqual(e.aLogo, "https://x/h.png");
+  assert.deepStrictEqual(tsdb.result({ ...raw, strStatus: "FT", intHomeScore: "80", intAwayScore: "88" }),
+    { status: "finished", winner: "Olympiacos BC", score: "80-88" });
+  assert.strictEqual(tsdb.result(raw).winner, null);
+});
+
+test("team matching across sources", () => {
+  assert.ok(sameTeam("Olympiacos BC", "Olympiacos"));
+  assert.ok(sameTeam("BC Žalgiris", "Zalgiris Kaunas"));
+  assert.ok(!sameTeam("PAOK", "Panathinaikos"));
+  const at = "2026-09-29T17:00:00.000Z";
+  assert.ok(sameGame({ sport: "basketball", a: "BC Žalgiris", b: "Olympiacos BC", scheduledAt: at },
+                     { sport: "basketball", a: "Zalgiris", b: "Olympiacos", scheduledAt: "2026-09-29T18:00:00.000Z" }));
+  assert.ok(!sameGame({ sport: "soccer", a: "Olympiacos", b: "PAOK", scheduledAt: at },
+                      { sport: "basketball", a: "Olympiacos BC", b: "PAOK BC", scheduledAt: at }));
+});

@@ -56,6 +56,12 @@ function validatePicks(doc, file = FILES.picks) {
     if (!e.id.startsWith("manual:")) fail(file, `manualEvents[${i}] id must start with "manual:"`);
     if (e.status && !EVENT_STATUSES.includes(e.status)) fail(file, `manualEvents[${i}] bad status`);
   });
+  if (doc.favoriteTeams !== undefined) {
+    if (!Array.isArray(doc.favoriteTeams)) fail(file, "favoriteTeams must be an array");
+    doc.favoriteTeams.forEach((t, i) => {
+      if (typeof t.name !== "string" || !t.name) fail(file, `favoriteTeams[${i}] missing name`);
+    });
+  }
   const seen = new Set();
   doc.picks.forEach((p, i) => {
     if (typeof p.eventId !== "string") fail(file, `picks[${i}] missing eventId`);

@@ -14,7 +14,7 @@
 
 ### About
 
-First-year **Computer Engineering** student at **York University** and a full-stack builder focused on performance, clarity, and responsive UX. Portfolio: [adrianshahnazari.vercel.app](https://adrianshahnazari.vercel.app/).
+Second Year **Computer Engineering** student at **York University** and a full-stack builder focused on performance, clarity, and responsive UX. Portfolio: [adrianshahnazari.vercel.app](https://adrianshahnazari.vercel.app/).
 
 ---
 
@@ -56,11 +56,15 @@ First-year **Computer Engineering** student at **York University** and a full-st
       <br>Node.js
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=electron&theme=dark" width="48" height="48" alt="Electron" />
-      <br>Electron
+      <img src="https://skillicons.dev/icons?i=swift&theme=dark" width="48" height="48" alt="Swift" />
+      <br>Swift
     </td>
   </tr>
   <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=electron&theme=dark" width="48" height="48" alt="Electron" />
+      <br>Electron
+    </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" />
       <br>Vite
@@ -90,15 +94,15 @@ First-year **Computer Engineering** student at **York University** and a full-st
       <br>Python
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="65" height="65" alt="Cpp" />
-      <br>Cpp
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/c-icon.svg" width="65" height="65" alt="C" />
-      <br>C
+      <img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" />
+      <br>C++
     </td>
   </tr>
   <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" />
+      <br>C
+    </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" />
       <br>Java
@@ -108,7 +112,7 @@ First-year **Computer Engineering** student at **York University** and a full-st
       <br>Go
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/bash-icon.svg" width="65" height="65" alt="Bash" />
+      <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" />
       <br>Bash
     </td>
   </tr>
@@ -141,35 +145,33 @@ First-year **Computer Engineering** student at **York University** and a full-st
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-**🎯 Featured pick: Chelsea**
+<table align="center"><tr><td align="center" width="38%"><b>Chelsea</b></td><td align="center" width="24%">vs<br/><sub>English Women's Super League<br/>Today 11:30 AM EDT</sub></td><td align="center" width="38%"><b>Arsenal</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Chelsea</b></td></tr></table>
 
-Chelsea vs Arsenal · English Women's Super League · Today, 11:30 AM EDT
-
-**Record: 7/12 (58%)**
+<p align="center"><b>Record: 7/12 (58%)</b></p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
 | Sep 27, 2026 | Chelsea vs Arsenal | English Women's Super League | Chelsea |
 | Sep 27, 2026 | Olympiacos vs PAOK | Greek Basketball Super Cup | Olympiacos |
-| Sep 27, 2026 | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w16/pt.png" width="16" alt="Portugal" /> Portugal | UEFA Nations League | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway |
+| Sep 27, 2026 | <img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w20/pt.png" width="20" alt="Portugal" /> Portugal | UEFA Nations League | <img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /> Norway |
 | Sep 27, 2026 | Germany vs Greece | UEFA Nations League | Germany |
-| Sep 28, 2026 | <img src="https://flagcdn.com/w16/be.png" width="16" alt="Belgium" /> Belgium vs <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France | UEFA Nations League | <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France |
+| Sep 28, 2026 | <img src="https://flagcdn.com/w20/be.png" width="20" alt="Belgium" /> Belgium vs <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France | UEFA Nations League | <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France |
 | Sep 29, 2026 | Toronto Maple Leafs vs Montreal Canadiens | NHL | Toronto Maple Leafs |
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | |
 |---|---|---|---|---|
-| Jul 14, 2026 | <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France vs <img src="https://flagcdn.com/w16/es.png" width="16" alt="Spain" /> Spain<br/><sub>FIFA World Cup 2026 · Semifinal</sub> | <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France | France 0-2 Spain | ❌ |
-| Jul 11, 2026 | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w16/gb-eng.png" width="16" alt="England" /> England<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway | Norway 1-2 England | ❌ |
-| Jul 10, 2026 | <img src="https://flagcdn.com/w16/es.png" width="16" alt="Spain" /> Spain vs <img src="https://flagcdn.com/w16/be.png" width="16" alt="Belgium" /> Belgium<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w16/es.png" width="16" alt="Spain" /> Spain | Spain 2-1 Belgium | ✅ |
-| Jul 9, 2026 | <img src="https://flagcdn.com/w16/ma.png" width="16" alt="Morocco" /> Morocco vs <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w16/fr.png" width="16" alt="France" /> France | France 2-0 Morocco | ✅ |
-| Jul 7, 2026 | <img src="https://flagcdn.com/w16/ch.png" width="16" alt="Switzerland" /> Switzerland vs <img src="https://flagcdn.com/w16/co.png" width="16" alt="Colombia" /> Colombia<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/co.png" width="16" alt="Colombia" /> Colombia | Switzerland 0-0 (4-3 pens) Colombia | ❌ |
-| Jul 7, 2026 | <img src="https://flagcdn.com/w16/ar.png" width="16" alt="Argentina" /> Argentina vs <img src="https://flagcdn.com/w16/eg.png" width="16" alt="Egypt" /> Egypt<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/ar.png" width="16" alt="Argentina" /> Argentina | Argentina 3-2 Egypt | ✅ |
-| Jul 6, 2026 | <img src="https://flagcdn.com/w16/us.png" width="16" alt="USA" /> USA vs <img src="https://flagcdn.com/w16/be.png" width="16" alt="Belgium" /> Belgium<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/be.png" width="16" alt="Belgium" /> Belgium | USA 1-4 Belgium | ✅ |
-| Jul 6, 2026 | <img src="https://flagcdn.com/w16/pt.png" width="16" alt="Portugal" /> Portugal vs <img src="https://flagcdn.com/w16/es.png" width="16" alt="Spain" /> Spain<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/pt.png" width="16" alt="Portugal" /> Portugal | Portugal 0-1 Spain | ❌ |
-| Jul 5, 2026 | <img src="https://flagcdn.com/w16/mx.png" width="16" alt="Mexico" /> Mexico vs <img src="https://flagcdn.com/w16/gb-eng.png" width="16" alt="England" /> England<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/gb-eng.png" width="16" alt="England" /> England | Mexico 2-3 England | ✅ |
-| Jul 5, 2026 | <img src="https://flagcdn.com/w16/br.png" width="16" alt="Brazil" /> Brazil vs <img src="https://flagcdn.com/w16/no.png" width="16" alt="Norway" /> Norway<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w16/br.png" width="16" alt="Brazil" /> Brazil | Brazil 1-2 Norway | ❌ |
+| Jul 14, 2026 | <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France vs <img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /> Spain<br/><sub>FIFA World Cup 2026 · Semifinal</sub> | <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France | France 0-2 Spain | ❌ |
+| Jul 11, 2026 | <img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /> Norway vs <img src="https://flagcdn.com/w20/gb-eng.png" width="20" alt="England" /> England<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /> Norway | Norway 1-2 England | ❌ |
+| Jul 10, 2026 | <img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /> Spain vs <img src="https://flagcdn.com/w20/be.png" width="20" alt="Belgium" /> Belgium<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /> Spain | Spain 2-1 Belgium | ✅ |
+| Jul 9, 2026 | <img src="https://flagcdn.com/w20/ma.png" width="20" alt="Morocco" /> Morocco vs <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France<br/><sub>FIFA World Cup 2026 · Quarterfinal</sub> | <img src="https://flagcdn.com/w20/fr.png" width="20" alt="France" /> France | France 2-0 Morocco | ✅ |
+| Jul 7, 2026 | <img src="https://flagcdn.com/w20/ch.png" width="20" alt="Switzerland" /> Switzerland vs <img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia" /> Colombia<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/co.png" width="20" alt="Colombia" /> Colombia | Switzerland 0-0 (4-3 pens) Colombia | ❌ |
+| Jul 7, 2026 | <img src="https://flagcdn.com/w20/ar.png" width="20" alt="Argentina" /> Argentina vs <img src="https://flagcdn.com/w20/eg.png" width="20" alt="Egypt" /> Egypt<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/ar.png" width="20" alt="Argentina" /> Argentina | Argentina 3-2 Egypt | ✅ |
+| Jul 6, 2026 | <img src="https://flagcdn.com/w20/us.png" width="20" alt="USA" /> USA vs <img src="https://flagcdn.com/w20/be.png" width="20" alt="Belgium" /> Belgium<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/be.png" width="20" alt="Belgium" /> Belgium | USA 1-4 Belgium | ✅ |
+| Jul 6, 2026 | <img src="https://flagcdn.com/w20/pt.png" width="20" alt="Portugal" /> Portugal vs <img src="https://flagcdn.com/w20/es.png" width="20" alt="Spain" /> Spain<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/pt.png" width="20" alt="Portugal" /> Portugal | Portugal 0-1 Spain | ❌ |
+| Jul 5, 2026 | <img src="https://flagcdn.com/w20/mx.png" width="20" alt="Mexico" /> Mexico vs <img src="https://flagcdn.com/w20/gb-eng.png" width="20" alt="England" /> England<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/gb-eng.png" width="20" alt="England" /> England | Mexico 2-3 England | ✅ |
+| Jul 5, 2026 | <img src="https://flagcdn.com/w20/br.png" width="20" alt="Brazil" /> Brazil vs <img src="https://flagcdn.com/w20/no.png" width="20" alt="Norway" /> Norway<br/><sub>FIFA World Cup 2026 · Round of 16</sub> | <img src="https://flagcdn.com/w20/br.png" width="20" alt="Brazil" /> Brazil | Brazil 1-2 Norway | ❌ |
 
 </details>
 

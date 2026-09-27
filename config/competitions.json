@@ -5,26 +5,58 @@
     "pastDays": 3,
     "allDays": 7,
     "days": 14,
-    "excludeSlugs": ["usa.ncaa.w.1", "usa.ncaa.m.1"],
+    "excludeSlugs": [
+      "usa.ncaa.w.1",
+      "usa.ncaa.m.1"
+    ],
     "mainSlugs": [
-      "eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "gre.1",
-      "uefa.champions", "uefa.europa", "uefa.europa.conf", "uefa.nations",
-      "fifa.worldq.uefa", "fifa.friendly", "usa.1", "mex.1"
+      "eng.1",
+      "esp.1",
+      "ger.1",
+      "ita.1",
+      "fra.1",
+      "gre.1",
+      "uefa.champions",
+      "uefa.europa",
+      "uefa.europa.conf",
+      "uefa.nations",
+      "fifa.worldq.uefa",
+      "fifa.friendly",
+      "usa.1",
+      "mex.1"
     ]
   },
   "espnLeagues": {
     "pastDays": 3,
     "days": 14,
     "leagues": [
-      { "path": "basketball/nba", "sport": "nba", "name": "NBA" },
-      { "path": "hockey/nhl", "sport": "nhl", "name": "NHL" },
-      { "path": "basketball/wnba", "sport": "basketball", "name": "WNBA" }
+      {
+        "path": "basketball/nba",
+        "sport": "nba",
+        "name": "NBA"
+      },
+      {
+        "path": "hockey/nhl",
+        "sport": "nhl",
+        "name": "NHL"
+      },
+      {
+        "path": "basketball/wnba",
+        "sport": "basketball",
+        "name": "WNBA"
+      }
     ]
   },
   "apiSportsBasketball": {
-    "_comment": "Needs the API_SPORTS_KEY secret (free plan: 100 requests/day). One request per day imported.",
+    "_comment": "Needs the API_SPORTS_KEY secret. Free plan: only yesterday, today and tomorrow (pastDays 1, days 2).",
     "pastDays": 1,
-    "days": 7,
-    "countries": ["Greece", "Europe"]
+    "days": 2,
+    "countries": [
+      "Greece",
+      "Europe"
+    ]
+  },
+  "favorites": {
+    "_comment": "Favourite teams are chosen in the app (Settings > Favourite teams) and stored in data/picks.json. Their next game is imported from TheSportsDB even when no other source lists it."
   }
 }
