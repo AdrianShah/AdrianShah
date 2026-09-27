@@ -1,96 +1,96 @@
 {
   "manualEvents" : [
     {
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "status" : "upcoming",
       "competition" : "UEFA Nations League",
-      "a" : "Germany",
+      "sport" : "soccer",
       "b" : "Greece",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "sport" : "soccer"
+      "status" : "upcoming",
+      "a" : "Germany",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "scheduledAt" : "2026-09-27T18:45:00Z"
     },
     {
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "status" : "upcoming",
       "competition" : "Greek Basketball Super Cup",
-      "a" : "Olympiacos",
+      "sport" : "nba",
       "b" : "PAOK",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "sport" : "nba"
+      "status" : "upcoming",
+      "a" : "Olympiacos",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "scheduledAt" : "2026-09-27T17:00:00Z"
     }
   ],
   "picks" : [
     {
-      "legacy" : true,
       "eventId" : "wc26:01",
-      "pick" : "Morocco"
+      "pick" : "Morocco",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:02",
-      "pick" : "France"
+      "pick" : "France",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:03",
-      "pick" : "Brazil"
+      "pick" : "Brazil",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:04",
-      "pick" : "England"
+      "pick" : "England",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:05",
-      "pick" : "Portugal"
+      "pick" : "Portugal",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:06",
-      "pick" : "Belgium"
+      "pick" : "Belgium",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:07",
-      "pick" : "Argentina"
+      "pick" : "Argentina",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:08",
-      "pick" : "Colombia"
+      "pick" : "Colombia",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:09",
-      "pick" : "France"
+      "pick" : "France",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:10",
-      "pick" : "Spain"
+      "pick" : "Spain",
+      "legacy" : true
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:11",
-      "pick" : "Norway"
+      "pick" : "Norway",
+      "legacy" : true
     },
     {
-      "void" : "result never recorded",
-      "legacy" : true,
       "eventId" : "wc26:12",
-      "pick" : "Argentina"
+      "pick" : "Argentina",
+      "legacy" : true,
+      "void" : "result never recorded"
     },
     {
-      "legacy" : true,
       "eventId" : "wc26:13",
-      "pick" : "France"
+      "pick" : "France",
+      "legacy" : true
     },
     {
-      "void" : "result never recorded",
-      "legacy" : true,
       "eventId" : "wc26:14",
-      "pick" : "England"
+      "pick" : "England",
+      "legacy" : true,
+      "void" : "result never recorded"
     },
     {
       "lockedAt" : "2026-09-27T14:22:37Z",
@@ -116,6 +116,11 @@
       "lockedAt" : "2026-09-27T14:48:42Z",
       "eventId" : "espn:soccer:all:401861081",
       "pick" : "France"
+    },
+    {
+      "lockedAt" : "2026-09-27T14:50:51Z",
+      "eventId" : "espn:hockey:nhl:401891827",
+      "pick" : "Toronto Maple Leafs"
     }
   ]
 }
