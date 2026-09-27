@@ -27,6 +27,7 @@ jobs:
 
       - name: Score finished picks
         env:
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: node scripts/score_results.js
 

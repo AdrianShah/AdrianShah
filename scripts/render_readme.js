@@ -17,7 +17,7 @@ const README_PATH = "README.md";
 const START_MARKER = "<!-- PREDICTIONS:AUTO:START -->";
 const END_MARKER = "<!-- PREDICTIONS:AUTO:END -->";
 const RECENT_LIMIT = 10;
-const SPORT_NAMES = { soccer: "Soccer", nhl: "NHL", nba: "NBA", mma: "MMA", boxing: "Boxing" };
+const SPORT_NAMES = { soccer: "Soccer", nhl: "NHL", nba: "NBA", basketball: "Basketball", mma: "MMA", boxing: "Boxing" };
 
 const sportName = (s) => SPORT_NAMES[s] || s.charAt(0).toUpperCase() + s.slice(1);
 const UPCOMING_LIMIT = 8;
@@ -110,7 +110,9 @@ function buildContent(data) {
   const lines = [...featured(rows), ""];
 
   const overall = record(rows);
-  const sports = [...new Set(rows.map((r) => r.event.sport))].sort();
+  const sports = [...new Set(rows.map((r) => r.event.sport))]
+    .filter((s) => record(rows.filter((r) => r.event.sport === s)).total > 0)
+    .sort();
   const perSport =
     sports.length > 1 ? " · " + sports.map((s) => `${sportName(s)}: ${recordText(record(rows.filter((r) => r.event.sport === s)))}`).join(" · ") : "";
   lines.push(`**Record: ${recordText(overall)}**${perSport}`, "");

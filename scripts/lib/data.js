@@ -82,8 +82,16 @@ const load = {
   results: () => validateResults(readJson(FILES.results, {})),
 };
 
+/** Thousands of events: one per line keeps the file small and diffs readable. */
+function writeFixtures(doc) {
+  validateFixtures(doc);
+  const lines = doc.events.map((e) => JSON.stringify(e));
+  const body = lines.length ? `[\n${lines.join(",\n")}\n]` : "[]";
+  fs.writeFileSync(FILES.fixtures, `{"syncedAt":${JSON.stringify(doc.syncedAt)},"events":${body}}\n`);
+}
+
 const save = {
-  fixtures: (doc) => writeJson(FILES.fixtures, validateFixtures(doc)),
+  fixtures: writeFixtures,
   picks: (doc) => writeJson(FILES.picks, validatePicks(doc)),
   results: (doc) => writeJson(FILES.results, validateResults(doc)),
 };

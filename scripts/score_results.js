@@ -1,20 +1,34 @@
 /**
- * Scores picked football-data events that have kicked off into
- * data/results.json. Results are permanent and carry the event's
- * metadata, so they survive fixture pruning.
- *
- * Manual events are scored in the app (winner lives in picks.json).
+ * Scores picked imported events that have started into data/results.json.
+ * Results are permanent and carry the event's metadata, so they survive
+ * fixture pruning. Manual events are scored in the app (picks.json).
  */
 
 const { load, save } = require("./lib/data");
+const espn = require("./lib/espn");
+const apiSports = require("./lib/apiSports");
 const fd = require("./lib/footballData");
 
-const GRACE_MS = 2 * 60 * 60 * 1000; // don't poll a match until ~2h after kickoff
+const GRACE_MS = 2 * 60 * 60 * 1000; // don't poll until ~2h after the start
+
+/** Returns { status, winner, score } or null if this source can't be used. */
+async function fetchResult(id) {
+  if (id.startsWith("espn:")) return espn.fetchResult(id);
+  if (id.startsWith("apib:")) {
+    const key = process.env.API_SPORTS_KEY;
+    return key ? apiSports.fetchResult(id, key) : null;
+  }
+  if (id.startsWith("fd:")) {
+    const token = process.env.FOOTBALL_DATA_TOKEN;
+    if (!token) return null;
+    const match = await fd.fetchMatch(id.slice(3), token);
+    const event = fd.toEvent(match);
+    return { status: event.status, winner: fd.winner(match), score: fd.scoreLine(match) };
+  }
+  return null; // manual:* and legacy wc26:* are not scored here
+}
 
 async function main() {
-  const token = process.env.FOOTBALL_DATA_TOKEN;
-  if (!token) throw new Error("FOOTBALL_DATA_TOKEN is not set");
-
   const fixtures = load.fixtures();
   const picks = load.picks();
   const results = load.results();
@@ -23,17 +37,24 @@ async function main() {
 
   const due = picks.picks
     .map((p) => p.eventId)
-    .filter((id) => id.startsWith("fd:") && !results[id])
+    .filter((id) => !results[id] && fixtureById.has(id))
     .filter((id) => {
       const e = fixtureById.get(id);
-      // Unknown to fixtures (e.g. pruned): ask the API anyway.
-      return !e || Date.parse(e.scheduledAt) + GRACE_MS <= now || e.status === "cancelled";
+      return Date.parse(e.scheduledAt) + GRACE_MS <= now || e.status === "cancelled";
     });
 
   let scored = 0;
   for (const id of due) {
-    const match = await fd.fetchMatch(id.slice(3), token);
-    const event = fd.toEvent(match);
+    const event = fixtureById.get(id);
+    let r;
+    try {
+      r = await fetchResult(id);
+    } catch (err) {
+      console.warn(`${id}: ${err.message}`);
+      continue;
+    }
+    if (!r) continue;
+
     const meta = {
       sport: event.sport,
       competition: event.competition,
@@ -41,12 +62,10 @@ async function main() {
       b: event.b,
       scheduledAt: event.scheduledAt,
     };
-    if (event.status === "cancelled") {
+    if (r.status === "cancelled") {
       results[id] = { ...meta, status: "cancelled" };
-    } else if (event.status === "finished") {
-      const w = fd.winner(match);
-      if (!w) continue;
-      results[id] = { ...meta, winner: w, score: fd.scoreLine(match), finishedAt: new Date().toISOString() };
+    } else if (r.status === "finished" && r.winner) {
+      results[id] = { ...meta, winner: r.winner, score: r.score || undefined, finishedAt: new Date().toISOString() };
     } else {
       continue; // live, postponed, or not started: try again next run
     }

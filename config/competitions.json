@@ -1,4 +1,30 @@
 {
-  "_comment": "football-data.org competition codes imported into data/fixtures.json. Free tier covers PL, CL, WC, EC, PD, BL1, SA, FL1, DED, PPL, ELC, BSA.",
-  "soccer": ["PL", "CL"]
+  "_comment": "What scripts/import_fixtures.js pulls into data/fixtures.json. Hide leagues per phone in the app's Settings > Followed competitions.",
+  "espnSoccer": {
+    "_comment": "Every ESPN soccer league. allDays: import everything this many days ahead; after that, only mainSlugs up to days. Slugs are listed in data/espn_leagues.json.",
+    "pastDays": 3,
+    "allDays": 7,
+    "days": 14,
+    "excludeSlugs": ["usa.ncaa.w.1", "usa.ncaa.m.1"],
+    "mainSlugs": [
+      "eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "gre.1",
+      "uefa.champions", "uefa.europa", "uefa.europa.conf", "uefa.nations",
+      "fifa.worldq.uefa", "fifa.friendly", "usa.1", "mex.1"
+    ]
+  },
+  "espnLeagues": {
+    "pastDays": 3,
+    "days": 14,
+    "leagues": [
+      { "path": "basketball/nba", "sport": "nba", "name": "NBA" },
+      { "path": "hockey/nhl", "sport": "nhl", "name": "NHL" },
+      { "path": "basketball/wnba", "sport": "basketball", "name": "WNBA" }
+    ]
+  },
+  "apiSportsBasketball": {
+    "_comment": "Needs the API_SPORTS_KEY secret (free plan: 100 requests/day). One request per day imported.",
+    "pastDays": 1,
+    "days": 7,
+    "countries": ["Greece", "Europe"]
+  }
 }

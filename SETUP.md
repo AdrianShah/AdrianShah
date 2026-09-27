@@ -12,8 +12,9 @@ without it, none of the auto-updated sections will work.
   profile README.
 
 ## 2. Secrets
-- `fixtures.yml` and `results.yml` need a **`FOOTBALL_DATA_TOKEN`** secret.
-  The token only lives in Actions; the phone app never holds it.
+- `fixtures.yml` and `results.yml` use an **`API_SPORTS_KEY`** secret (free plan at
+  api-sports.io) for Greek/European basketball. Soccer, NBA, NHL and WNBA come from
+  ESPN's public API and need no key. Keys only live in Actions; the phone never holds them.
   1. Register for a free key at https://www.football-data.org/client/register
   2. Repo → Settings → Secrets and variables → Actions → New repository secret
      → name it `FOOTBALL_DATA_TOKEN`.
@@ -34,7 +35,8 @@ without it, none of the auto-updated sections will work.
   GitHub Contents API with a fine-grained PAT (this repo only, Contents read/write).
   Each file has one writer: the app writes `picks.json`; Actions write
   `fixtures.json`, `results.json` and `README.md`.
-  - `fixtures.yml` (daily): last 7 + next 14 days of fixtures for `config/competitions.json`
+  - `fixtures.yml` (twice daily): every ESPN soccer league for 7 days (main leagues 14),
+    NBA/NHL/WNBA, and API-Sports basketball, per `config/competitions.json`
   - `results.yml` (every 3h): scores picked matches, re-renders the README
   - `readme.yml` (on push to `data/picks.json`): tests + re-renders the README
   - Draw is a valid soccer pick. Picks locked after kickoff don't count.
