@@ -160,5 +160,17 @@
     "winner": "Chelsea",
     "score": "1-0",
     "finishedAt": "2026-09-27T17:45:58.208Z"
+  },
+  "espn:soccer:all:401861073": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Norway",
+    "b": "Portugal",
+    "scheduledAt": "2026-09-27T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+    "winner": "Portugal",
+    "score": "1-2",
+    "finishedAt": "2026-09-27T20:51:00.191Z"
   }
 }
