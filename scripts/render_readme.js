@@ -17,6 +17,9 @@ const README_PATH = "README.md";
 const START_MARKER = "<!-- PREDICTIONS:AUTO:START -->";
 const END_MARKER = "<!-- PREDICTIONS:AUTO:END -->";
 const RECENT_LIMIT = 10;
+const SPORT_NAMES = { soccer: "Soccer", nhl: "NHL", nba: "NBA", mma: "MMA", boxing: "Boxing" };
+
+const sportName = (s) => SPORT_NAMES[s] || s.charAt(0).toUpperCase() + s.slice(1);
 const UPCOMING_LIMIT = 8;
 
 const norm = (s) => (s || "").toLowerCase().trim();
@@ -109,7 +112,7 @@ function buildContent(data) {
   const overall = record(rows);
   const sports = [...new Set(rows.map((r) => r.event.sport))].sort();
   const perSport =
-    sports.length > 1 ? " · " + sports.map((s) => `${s}: ${recordText(record(rows.filter((r) => r.event.sport === s)))}`).join(" · ") : "";
+    sports.length > 1 ? " · " + sports.map((s) => `${sportName(s)}: ${recordText(record(rows.filter((r) => r.event.sport === s)))}`).join(" · ") : "";
   lines.push(`**Record: ${recordText(overall)}**${perSport}`, "");
 
   const upcoming = rows.filter((r) => r.outcome === "pending").slice(0, UPCOMING_LIMIT);
