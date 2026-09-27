@@ -148,5 +148,17 @@
     "b": "TBD",
     "scheduledAt": "2026-07-15T16:00:00Z",
     "status": "cancelled"
+  },
+  "espn:soccer:all:401902901": {
+    "sport": "soccer",
+    "competition": "English Women's Super League",
+    "a": "Chelsea",
+    "b": "Arsenal",
+    "scheduledAt": "2026-09-27T15:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
+    "winner": "Chelsea",
+    "score": "1-0",
+    "finishedAt": "2026-09-27T17:45:58.208Z"
   }
 }
