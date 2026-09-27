@@ -141,14 +141,15 @@ First-year **Computer Engineering** student at **York University** and a full-st
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-**🎯 Featured pick: Germany**
+**🎯 Featured pick: Olympiacos**
 
-Germany vs Greece · UEFA Nations League · Today, 2:45 PM EDT
+Olympiacos vs PAOK · Greek Basketball Super Cup · Today, 1:00 PM EDT
 
-**Record: 7/12 (58%)**
+**Record: 7/12 (58%)** · NBA: no results yet · Soccer: 7/12 (58%)
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
+| Sep 27, 2026 | Olympiacos vs PAOK | Greek Basketball Super Cup | Olympiacos |
 | Sep 27, 2026 | Germany vs Greece | UEFA Nations League | Germany |
 
 <details><summary>Recent results</summary>
