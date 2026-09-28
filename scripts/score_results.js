@@ -1,7 +1,8 @@
 /**
- * Scores picked imported events that have started into data/results.json.
+ * Scores picked events that have started into data/results.json.
  * Results are permanent and carry the event's metadata, so they survive
- * fixture pruning. Manual events are scored in the app (picks.json).
+ * fixture pruning. Manual events are scored through the imported fixture for
+ * the same game when one exists; otherwise the app must set a winner.
  */
 
 const { load, save } = require("./lib/data");
@@ -9,6 +10,7 @@ const espn = require("./lib/espn");
 const apiSports = require("./lib/apiSports");
 const tsdb = require("./lib/theSportsDb");
 const fd = require("./lib/footballData");
+const { sameGame, sameTeam } = require("./lib/teams");
 
 const GRACE_MS = 2 * 60 * 60 * 1000; // don't poll until ~2h after the start
 
@@ -30,32 +32,49 @@ async function fetchResult(id) {
   return null; // manual:* and legacy wc26:* are not scored here
 }
 
+/** Winner in the manual event's own spelling, so it matches the pick ("Olympiacos BC" -> "Olympiacos"). */
+function manualWinner(winner, manual) {
+  if (sameTeam(winner, manual.a)) return manual.a;
+  if (sameTeam(winner, manual.b)) return manual.b;
+  return winner; // "draw"
+}
+
 async function main() {
   const fixtures = load.fixtures();
   const picks = load.picks();
   const results = load.results();
   const fixtureById = new Map(fixtures.events.map((e) => [e.id, e]));
+  const manualById = new Map(picks.manualEvents.map((e) => [e.id, e]));
   const now = Date.now();
 
-  const due = picks.picks
-    .map((p) => p.eventId)
-    .filter((id) => !results[id] && fixtureById.has(id))
-    .filter((id) => {
-      const e = fixtureById.get(id);
-      return Date.parse(e.scheduledAt) + GRACE_MS <= now || e.status === "cancelled";
-    });
+  // Each due pick -> { event to record, source id to fetch the result from }.
+  const due = [];
+  for (const { eventId: id } of picks.picks) {
+    if (results[id]) continue;
+    const manual = manualById.get(id);
+    if (manual?.winner) continue; // already scored in the app
+    const event = fixtureById.get(id) || manual;
+    if (!event) continue;
+    if (Date.parse(event.scheduledAt) + GRACE_MS > now && event.status !== "cancelled") continue;
+    const source = manual ? fixtures.events.find((e) => sameGame(e, manual)) : event;
+    if (!source) {
+      console.warn(`${id}: no imported fixture matches ${manual.a} vs ${manual.b}; set the winner in the app`);
+      continue;
+    }
+    due.push({ id, event, sourceId: source.id });
+  }
 
   let scored = 0;
-  for (const id of due) {
-    const event = fixtureById.get(id);
+  for (const { id, event, sourceId } of due) {
     let r;
     try {
-      r = await fetchResult(id);
+      r = await fetchResult(sourceId);
     } catch (err) {
       console.warn(`${id}: ${err.message}`);
       continue;
     }
     if (!r) continue;
+    if (id !== sourceId && r.winner) r.winner = manualWinner(r.winner, event);
 
     const meta = {
       sport: event.sport,
@@ -74,7 +93,8 @@ async function main() {
       continue; // live, postponed, or not started: try again next run
     }
     scored++;
-    console.log(`scored ${id}: ${meta.a} vs ${meta.b} -> ${results[id].winner || "cancelled"}`);
+    const via = id === sourceId ? "" : ` (via ${sourceId})`;
+    console.log(`scored ${id}${via}: ${meta.a} vs ${meta.b} -> ${results[id].winner || "cancelled"}`);
   }
 
   save.results(results);

@@ -1,7 +1,7 @@
 /**
  * Team-name matching across sources ("Olympiacos BC" vs "Olympiacos",
  * "Bayern München" vs "Bayern Munich" won't match; that's fine, it only
- * decides duplicates and favourites, never scoring).
+ * decides duplicates, favourites, and which imported fixture scores a manual pick).
  */
 
 const SUFFIXES = /\b(fc|bc|cf|afc|sc|bk|kk|ac|as|cd|sk|fk|bb|b\.c\.|f\.c\.)\b/g;
