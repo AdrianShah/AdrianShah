@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Greek Basketball Super Cup<br/>Today 1:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/613.png" width="56" height="56" alt="" /><br/><b>PAOK</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Olympiacos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="56" height="56" alt="" /><br/><b>Belgium</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="56" height="56" alt="" /><br/><b>France</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: France</b></td></tr></table>
 
 <p align="center"><b>Record: 8/14 (57%)</b></p>
 
