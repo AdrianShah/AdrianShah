@@ -172,5 +172,65 @@
     "winner": "Portugal",
     "score": "1-2",
     "finishedAt": "2026-09-27T20:51:00.191Z"
+  },
+  "espn:soccer:all:401861081": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Belgium",
+    "b": "France",
+    "scheduledAt": "2026-09-28T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+    "winner": "France",
+    "score": "0-1",
+    "finishedAt": "2026-09-28T21:20:51.994Z"
+  },
+  "espn:soccer:all:401861082": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Latvia",
+    "b": "Cyprus",
+    "scheduledAt": "2026-09-28T16:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
+    "winner": "draw",
+    "score": "0-0",
+    "finishedAt": "2026-09-28T21:20:52.102Z"
+  },
+  "espn:soccer:all:401861077": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Türkiye",
+    "b": "Italy",
+    "scheduledAt": "2026-09-28T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+    "winner": "Italy",
+    "score": "1-4",
+    "finishedAt": "2026-09-28T21:20:52.162Z"
+  },
+  "espn:soccer:all:401861080": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Sweden",
+    "b": "Poland",
+    "scheduledAt": "2026-09-28T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+    "winner": "Sweden",
+    "score": "3-1",
+    "finishedAt": "2026-09-28T21:20:52.225Z"
+  },
+  "espn:soccer:all:401861076": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Armenia",
+    "b": "Montenegro",
+    "scheduledAt": "2026-09-28T16:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/mtg.png",
+    "winner": "Montenegro",
+    "score": "2-3",
+    "finishedAt": "2026-09-28T21:20:52.417Z"
   }
 }
