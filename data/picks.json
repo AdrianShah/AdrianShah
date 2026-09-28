@@ -1,101 +1,58 @@
 {
-  "favoriteTeams" : [
-    {
-      "sport" : "basketball",
-      "league" : "Greek Basket League",
-      "name" : "Olympiacos BC",
-      "tsdbId" : "135635",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
-    },
-    {
-      "sport" : "soccer",
-      "league" : "English Premier League",
-      "name" : "Chelsea",
-      "tsdbId" : "133610",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
-    },
-    {
-      "sport" : "soccer",
-      "league" : "Greek Super League 1",
-      "name" : "Olympiacos",
-      "tsdbId" : "133754",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "b" : "Greece",
-      "status" : "upcoming",
-      "a" : "Germany",
-      "competition" : "UEFA Nations League",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "sport" : "soccer"
-    },
-    {
-      "status" : "upcoming",
-      "sport" : "nba",
-      "competition" : "Greek Basketball Super Cup",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "a" : "Olympiacos",
-      "b" : "PAOK",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe"
-    }
-  ],
   "picks" : [
     {
-      "eventId" : "wc26:01",
       "legacy" : true,
-      "pick" : "Morocco"
+      "pick" : "Morocco",
+      "eventId" : "wc26:01"
     },
     {
-      "eventId" : "wc26:02",
       "legacy" : true,
-      "pick" : "France"
+      "pick" : "France",
+      "eventId" : "wc26:02"
     },
     {
-      "eventId" : "wc26:03",
       "legacy" : true,
-      "pick" : "Brazil"
+      "pick" : "Brazil",
+      "eventId" : "wc26:03"
     },
     {
-      "eventId" : "wc26:04",
       "legacy" : true,
-      "pick" : "England"
+      "pick" : "England",
+      "eventId" : "wc26:04"
     },
     {
       "eventId" : "wc26:05",
-      "legacy" : true,
-      "pick" : "Portugal"
+      "pick" : "Portugal",
+      "legacy" : true
     },
     {
       "eventId" : "wc26:06",
-      "legacy" : true,
-      "pick" : "Belgium"
+      "pick" : "Belgium",
+      "legacy" : true
     },
     {
       "eventId" : "wc26:07",
-      "legacy" : true,
-      "pick" : "Argentina"
+      "pick" : "Argentina",
+      "legacy" : true
     },
     {
       "eventId" : "wc26:08",
-      "legacy" : true,
-      "pick" : "Colombia"
+      "pick" : "Colombia",
+      "legacy" : true
     },
     {
-      "pick" : "France",
       "eventId" : "wc26:09",
+      "pick" : "France",
       "legacy" : true
     },
     {
-      "pick" : "Spain",
       "eventId" : "wc26:10",
+      "pick" : "Spain",
       "legacy" : true
     },
     {
-      "pick" : "Norway",
       "eventId" : "wc26:11",
+      "pick" : "Norway",
       "legacy" : true
     },
     {
@@ -154,6 +111,54 @@
       "pick" : "Italy",
       "eventId" : "espn:soccer:all:401861077",
       "lockedAt" : "2026-09-28T12:44:24Z"
+    },
+    {
+      "pick" : "draw",
+      "eventId" : "espn:soccer:all:401861080",
+      "lockedAt" : "2026-09-28T12:44:29Z"
+    }
+  ],
+  "favoriteTeams" : [
+    {
+      "sport" : "basketball",
+      "league" : "Greek Basket League",
+      "name" : "Olympiacos BC",
+      "tsdbId" : "135635",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
+    },
+    {
+      "sport" : "soccer",
+      "league" : "English Premier League",
+      "name" : "Chelsea",
+      "tsdbId" : "133610",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
+    },
+    {
+      "sport" : "soccer",
+      "league" : "Greek Super League 1",
+      "name" : "Olympiacos",
+      "tsdbId" : "133754",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
+    }
+  ],
+  "manualEvents" : [
+    {
+      "status" : "upcoming",
+      "sport" : "soccer",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "a" : "Germany",
+      "b" : "Greece",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "competition" : "UEFA Nations League"
+    },
+    {
+      "status" : "upcoming",
+      "sport" : "nba",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "a" : "Olympiacos",
+      "b" : "PAOK",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "competition" : "Greek Basketball Super Cup"
     }
   ]
 }
