@@ -1,64 +1,87 @@
 {
-  "manualEvents" : [
+  "favoriteTeams" : [
     {
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "competition" : "UEFA Nations League",
-      "a" : "Germany",
-      "sport" : "soccer",
-      "status" : "upcoming",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "b" : "Greece"
+      "sport" : "basketball",
+      "league" : "Greek Basket League",
+      "name" : "Olympiacos BC",
+      "tsdbId" : "135635",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
     },
     {
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "competition" : "Greek Basketball Super Cup",
-      "a" : "Olympiacos",
-      "sport" : "nba",
+      "sport" : "soccer",
+      "league" : "English Premier League",
+      "name" : "Chelsea",
+      "tsdbId" : "133610",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
+    },
+    {
+      "sport" : "soccer",
+      "league" : "Greek Super League 1",
+      "name" : "Olympiacos",
+      "tsdbId" : "133754",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
+    }
+  ],
+  "manualEvents" : [
+    {
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "b" : "Greece",
       "status" : "upcoming",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "b" : "PAOK"
+      "a" : "Germany",
+      "competition" : "UEFA Nations League",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "sport" : "soccer"
+    },
+    {
+      "status" : "upcoming",
+      "sport" : "nba",
+      "competition" : "Greek Basketball Super Cup",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "a" : "Olympiacos",
+      "b" : "PAOK",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe"
     }
   ],
   "picks" : [
     {
-      "pick" : "Morocco",
       "eventId" : "wc26:01",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Morocco"
     },
     {
-      "pick" : "France",
       "eventId" : "wc26:02",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "France"
     },
     {
-      "pick" : "Brazil",
       "eventId" : "wc26:03",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Brazil"
     },
     {
-      "pick" : "England",
       "eventId" : "wc26:04",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "England"
     },
     {
-      "pick" : "Portugal",
       "eventId" : "wc26:05",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Portugal"
     },
     {
-      "pick" : "Belgium",
       "eventId" : "wc26:06",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Belgium"
     },
     {
-      "pick" : "Argentina",
       "eventId" : "wc26:07",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Argentina"
     },
     {
-      "pick" : "Colombia",
       "eventId" : "wc26:08",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Colombia"
     },
     {
       "pick" : "France",
@@ -76,10 +99,10 @@
       "legacy" : true
     },
     {
+      "void" : "result never recorded",
       "pick" : "Argentina",
       "eventId" : "wc26:12",
-      "legacy" : true,
-      "void" : "result never recorded"
+      "legacy" : true
     },
     {
       "pick" : "France",
@@ -87,10 +110,10 @@
       "legacy" : true
     },
     {
+      "void" : "result never recorded",
       "pick" : "England",
       "eventId" : "wc26:14",
-      "legacy" : true,
-      "void" : "result never recorded"
+      "legacy" : true
     },
     {
       "pick" : "Germany",
@@ -126,29 +149,11 @@
       "pick" : "Cyprus",
       "eventId" : "espn:soccer:all:401861082",
       "lockedAt" : "2026-09-28T12:44:18Z"
-    }
-  ],
-  "favoriteTeams" : [
-    {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
-      "league" : "Greek Basket League",
-      "sport" : "basketball",
-      "name" : "Olympiacos BC",
-      "tsdbId" : "135635"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "league" : "English Premier League",
-      "sport" : "soccer",
-      "name" : "Chelsea",
-      "tsdbId" : "133610"
-    },
-    {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-      "league" : "Greek Super League 1",
-      "sport" : "soccer",
-      "name" : "Olympiacos",
-      "tsdbId" : "133754"
+      "pick" : "Italy",
+      "eventId" : "espn:soccer:all:401861077",
+      "lockedAt" : "2026-09-28T12:44:24Z"
     }
   ]
 }
