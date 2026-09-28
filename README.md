@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="56" height="56" alt="" /><br/><b>Belgium</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="56" height="56" alt="" /><br/><b>France</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: France</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/lva.png" width="56" height="56" alt="" /><br/><b>Latvia</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 12:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/cyp.png" width="56" height="56" alt="" /><br/><b>Cyprus</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Cyprus</b></td></tr></table>
 
 <p align="center"><b>Record: 8/14 (57%)</b></p>
 
@@ -153,6 +153,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 |---|---|---|---|
 | Sep 27, 2026 | <img src="https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://media.api-sports.io/basketball/teams/613.png" width="20" height="20" alt="" /> PAOK | Greek Basketball Super Cup | <img src="https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png" width="20" height="20" alt="" /> Olympiacos |
 | Sep 27, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/ger.png" width="20" height="20" alt="" /> Germany vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/gre.png" width="20" height="20" alt="" /> Greece | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/ger.png" width="20" height="20" alt="" /> Germany |
+| Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/lva.png" width="20" height="20" alt="" /> Latvia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/cyp.png" width="20" height="20" alt="" /> Cyprus | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cyp.png" width="20" height="20" alt="" /> Cyprus |
 | Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France |
 | Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
 
