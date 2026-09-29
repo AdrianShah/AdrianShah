@@ -1,178 +1,183 @@
 {
+  "manualEvents" : [
+    {
+      "winner" : "Greece",
+      "a" : "Germany",
+      "status" : "finished",
+      "competition" : "UEFA Nations League",
+      "score" : "0-1",
+      "sport" : "soccer",
+      "b" : "Greece",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "scheduledAt" : "2026-09-27T18:45:00Z"
+    },
+    {
+      "winner" : "Olympiacos",
+      "a" : "Olympiacos",
+      "status" : "finished",
+      "competition" : "Greek Basketball Super Cup",
+      "score" : "101-96",
+      "sport" : "nba",
+      "b" : "PAOK",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "scheduledAt" : "2026-09-27T17:00:00Z"
+    }
+  ],
   "picks" : [
     {
       "eventId" : "wc26:01",
-      "pick" : "Morocco",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Morocco"
     },
     {
       "eventId" : "wc26:02",
-      "pick" : "France",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "France"
     },
     {
       "eventId" : "wc26:03",
-      "pick" : "Brazil",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Brazil"
     },
     {
       "eventId" : "wc26:04",
-      "pick" : "England",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "England"
     },
     {
       "eventId" : "wc26:05",
-      "pick" : "Portugal",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Portugal"
     },
     {
       "eventId" : "wc26:06",
-      "pick" : "Belgium",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Belgium"
     },
     {
       "eventId" : "wc26:07",
-      "pick" : "Argentina",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Argentina"
     },
     {
       "eventId" : "wc26:08",
-      "pick" : "Colombia",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Colombia"
     },
     {
       "eventId" : "wc26:09",
-      "pick" : "France",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "France"
     },
     {
       "eventId" : "wc26:10",
-      "pick" : "Spain",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Spain"
     },
     {
       "eventId" : "wc26:11",
-      "pick" : "Norway",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "Norway"
     },
     {
       "eventId" : "wc26:12",
-      "pick" : "Argentina",
       "legacy" : true,
-      "void" : "result never recorded"
+      "void" : "result never recorded",
+      "pick" : "Argentina"
     },
     {
       "eventId" : "wc26:13",
-      "pick" : "France",
-      "legacy" : true
+      "legacy" : true,
+      "pick" : "France"
     },
     {
       "eventId" : "wc26:14",
-      "pick" : "England",
       "legacy" : true,
-      "void" : "result never recorded"
+      "void" : "result never recorded",
+      "pick" : "England"
     },
     {
-      "pick" : "Germany",
+      "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
       "lockedAt" : "2026-09-27T14:22:37Z",
-      "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7"
+      "pick" : "Germany"
     },
     {
+      "eventId" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
       "pick" : "Olympiacos",
-      "lockedAt" : "2026-09-27T14:29:05Z",
-      "eventId" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe"
+      "lockedAt" : "2026-09-27T14:29:05Z"
     },
     {
+      "eventId" : "espn:soccer:all:401861073",
       "pick" : "Norway",
-      "lockedAt" : "2026-09-27T14:47:59Z",
-      "eventId" : "espn:soccer:all:401861073"
+      "lockedAt" : "2026-09-27T14:47:59Z"
     },
     {
-      "pick" : "Chelsea",
       "eventId" : "espn:soccer:all:401902901",
+      "pick" : "Chelsea",
       "lockedAt" : "2026-09-27T14:48:15Z"
     },
     {
-      "pick" : "France",
       "eventId" : "espn:soccer:all:401861081",
+      "pick" : "France",
       "lockedAt" : "2026-09-27T14:48:42Z"
     },
     {
       "pick" : "Toronto Maple Leafs",
-      "eventId" : "espn:hockey:nhl:401891827",
-      "lockedAt" : "2026-09-27T14:50:51Z"
+      "lockedAt" : "2026-09-27T14:50:51Z",
+      "eventId" : "espn:hockey:nhl:401891827"
     },
     {
+      "pick" : "Cyprus",
       "lockedAt" : "2026-09-28T12:44:18Z",
-      "eventId" : "espn:soccer:all:401861082",
-      "pick" : "Cyprus"
+      "eventId" : "espn:soccer:all:401861082"
     },
     {
+      "pick" : "Italy",
       "lockedAt" : "2026-09-28T12:44:24Z",
-      "eventId" : "espn:soccer:all:401861077",
-      "pick" : "Italy"
+      "eventId" : "espn:soccer:all:401861077"
     },
     {
-      "lockedAt" : "2026-09-28T12:44:29Z",
       "eventId" : "espn:soccer:all:401861080",
+      "lockedAt" : "2026-09-28T12:44:29Z",
       "pick" : "draw"
     },
     {
       "eventId" : "espn:soccer:all:401861076",
-      "pick" : "Armenia",
-      "lockedAt" : "2026-09-28T12:44:34Z"
+      "lockedAt" : "2026-09-28T12:44:34Z",
+      "pick" : "Armenia"
     },
     {
       "eventId" : "apib:508594",
-      "pick" : "Olympiacos",
-      "lockedAt" : "2026-09-29T13:59:53Z"
+      "lockedAt" : "2026-09-29T13:59:53Z",
+      "pick" : "Olympiacos"
+    },
+    {
+      "pick" : "Spain",
+      "eventId" : "espn:soccer:all:401861084",
+      "lockedAt" : "2026-09-29T14:00:01Z"
     }
   ],
   "favoriteTeams" : [
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
-      "name" : "Olympiacos BC",
-      "sport" : "basketball",
       "tsdbId" : "135635",
-      "league" : "Greek Basket League"
+      "sport" : "basketball",
+      "name" : "Olympiacos BC",
+      "league" : "Greek Basket League",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "name" : "Chelsea",
-      "sport" : "soccer",
       "tsdbId" : "133610",
-      "league" : "English Premier League"
+      "sport" : "soccer",
+      "name" : "Chelsea",
+      "league" : "English Premier League",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-      "name" : "Olympiacos",
-      "sport" : "soccer",
       "tsdbId" : "133754",
-      "league" : "Greek Super League 1"
-    }
-  ],
-  "manualEvents" : [
-    {
       "sport" : "soccer",
-      "winner" : "Greece",
-      "score" : "0-1",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "b" : "Greece",
-      "status" : "finished",
-      "competition" : "UEFA Nations League",
-      "a" : "Germany",
-      "scheduledAt" : "2026-09-27T18:45:00Z"
-    },
-    {
-      "sport" : "nba",
-      "winner" : "Olympiacos",
-      "score" : "101-96",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "b" : "PAOK",
-      "status" : "finished",
-      "competition" : "Greek Basketball Super Cup",
-      "a" : "Olympiacos",
-      "scheduledAt" : "2026-09-27T17:00:00Z"
+      "name" : "Olympiacos",
+      "league" : "Greek Super League 1",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
     }
   ]
 }
