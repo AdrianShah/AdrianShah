@@ -145,12 +145,17 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>Today 7:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="56" height="56" alt="" /><br/><b>Montreal Canadiens</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/796.png" width="56" height="56" alt="" /><br/><b>Zalgiris Kaunas</b></td><td align="center" width="24%">vs<br/><sub>Euroleague<br/>Today 1:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1542.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Olympiacos</b></td></tr></table>
 
 <p align="center"><b>Record: 11/21 (52%)</b> · NBA: 1/1 (100%) · Soccer: 10/20 (50%)</p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
+| Sep 29, 2026 | <img src="https://media.api-sports.io/basketball/teams/796.png" width="20" height="20" alt="" /> Zalgiris Kaunas vs <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | Euroleague | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos |
+| Sep 29, 2026 | <img src="https://media.api-sports.io/basketball/teams/1263.png" width="20" height="20" alt="" /> Anadolu Efes vs <img src="https://media.api-sports.io/basketball/teams/2338.png" width="20" height="20" alt="" /> Real Madrid | Euroleague | <img src="https://media.api-sports.io/basketball/teams/2338.png" width="20" height="20" alt="" /> Real Madrid |
+| Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/cro.png" width="20" height="20" alt="" /> Croatia | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain |
+| Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="20" height="20" alt="" /> Czechia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England |
+| Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/smr.png" width="20" height="20" alt="" /> San Marino vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/alb.png" width="20" height="20" alt="" /> Albania | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/alb.png" width="20" height="20" alt="" /> Albania |
 | Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
 
 <details><summary>Recent results</summary>
