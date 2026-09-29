@@ -87,6 +87,10 @@
     "name": "Belgian Pro League",
     "slug": "bel.1"
   },
+  "3902": {
+    "name": "AFC Champions League Elite",
+    "slug": "afc.champions"
+  },
   "3903": {
     "name": "Argentine Nacional B",
     "slug": "arg.2"
