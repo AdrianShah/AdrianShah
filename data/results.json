@@ -232,5 +232,65 @@
     "winner": "Montenegro",
     "score": "2-3",
     "finishedAt": "2026-09-28T21:20:52.417Z"
+  },
+  "apib:508594": {
+    "sport": "basketball",
+    "competition": "Euroleague",
+    "a": "Zalgiris Kaunas",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-09-29T17:00:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/796.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/1542.png",
+    "winner": "Olympiacos",
+    "score": "91-93",
+    "finishedAt": "2026-09-29T22:32:43.818Z"
+  },
+  "espn:soccer:all:401861084": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Spain",
+    "b": "Croatia",
+    "scheduledAt": "2026-09-29T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+    "winner": "Spain",
+    "score": "4-1",
+    "finishedAt": "2026-09-29T22:32:44.163Z"
+  },
+  "espn:soccer:all:401861092": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Czechia",
+    "b": "England",
+    "scheduledAt": "2026-09-29T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+    "winner": "England",
+    "score": "0-2",
+    "finishedAt": "2026-09-29T22:32:44.219Z"
+  },
+  "espn:soccer:all:401861088": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "San Marino",
+    "b": "Albania",
+    "scheduledAt": "2026-09-29T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/smr.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+    "winner": "Albania",
+    "score": "0-3",
+    "finishedAt": "2026-09-29T22:32:44.284Z"
+  },
+  "apib:508593": {
+    "sport": "basketball",
+    "competition": "Euroleague",
+    "a": "Anadolu Efes",
+    "b": "Real Madrid",
+    "scheduledAt": "2026-09-29T17:00:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/1263.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/2338.png",
+    "winner": "Anadolu Efes",
+    "score": "94-84",
+    "finishedAt": "2026-09-29T22:32:44.397Z"
   }
 }
