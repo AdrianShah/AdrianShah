@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/swe.png" width="56" height="56" alt="" /><br/><b>Sweden</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>3-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/pol.png" width="56" height="56" alt="" /><br/><b>Poland</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Draw</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>Today 7:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="56" height="56" alt="" /><br/><b>Montreal Canadiens</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
 
 <p align="center"><b>Record: 11/21 (52%)</b> · NBA: 1/1 (100%) · Soccer: 10/20 (50%)</p>
 
