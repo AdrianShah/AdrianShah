@@ -152,6 +152,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | When | Match | Competition | Pick |
 |---|---|---|---|
 | 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
+| Sep 30, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="20" height="20" alt="" /> Bolivia | International Friendly | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina |
 
 <details><summary>Recent results</summary>
 
