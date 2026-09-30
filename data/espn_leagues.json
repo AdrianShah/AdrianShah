@@ -75,6 +75,10 @@
     "name": "MLS",
     "slug": "usa.1"
   },
+  "775": {
+    "name": "UEFA Champions League",
+    "slug": "uefa.champions"
+  },
   "2391": {
     "name": "CAF Champions League",
     "slug": "caf.champions"
@@ -82,6 +86,10 @@
   "2395": {
     "name": "UEFA Nations League",
     "slug": "uefa.nations"
+  },
+  "2466": {
+    "name": "AFC Champions League Two",
+    "slug": "afc.cup"
   },
   "3901": {
     "name": "Belgian Pro League",
@@ -167,6 +175,10 @@
     "name": "Paraguayan Primera División",
     "slug": "par.1"
   },
+  "3937": {
+    "name": "South African Premiership",
+    "slug": "rsa.1"
+  },
   "3939": {
     "name": "Russian Premier League",
     "slug": "rus.1"
@@ -222,6 +234,10 @@
   "5331": {
     "name": "Scottish League Challenge Cup",
     "slug": "sco.challenge"
+  },
+  "5454": {
+    "name": "CONMEBOL Sudamericana",
+    "slug": "conmebol.sudamericana"
   },
   "5487": {
     "name": "NCAA Men's Soccer",
@@ -354,5 +370,9 @@
   "24079": {
     "name": "UEFA Women's Europa Cup",
     "slug": "uefa.w.europa"
+  },
+  "24220": {
+    "name": "Mexican Liga BBVA MX Femenil",
+    "slug": "mex.w.1"
   }
 }
