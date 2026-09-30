@@ -145,13 +145,13 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>Today 7:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="56" height="56" alt="" /><br/><b>Montreal Canadiens</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="56" height="56" alt="" /><br/><b>Montreal Canadiens</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
 
 <p align="center"><b>Record: 15/26 (58%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · Soccer: 13/23 (57%)</p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
-| Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
+| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
 
 <details><summary>Recent results</summary>
 
