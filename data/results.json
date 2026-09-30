@@ -292,5 +292,17 @@
     "winner": "Anadolu Efes",
     "score": "94-84",
     "finishedAt": "2026-09-29T22:32:44.397Z"
+  },
+  "espn:hockey:nhl:401891827": {
+    "sport": "nhl",
+    "competition": "NHL",
+    "a": "Toronto Maple Leafs",
+    "b": "Montreal Canadiens",
+    "scheduledAt": "2026-09-29T23:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+    "winner": "Montreal Canadiens",
+    "score": "2-3",
+    "finishedAt": "2026-09-30T05:52:19.789Z"
   }
 }

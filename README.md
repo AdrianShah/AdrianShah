@@ -145,19 +145,19 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="56" height="56" alt="" /><br/><b>Montreal Canadiens</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="56" height="56" alt="" /><br/><b>Argentina</b></td><td align="center" width="24%">vs<br/><sub>International Friendly<br/>Today 8:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="56" height="56" alt="" /><br/><b>Bolivia</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Argentina</b></td></tr></table>
 
-<p align="center"><b>Record: 15/26 (58%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · Soccer: 13/23 (57%)</p>
+<p align="center"><b>Record: 15/27 (56%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 13/23 (57%)</p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
-| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs |
 | Sep 30, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="20" height="20" alt="" /> Bolivia | International Friendly | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina |
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | |
 |---|---|---|---|---|
+| Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png" width="20" height="20" alt="" /> Montreal Canadiens<br/><sub>NHL</sub> | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs | 2-3 | ❌ |
 | Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/smr.png" width="20" height="20" alt="" /> San Marino vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/alb.png" width="20" height="20" alt="" /> Albania<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/alb.png" width="20" height="20" alt="" /> Albania | 0-3 | ✅ |
 | Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="20" height="20" alt="" /> Czechia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England | 0-2 | ✅ |
 | Sep 29, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/cro.png" width="20" height="20" alt="" /> Croatia<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain | 4-1 | ✅ |
@@ -167,7 +167,6 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy | 1-4 | ✅ |
 | Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | 0-1 | ✅ |
 | Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png" width="20" height="20" alt="" /> Armenia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/mtg.png" width="20" height="20" alt="" /> Montenegro<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png" width="20" height="20" alt="" /> Armenia | 2-3 | ❌ |
-| Sep 28, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/lva.png" width="20" height="20" alt="" /> Latvia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/cyp.png" width="20" height="20" alt="" /> Cyprus<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cyp.png" width="20" height="20" alt="" /> Cyprus | 0-0 | ❌ |
 
 </details>
 
