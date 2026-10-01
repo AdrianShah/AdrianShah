@@ -79,6 +79,10 @@
     "name": "UEFA Champions League",
     "slug": "uefa.champions"
   },
+  "783": {
+    "name": "CONMEBOL Libertadores",
+    "slug": "conmebol.libertadores"
+  },
   "2391": {
     "name": "CAF Champions League",
     "slug": "caf.champions"
