@@ -304,5 +304,17 @@
     "winner": "Montreal Canadiens",
     "score": "2-3",
     "finishedAt": "2026-09-30T05:52:19.789Z"
+  },
+  "espn:soccer:all:401921545": {
+    "sport": "soccer",
+    "competition": "International Friendly",
+    "a": "Argentina",
+    "b": "Bolivia",
+    "scheduledAt": "2026-10-01T00:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bol.png",
+    "winner": "Argentina",
+    "score": "4-0",
+    "finishedAt": "2026-10-01T10:24:26.349Z"
   }
 }
