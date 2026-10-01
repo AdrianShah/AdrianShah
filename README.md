@@ -145,13 +145,13 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="56" height="56" alt="" /><br/><b>Argentina</b></td><td align="center" width="24%">vs<br/><sub>International Friendly<br/>Today 8:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="56" height="56" alt="" /><br/><b>Bolivia</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Argentina</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="56" height="56" alt="" /><br/><b>Argentina</b></td><td align="center" width="24%">vs<br/><sub>International Friendly<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="56" height="56" alt="" /><br/><b>Bolivia</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Argentina</b></td></tr></table>
 
 <p align="center"><b>Record: 15/27 (56%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 13/23 (57%)</p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
-| Sep 30, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="20" height="20" alt="" /> Bolivia | International Friendly | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina |
+| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/bol.png" width="20" height="20" alt="" /> Bolivia | International Friendly | <img src="https://a.espncdn.com/i/teamlogos/countries/500/arg.png" width="20" height="20" alt="" /> Argentina |
 
 <details><summary>Recent results</summary>
 
