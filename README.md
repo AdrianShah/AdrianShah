@@ -156,6 +156,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Oct 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/den.png" width="20" height="20" alt="" /> Denmark vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/por.png" width="20" height="20" alt="" /> Portugal | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/por.png" width="20" height="20" alt="" /> Portugal |
 | Oct 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/wal.png" width="20" height="20" alt="" /> Wales vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/nor.png" width="20" height="20" alt="" /> Norway | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/nor.png" width="20" height="20" alt="" /> Norway |
 | Oct 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/irl.png" width="20" height="20" alt="" /> Republic of Ireland vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/aut.png" width="20" height="20" alt="" /> Austria | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/aut.png" width="20" height="20" alt="" /> Austria |
+| Oct 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/gre.png" width="20" height="20" alt="" /> Greece vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ned.png" width="20" height="20" alt="" /> Netherlands | UEFA Nations League | Draw |
 
 <details><summary>Recent results</summary>
 
