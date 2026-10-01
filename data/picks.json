@@ -1,49 +1,49 @@
 {
   "favoriteTeams" : [
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
       "tsdbId" : "135635",
+      "sport" : "basketball",
       "league" : "Greek Basket League",
       "name" : "Olympiacos BC",
-      "sport" : "basketball"
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
       "tsdbId" : "133610",
+      "sport" : "soccer",
       "league" : "English Premier League",
       "name" : "Chelsea",
-      "sport" : "soccer"
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
       "tsdbId" : "133754",
+      "sport" : "soccer",
       "league" : "Greek Super League 1",
       "name" : "Olympiacos",
-      "sport" : "soccer"
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
     }
   ],
   "manualEvents" : [
     {
+      "winner" : "Greece",
       "b" : "Greece",
-      "status" : "finished",
       "score" : "0-1",
+      "a" : "Germany",
+      "competition" : "UEFA Nations League",
       "sport" : "soccer",
       "scheduledAt" : "2026-09-27T18:45:00Z",
       "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "a" : "Germany",
-      "competition" : "UEFA Nations League",
-      "winner" : "Greece"
+      "status" : "finished"
     },
     {
+      "winner" : "Olympiacos",
       "b" : "PAOK",
-      "status" : "finished",
       "score" : "101-96",
+      "a" : "Olympiacos",
+      "competition" : "Greek Basketball Super Cup",
       "sport" : "nba",
       "scheduledAt" : "2026-09-27T17:00:00Z",
       "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "a" : "Olympiacos",
-      "competition" : "Greek Basketball Super Cup",
-      "winner" : "Olympiacos"
+      "status" : "finished"
     }
   ],
   "picks" : [
@@ -104,8 +104,8 @@
     },
     {
       "pick" : "Argentina",
-      "void" : "result never recorded",
       "legacy" : true,
+      "void" : "result never recorded",
       "eventId" : "wc26:12"
     },
     {
@@ -115,8 +115,8 @@
     },
     {
       "pick" : "England",
-      "void" : "result never recorded",
       "legacy" : true,
+      "void" : "result never recorded",
       "eventId" : "wc26:14"
     },
     {
@@ -213,6 +213,11 @@
       "pick" : "Norway",
       "lockedAt" : "2026-10-01T02:22:25Z",
       "eventId" : "espn:soccer:all:401861100"
+    },
+    {
+      "pick" : "Austria",
+      "lockedAt" : "2026-10-01T02:22:28Z",
+      "eventId" : "espn:soccer:all:401861094"
     }
   ]
 }
