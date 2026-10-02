@@ -145,13 +145,12 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="56" height="56" alt="" /><br/><b>Real Betis</b></td><td align="center" width="24%">vs<br/><sub>Club Friendly<br/>Today 2:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/5404.png" width="56" height="56" alt="" /><br/><b>Ceuta</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Real Betis</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/gre.png" width="56" height="56" alt="" /><br/><b>Greece</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>2-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/ned.png" width="56" height="56" alt="" /><br/><b>Netherlands</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Draw</b></td></tr></table>
 
 <p align="center"><b>Record: 19/33 (58%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 17/29 (59%)</p>
 
 | When | Match | Competition | Pick |
 |---|---|---|---|
-| Oct 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="20" height="20" alt="" /> Real Betis vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5404.png" width="20" height="20" alt="" /> Ceuta | Club Friendly | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="20" height="20" alt="" /> Real Betis |
 | Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France |
 | Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium |
 
