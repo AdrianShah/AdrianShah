@@ -316,5 +316,65 @@
     "winner": "Argentina",
     "score": "4-0",
     "finishedAt": "2026-10-01T10:24:26.349Z"
+  },
+  "espn:soccer:all:401861097": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Germany",
+    "b": "Serbia",
+    "scheduledAt": "2026-10-01T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
+    "winner": "Germany",
+    "score": "2-0",
+    "finishedAt": "2026-10-02T01:02:51.237Z"
+  },
+  "espn:soccer:all:401861096": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Denmark",
+    "b": "Portugal",
+    "scheduledAt": "2026-10-01T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+    "winner": "Portugal",
+    "score": "2-4",
+    "finishedAt": "2026-10-02T01:02:51.310Z"
+  },
+  "espn:soccer:all:401861100": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Wales",
+    "b": "Norway",
+    "scheduledAt": "2026-10-01T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+    "winner": "Wales",
+    "score": "2-1",
+    "finishedAt": "2026-10-02T01:02:51.373Z"
+  },
+  "espn:soccer:all:401861094": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Republic of Ireland",
+    "b": "Austria",
+    "scheduledAt": "2026-10-01T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+    "winner": "draw",
+    "score": "2-2",
+    "finishedAt": "2026-10-02T01:02:51.429Z"
+  },
+  "espn:soccer:all:401861098": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Greece",
+    "b": "Netherlands",
+    "scheduledAt": "2026-10-01T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+    "winner": "draw",
+    "score": "2-2",
+    "finishedAt": "2026-10-02T01:02:51.486Z"
   }
 }
