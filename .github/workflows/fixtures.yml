@@ -30,6 +30,27 @@ jobs:
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
         run: node scripts/import_fixtures.js
 
+      # The model (C++) lives in its own public repo; build it from source and
+      # let it pick every upcoming game before kickoff. A model failure must
+      # not block the fixtures import, so these steps may fail softly.
+      - name: Check out the model
+        uses: actions/checkout@v5
+        with:
+          repository: AdrianShah/C-Sports-Predictor
+          path: model
+
+      - name: Build the model
+        continue-on-error: true
+        run: |
+          cmake -S model -B model/build -DCMAKE_BUILD_TYPE=Release -DPICKS_BUILD_TESTS=OFF
+          cmake --build model/build --parallel
+
+      - name: Model picks
+        continue-on-error: true
+        run: |
+          model/build/picks-model predict --history model/history --fixtures data/fixtures.json \
+            --out data/model_picks.json --config model/config/competitions.json
+
       - name: Render README
         run: node scripts/render_readme.js
 
@@ -38,6 +59,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/fixtures.json data/espn_leagues.json README.md
+          if [ -f data/model_picks.json ]; then git add data/model_picks.json; fi
           if git commit -m "chore: import fixtures"; then
             git pull --rebase origin main
             git push

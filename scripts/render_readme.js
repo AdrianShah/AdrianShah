@@ -22,6 +22,8 @@ const SPORT_NAMES = { soccer: "Soccer", nhl: "NHL", nba: "NBA", basketball: "Bas
 
 const sportName = (s) => SPORT_NAMES[s] || s.charAt(0).toUpperCase() + s.slice(1);
 const UPCOMING_LIMIT = 8;
+const MODEL_REPO = "https://github.com/AdrianShah/C-Sports-Predictor";
+const DASHBOARD_URL = "https://c-sports-predictor.vercel.app";
 
 const norm = (s) => (s || "").toLowerCase().trim();
 const esc = (s) => String(s || "").replace(/\|/g, "\\|").replace(/</g, "&lt;");
@@ -96,6 +98,45 @@ function buildRows({ fixtures, picks, results }) {
     .sort((x, y) => x.event.scheduledAt.localeCompare(y.event.scheduledAt));
 }
 
+/**
+ * The model's view of every game it picked: eventId -> { pick, prob, probs, outcome }.
+ * Same rules as mine: locked before kickoff, cancelled/void games don't count.
+ */
+function buildModel({ modelPicks = { picks: [] }, modelResults = {} }) {
+  const byId = new Map();
+  for (const p of modelPicks.picks) {
+    const r = modelResults[p.eventId];
+    const probs = { a: p.pA ?? 0, draw: p.pDraw ?? 0, b: p.pB ?? 0 };
+    const side = norm(p.pick) === norm(p.a) ? "a" : norm(p.pick) === norm(p.b) ? "b" : "draw";
+    let outcome = "pending";
+    if (r?.status) outcome = "void";
+    else if (Date.parse(p.lockedAt) >= Date.parse(p.scheduledAt)) outcome = "late";
+    else if (r?.winner) outcome = norm(r.winner) === norm(p.pick) ? "correct" : "incorrect";
+    byId.set(p.eventId, { pick: p.pick, prob: probs[side], probs, outcome, event: p, winner: r?.winner });
+  }
+  return byId;
+}
+
+/** Mean multi-class Brier score over decided model picks (0 is perfect). */
+function brier(models) {
+  let sum = 0;
+  let n = 0;
+  for (const m of models) {
+    if (m.outcome !== "correct" && m.outcome !== "incorrect") continue;
+    const w = norm(m.winner);
+    const actual = w === norm(m.event.a) ? "a" : w === norm(m.event.b) ? "b" : w === DRAW ? "draw" : null;
+    if (!actual) continue;
+    sum += ["a", "draw", "b"].reduce((s, k) => s + (m.probs[k] - (k === actual ? 1 : 0)) ** 2, 0);
+    n++;
+  }
+  return n ? sum / n : null;
+}
+
+function modelCell(m, event) {
+  if (!m) return "—";
+  return `${pickLabel(m.pick, event)} <sub>${Math.round(m.prob * 100)}%</sub>`;
+}
+
 function record(rows) {
   const scored = rows.filter((r) => r.outcome === "correct" || r.outcome === "incorrect");
   const correct = scored.filter((r) => r.outcome === "correct").length;
@@ -158,12 +199,21 @@ function buildContent(data) {
     sports.length > 1 ? " · " + sports.map((s) => `${sportName(s)}: ${recordText(record(rows.filter((r) => r.event.sport === s)))}`).join(" · ") : "";
   lines.push(`<p align="center"><b>Record: ${recordText(overall)}</b>${perSport}</p>`, "");
 
+  const model = buildModel(data);
+  const hasModel = model.size > 0;
+  const mark = (outcome) => (outcome === "correct" ? "✅" : outcome === "incorrect" ? "❌" : "—");
+
   const upcoming = rows.filter((r) => r.outcome === "pending").slice(0, UPCOMING_LIMIT);
   if (upcoming.length) {
-    lines.push("| When | Match | Competition | Pick |", "|---|---|---|---|");
+    lines.push(
+      hasModel ? "| When | Match | Competition | My pick | Model |" : "| When | Match | Competition | Pick |",
+      hasModel ? "|---|---|---|---|---|" : "|---|---|---|---|"
+    );
     for (const r of upcoming) {
       const when = r.status === "live" ? "🔴 Live" : r.status === "postponed" ? "Postponed" : formatDate(r.event.scheduledAt);
-      lines.push(`| ${when} | ${matchup(r.event)} | ${esc(r.event.competition)} | ${pickLabel(r.pick.pick, r.event)} |`);
+      const cells = [when, matchup(r.event), esc(r.event.competition), pickLabel(r.pick.pick, r.event)];
+      if (hasModel) cells.push(modelCell(model.get(r.pick.eventId), r.event));
+      lines.push(`| ${cells.join(" | ")} |`);
     }
     lines.push("");
   }
@@ -173,29 +223,80 @@ function buildContent(data) {
     lines.push(
       "<details><summary>Recent results</summary>",
       "",
-      "| Date | Match | Pick | Result | |",
-      "|---|---|---|---|---|"
+      hasModel ? "| Date | Match | Pick | Result | Me | Model |" : "| Date | Match | Pick | Result | |",
+      hasModel ? "|---|---|---|---|---|---|" : "|---|---|---|---|---|"
     );
     for (const r of recent) {
-      const mark = r.outcome === "correct" ? "✅" : "❌";
       const label = r.event.stage ? `${esc(r.event.competition)} · ${esc(r.event.stage)}` : esc(r.event.competition);
-      lines.push(
-        `| ${formatDate(r.event.scheduledAt)} | ${matchup(r.event)}<br/><sub>${label}</sub> | ${pickLabel(r.pick.pick, r.event)} | ${esc(r.score)} | ${mark} |`
-      );
+      const cells = [
+        formatDate(r.event.scheduledAt),
+        `${matchup(r.event)}<br/><sub>${label}</sub>`,
+        pickLabel(r.pick.pick, r.event),
+        esc(r.score),
+        mark(r.outcome),
+      ];
+      if (hasModel) {
+        const m = model.get(r.pick.eventId);
+        cells.push(m ? `${mark(m.outcome)} <sub>${m.pick === DRAW ? "Draw" : esc(m.pick)}</sub>` : "—");
+      }
+      lines.push(`| ${cells.join(" | ")} |`);
     }
     lines.push("", "</details>", "");
   }
 
+  if (hasModel) lines.push(...modelSummary(rows, model), "");
+
   lines.push(
     "<sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. " +
       "Draw is a valid pick; knockout ties are settled by extra time and penalties. " +
-      "Cancelled matches are void. Times in Toronto.</sub>"
+      "Cancelled matches are void. Times in Toronto." +
+      (hasModel ? ` The model's picks come from [C-Sports-Predictor](${MODEL_REPO}) and follow the same rules.` : "") +
+      "</sub>"
   );
   return lines.join("\n");
 }
 
+/** "Me vs the Model": head-to-head on games we both picked, plus the model's whole record. */
+function modelSummary(rows, model) {
+  const decided = (o) => o === "correct" || o === "incorrect";
+  let both = 0;
+  let mine = 0;
+  let theirs = 0;
+  for (const r of rows) {
+    const m = model.get(r.pick.eventId);
+    if (!m || !decided(r.outcome) || !decided(m.outcome)) continue;
+    both++;
+    if (r.outcome === "correct") mine++;
+    if (m.outcome === "correct") theirs++;
+  }
+
+  const all = [...model.values()];
+  const scored = all.filter((m) => decided(m.outcome));
+  const correct = scored.filter((m) => m.outcome === "correct").length;
+  const b = brier(all);
+  const pct = (x, n) => (n ? ` (${Math.round((x / n) * 100)}%)` : "");
+
+  const h2h = both
+    ? `on the ${both} game${both === 1 ? "" : "s"} we both called, <b>me ${mine}/${both}${pct(mine, both)}</b> vs <b>the model ${theirs}/${both}${pct(theirs, both)}</b>`
+    : "no games we've both called have finished yet";
+  const overall = scored.length
+    ? `Across all ${scored.length} of its decided picks the model is ${correct}/${scored.length}${pct(correct, scored.length)}` +
+      (b !== null ? `, Brier ${b.toFixed(3)}` : "")
+    : "The model's first picks are still to be played";
+  return [
+    `<p align="center">🤖 <b>Me vs the Model</b>: ${h2h}.<br/>`,
+    `<sub>${overall}. <a href="${DASHBOARD_URL}">Every prediction it makes →</a></sub></p>`,
+  ];
+}
+
 function main() {
-  const data = { fixtures: load.fixtures(), picks: load.picks(), results: load.results() };
+  const data = {
+    fixtures: load.fixtures(),
+    picks: load.picks(),
+    results: load.results(),
+    modelPicks: load.modelPicks(),
+    modelResults: load.modelResults(),
+  };
   const readme = fs.readFileSync(README_PATH, "utf8");
   const start = readme.indexOf(START_MARKER);
   const end = readme.indexOf(END_MARKER);
@@ -209,4 +310,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildRows, record, buildContent };
+module.exports = { buildRows, buildModel, brier, record, buildContent };

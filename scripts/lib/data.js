@@ -4,6 +4,8 @@
  * One writer per file:
  *   fixtures.json, results.json -> GitHub Actions
  *   picks.json                  -> the iOS app (scripts only read it)
+ *   model_picks.json            -> the C++ model (AdrianShah/C-Sports-Predictor), run by fixtures.yml
+ *   model_results.json          -> score_results.js: outcome of every model pick
  */
 
 const fs = require("fs");
@@ -14,6 +16,8 @@ const FILES = {
   fixtures: path.join(DATA_DIR, "fixtures.json"),
   picks: path.join(DATA_DIR, "picks.json"),
   results: path.join(DATA_DIR, "results.json"),
+  modelPicks: path.join(DATA_DIR, "model_picks.json"),
+  modelResults: path.join(DATA_DIR, "model_results.json"),
 };
 
 const EVENT_STATUSES = ["upcoming", "live", "finished", "postponed", "cancelled"];
@@ -82,11 +86,42 @@ function validateResults(doc, file = FILES.results) {
   return doc;
 }
 
+function validateModelPicks(doc, file = FILES.modelPicks) {
+  if (!Array.isArray(doc.picks)) fail(file, "picks must be an array");
+  doc.picks.forEach((p, i) => {
+    checkEventShape(file, { id: p.eventId, ...p }, `picks[${i}]`);
+    if (typeof p.pick !== "string" || !p.pick) fail(file, `picks[${i}] missing pick`);
+    if (Number.isNaN(Date.parse(p.lockedAt))) fail(file, `picks[${i}] bad lockedAt`);
+  });
+  return doc;
+}
+
+const MODEL_RESULT_STATUSES = ["cancelled", "void"];
+
+function validateModelResults(doc, file = FILES.modelResults) {
+  for (const [id, r] of Object.entries(doc)) {
+    if (r.status !== undefined && !MODEL_RESULT_STATUSES.includes(r.status)) fail(file, `${id} bad status`);
+    if (r.status === undefined && (typeof r.winner !== "string" || !r.winner)) fail(file, `${id} missing winner`);
+  }
+  return doc;
+}
+
 const load = {
   fixtures: () => validateFixtures(readJson(FILES.fixtures, { syncedAt: null, events: [] })),
   picks: () => validatePicks(readJson(FILES.picks, { manualEvents: [], picks: [] })),
   results: () => validateResults(readJson(FILES.results, {})),
+  modelPicks: () => validateModelPicks(readJson(FILES.modelPicks, { generatedAt: null, picks: [] })),
+  modelResults: () => validateModelResults(readJson(FILES.modelResults, {})),
 };
+
+/** One result per line, sorted by ID: the file grows by hundreds of entries a week. */
+function writeModelResults(doc) {
+  validateModelResults(doc);
+  const lines = Object.keys(doc)
+    .sort()
+    .map((id) => `${JSON.stringify(id)}:${JSON.stringify(doc[id])}`);
+  fs.writeFileSync(FILES.modelResults, lines.length ? `{\n${lines.join(",\n")}\n}\n` : "{}\n");
+}
 
 /** Thousands of events: one per line keeps the file small and diffs readable. */
 function writeFixtures(doc) {
@@ -100,6 +135,7 @@ const save = {
   fixtures: writeFixtures,
   picks: (doc) => writeJson(FILES.picks, validatePicks(doc)),
   results: (doc) => writeJson(FILES.results, validateResults(doc)),
+  modelResults: writeModelResults,
 };
 
 module.exports = { FILES, DRAW, EVENT_STATUSES, load, save, readJson };
