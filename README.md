@@ -129,9 +129,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-10-01</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/2d14d4fdef4ad5c748aa8342ac2a41bee013e8df"><code>2d14d4f</code></a></td><td>Updated the tech stack and changed the about section</td></tr>
 <tr><td>2026-09-28</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/a68fa5effbec4855ddfe2221bd9fda0ba56da34c"><code>a68fa5e</code></a></td><td>Add HumanCraft (Hack the North 2026) and refresh portfolio …</td></tr>
 <tr><td>2026-09-28</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/8f1b589cbc416eaee031333e910496eb9e9ee078"><code>8f1b589</code></a></td><td>Add HumanCraft (Hack the North 2026) and refresh portfolio …</td></tr>
-<tr><td>2026-09-20</td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north"><code>minecraft_hack_the_north</code></a></td><td><a href="https://github.com/elijahzhao24/minecraft_hack_the_north/commit/fce48e3ddfacf72e640ebf4c98263ca6543dcb3f"><code>fce48e3</code></a></td><td>Feed reconstruction the LiDAR depth mask, not MediaPipe's R…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
