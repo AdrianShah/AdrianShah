@@ -227,7 +227,8 @@
     {
       "eventId" : "espn:soccer:all:401927453",
       "pick" : "Real Betis",
-      "lockedAt" : "2026-10-01T02:23:09Z"
+      "lockedAt" : "2026-10-01T02:23:09Z",
+      "void" : "postponed"
     },
     {
       "eventId" : "espn:soccer:all:401861103",
