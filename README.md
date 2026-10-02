@@ -151,8 +151,8 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
-| Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France <sub>68%</sub> |
-| Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium <sub>68%</sub> |
+| Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France <sub>63%</sub> |
+| Oct 2, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium <sub>67%</sub> |
 
 <details><summary>Recent results</summary>
 

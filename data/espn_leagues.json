@@ -79,6 +79,10 @@
     "name": "UEFA Champions League",
     "slug": "uefa.champions"
   },
+  "776": {
+    "name": "UEFA Europa League",
+    "slug": "uefa.europa"
+  },
   "783": {
     "name": "CONMEBOL Libertadores",
     "slug": "conmebol.libertadores"
@@ -314,6 +318,10 @@
   "20132": {
     "name": "Under-21 International Friendly",
     "slug": "fifa.friendly_u21"
+  },
+  "20296": {
+    "name": "UEFA Conference League",
+    "slug": "uefa.europa.conf"
   },
   "20381": {
     "name": "Spanish Copa de la Reina",
