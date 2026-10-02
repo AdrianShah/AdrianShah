@@ -129,9 +129,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-10-02</td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor"><code>C-Sports-Predictor</code></a></td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor/commit/f5a56985464a9cdbef3d1de0c12706a73e2e769d"><code>f5a5698</code></a></td><td>C++ sports prediction model: ESPN history, Elo + Dixon-Cole…</td></tr>
+<tr><td>2026-10-02</td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor"><code>C-Sports-Predictor</code></a></td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor/commit/e685d15e7ddfbffbdcc047eb147c2536b070fb5e"><code>e685d15</code></a></td><td>Dashboard on Vercel; carry team logos through model picks</td></tr>
 <tr><td>2026-10-01</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/2d14d4fdef4ad5c748aa8342ac2a41bee013e8df"><code>2d14d4f</code></a></td><td>Updated the tech stack and changed the about section</td></tr>
-<tr><td>2026-09-28</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/a68fa5effbec4855ddfe2221bd9fda0ba56da34c"><code>a68fa5e</code></a></td><td>Add HumanCraft (Hack the North 2026) and refresh portfolio …</td></tr>
-<tr><td>2026-09-28</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/8f1b589cbc416eaee031333e910496eb9e9ee078"><code>8f1b589</code></a></td><td>Add HumanCraft (Hack the North 2026) and refresh portfolio …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
