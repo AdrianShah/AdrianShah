@@ -115,6 +115,10 @@
     "name": "Argentine Primera B",
     "slug": "arg.3"
   },
+  "3906": {
+    "name": "Australian A-League Men",
+    "slug": "aus.1"
+  },
   "3907": {
     "name": "Austrian Bundesliga",
     "slug": "aut.1"
@@ -287,6 +291,10 @@
     "name": "Chinese Super League",
     "slug": "chn.1"
   },
+  "18000": {
+    "name": "CAF Confederation Cup",
+    "slug": "caf.confed"
+  },
   "18481": {
     "name": "English EFL Trophy",
     "slug": "eng.trophy"
@@ -314,6 +322,10 @@
   "20114": {
     "name": "UEFA European Under-21 Championship Qualifying",
     "slug": "uefa.euro_u21_qual"
+  },
+  "20115": {
+    "name": "Dutch KNVB Beker Vrouwen",
+    "slug": "ned.w.knvb_cup"
   },
   "20132": {
     "name": "Under-21 International Friendly",
