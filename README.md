@@ -145,9 +145,14 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/pol.png" width="56" height="56" alt="" /><br/><b>Poland</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>6-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/rom.png" width="56" height="56" alt="" /><br/><b>Romania</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Poland</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/4039.png" width="56" height="56" alt="" /><br/><b>AEK Larnaca</b></td><td align="center" width="24%">vs<br/><sub>Club Friendly<br/>Today 12:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/525.png" width="56" height="56" alt="" /><br/><b>Apollon Limassol</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: AEK Larnaca</b></td></tr></table>
 
 <p align="center"><b>Record: 21/36 (58%)</b> · Basketball: 1/2 (50%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 19/32 (59%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 3, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4039.png" width="20" height="20" alt="" /> AEK Larnaca vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/525.png" width="20" height="20" alt="" /> Apollon Limassol | Club Friendly | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4039.png" width="20" height="20" alt="" /> AEK Larnaca | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4039.png" width="20" height="20" alt="" /> AEK Larnaca <sub>43%</sub> |
+| Oct 3, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="20" height="20" alt="" /> Canada vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/per.png" width="20" height="20" alt="" /> Peru | International Friendly | <img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="20" height="20" alt="" /> Canada | <img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="20" height="20" alt="" /> Canada <sub>58%</sub> |
 
 <details><summary>Recent results</summary>
 
