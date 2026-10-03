@@ -412,5 +412,53 @@
     "winner": "Poland",
     "score": "6-0",
     "finishedAt": "2026-10-02T22:28:36.722Z"
+  },
+  "espn:soccer:all:401927895": {
+    "sport": "soccer",
+    "competition": "Club Friendly",
+    "a": "AEK Larnaca",
+    "b": "Apollon Limassol",
+    "scheduledAt": "2026-10-03T16:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4039.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/525.png",
+    "winner": "AEK Larnaca",
+    "score": "3-0",
+    "finishedAt": "2026-10-03T21:41:12.574Z"
+  },
+  "espn:soccer:all:401900325": {
+    "sport": "soccer",
+    "competition": "International Friendly",
+    "a": "Canada",
+    "b": "Peru",
+    "scheduledAt": "2026-10-03T18:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+    "winner": "Canada",
+    "score": "2-0",
+    "finishedAt": "2026-10-03T21:41:12.632Z"
+  },
+  "espn:soccer:all:401861113": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Croatia",
+    "b": "England",
+    "scheduledAt": "2026-10-03T16:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+    "winner": "England",
+    "score": "0-7",
+    "finishedAt": "2026-10-03T21:41:12.677Z"
+  },
+  "espn:soccer:all:401861118": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Spain",
+    "b": "Czechia",
+    "scheduledAt": "2026-10-03T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+    "winner": "Spain",
+    "score": "3-1",
+    "finishedAt": "2026-10-03T21:41:12.759Z"
   }
 }
