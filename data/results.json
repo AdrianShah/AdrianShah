@@ -472,5 +472,29 @@
     "winner": "Panathinaikos",
     "score": "103-74",
     "finishedAt": "2026-10-04T12:46:51.678Z"
+  },
+  "apib:521922": {
+    "sport": "basketball",
+    "competition": "Greece Basket League",
+    "a": "Iraklis",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-04T14:30:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/609.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/1542.png",
+    "winner": "Olympiacos",
+    "score": "68-78",
+    "finishedAt": "2026-10-04T18:44:34.961Z"
+  },
+  "espn:soccer:all:401902895": {
+    "sport": "soccer",
+    "competition": "English Women's Super League",
+    "a": "West Ham United",
+    "b": "Chelsea",
+    "scheduledAt": "2026-10-04T13:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19975.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+    "winner": "Chelsea",
+    "score": "0-3",
+    "finishedAt": "2026-10-04T18:44:35.039Z"
   }
 }
