@@ -460,5 +460,17 @@
     "winner": "Spain",
     "score": "3-1",
     "finishedAt": "2026-10-03T21:41:12.759Z"
+  },
+  "apib:521921": {
+    "sport": "basketball",
+    "competition": "Greece Basket League",
+    "a": "Panathinaikos",
+    "b": "Vikos",
+    "scheduledAt": "2026-10-04T10:00:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/614.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/6179.png",
+    "winner": "Panathinaikos",
+    "score": "103-74",
+    "finishedAt": "2026-10-04T12:46:51.678Z"
   }
 }
