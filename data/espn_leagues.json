@@ -299,6 +299,10 @@
     "name": "English EFL Trophy",
     "slug": "eng.trophy"
   },
+  "18992": {
+    "name": "Australian A-League Women",
+    "slug": "aus.w.1"
+  },
   "19267": {
     "name": "Concacaf Nations League",
     "slug": "concacaf.nations.league"
@@ -342,6 +346,10 @@
   "20649": {
     "name": "FIFA Women's World Cup Qualifying - UEFA",
     "slug": "fifa.wworldq.uefa"
+  },
+  "20865": {
+    "name": "FIFA Under-17 Women's World Cup",
+    "slug": "fifa.wworld.u17"
   },
   "20922": {
     "name": "Taca de Portugal",
