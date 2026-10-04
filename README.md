@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/wal.png" width="56" height="56" alt="" /><br/><b>Wales</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/den.png" width="56" height="56" alt="" /><br/><b>Denmark</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Wales</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/609.png" width="56" height="56" alt="" /><br/><b>Iraklis</b></td><td align="center" width="24%">vs<br/><sub>Greece Basket League<br/>68-78</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1542.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Olympiacos</b></td></tr></table>
 
 <p align="center"><b>Record: 28/43 (65%)</b> · Basketball: 3/4 (75%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 24/37 (65%)</p>
 
