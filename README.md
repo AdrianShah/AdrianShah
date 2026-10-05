@@ -90,12 +90,12 @@ Second Year **Computer Engineering** student at **York University** and a full-s
       <br>GitHub Actions
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" />
       <br>C++
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" />
+      <br>Python
     </td>
   </tr>
   <tr>
