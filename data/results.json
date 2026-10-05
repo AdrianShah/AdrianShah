@@ -496,5 +496,41 @@
     "winner": "Chelsea",
     "score": "0-3",
     "finishedAt": "2026-10-04T18:44:35.039Z"
+  },
+  "espn:soccer:all:401861125": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Wales",
+    "b": "Denmark",
+    "scheduledAt": "2026-10-04T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+    "winner": "Denmark",
+    "score": "0-1",
+    "finishedAt": "2026-10-05T00:06:00.356Z"
+  },
+  "espn:soccer:all:401861126": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Portugal",
+    "b": "Norway",
+    "scheduledAt": "2026-10-04T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+    "winner": "Portugal",
+    "score": "2-1",
+    "finishedAt": "2026-10-05T00:06:00.439Z"
+  },
+  "espn:soccer:all:401861123": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Greece",
+    "b": "Germany",
+    "scheduledAt": "2026-10-04T18:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+    "winner": "draw",
+    "score": "0-0",
+    "finishedAt": "2026-10-05T00:06:00.497Z"
   }
 }
