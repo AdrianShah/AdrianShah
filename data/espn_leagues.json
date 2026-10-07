@@ -371,6 +371,10 @@
     "name": "USL Cup",
     "slug": "usa.usl.l1.cup"
   },
+  "22947": {
+    "name": "Concacaf Central American Cup",
+    "slug": "concacaf.central.american.cup"
+  },
   "23107": {
     "name": "Arabian Gulf Cup",
     "slug": "global.gulf_cup"
