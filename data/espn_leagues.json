@@ -247,6 +247,10 @@
     "name": "Scottish League Challenge Cup",
     "slug": "sco.challenge"
   },
+  "5337": {
+    "name": "U.S. Open Cup",
+    "slug": "usa.open"
+  },
   "5454": {
     "name": "CONMEBOL Sudamericana",
     "slug": "conmebol.sudamericana"
