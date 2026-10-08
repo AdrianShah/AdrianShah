@@ -399,6 +399,10 @@
     "name": "English FA Cup Qualifying",
     "slug": "eng.fa_qual"
   },
+  "23541": {
+    "name": "Mexican Liga BBVA MX Femenil",
+    "slug": "mex.w.1"
+  },
   "23633": {
     "name": "USL Super League",
     "slug": "usa.w.usl.1"
