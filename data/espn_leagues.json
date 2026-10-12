@@ -339,6 +339,10 @@
     "name": "Under-21 International Friendly",
     "slug": "fifa.friendly_u21"
   },
+  "20226": {
+    "name": "English Women's FA Cup",
+    "slug": "eng.w.fa"
+  },
   "20296": {
     "name": "UEFA Conference League",
     "slug": "uefa.europa.conf"
