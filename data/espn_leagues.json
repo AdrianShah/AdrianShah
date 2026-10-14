@@ -143,6 +143,10 @@
     "name": "English National League",
     "slug": "eng.5"
   },
+  "3920": {
+    "name": "English Carabao Cup",
+    "slug": "eng.league_cup"
+  },
   "3921": {
     "name": "Spanish LALIGA 2",
     "slug": "esp.2"
@@ -219,9 +223,17 @@
     "name": "Spanish Copa del Rey",
     "slug": "esp.copa_del_rey"
   },
+  "3954": {
+    "name": "German Cup",
+    "slug": "ger.dfb_pokal"
+  },
   "3955": {
     "name": "Greek Super League",
     "slug": "gre.1"
+  },
+  "3957": {
+    "name": "Dutch KNVB Beker",
+    "slug": "ned.cup"
   },
   "3959": {
     "name": "Scottish Cup",
