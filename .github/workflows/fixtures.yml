@@ -55,14 +55,4 @@ jobs:
         run: node scripts/render_readme.js
 
       - name: Commit & push
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/fixtures.json data/espn_leagues.json README.md
-          if [ -f data/model_picks.json ]; then git add data/model_picks.json; fi
-          if git commit -m "chore: import fixtures"; then
-            git pull --rebase origin main
-            git push
-          else
-            echo "No changes to commit."
-          fi
+        run: scripts/commit_and_push.sh "chore: import fixtures" data/fixtures.json data/espn_leagues.json data/model_picks.json README.md
