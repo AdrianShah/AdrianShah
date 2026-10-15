@@ -145,9 +145,16 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/gre.png" width="56" height="56" alt="" /><br/><b>Greece</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>0-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/ger.png" width="56" height="56" alt="" /><br/><b>Germany</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Germany</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/176.png" width="56" height="56" alt="" /><br/><b>Marseille</b></td><td align="center" width="24%">vs<br/><sub>UEFA Europa League<br/>Today 3:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Olympiacos</b></td></tr></table>
 
 <p align="center"><b>Record: 29/46 (63%)</b> · Basketball: 3/4 (75%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 25/40 (63%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/176.png" width="20" height="20" alt="" /> Marseille vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | UEFA Europa League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/176.png" width="20" height="20" alt="" /> Marseille <sub>34%</sub> |
+| Oct 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20028.png" width="20" height="20" alt="" /> Kauno Zalgiris | UEFA Conference League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion <sub>92%</sub> |
+| Oct 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1929.png" width="20" height="20" alt="" /> Benfica vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/256.png" width="20" height="20" alt="" /> Celtic | UEFA Europa League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1929.png" width="20" height="20" alt="" /> Benfica | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1929.png" width="20" height="20" alt="" /> Benfica <sub>60%</sub> |
+| Oct 16, 2026 | <img src="https://media.api-sports.io/basketball/teams/2329.png" width="20" height="20" alt="" /> Barcelona vs <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | Euroleague | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | — |
 
 <details><summary>Recent results</summary>
 
