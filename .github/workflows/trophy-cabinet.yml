@@ -29,4 +29,5 @@ jobs:
         run: node scripts/update_trophy_cabinet.js
 
       - name: Commit & push
-        run: scripts/commit_and_push.sh "chore: refresh Pitchside Commits" README.md
+        run: |
+          scripts/commit_and_push.sh "chore: refresh Pitchside Commits" README.md

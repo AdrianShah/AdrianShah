@@ -55,4 +55,5 @@ jobs:
         run: node scripts/render_readme.js
 
       - name: Commit & push
-        run: scripts/commit_and_push.sh "chore: import fixtures" data/fixtures.json data/espn_leagues.json data/model_picks.json README.md
+        run: |
+          scripts/commit_and_push.sh "chore: import fixtures" data/fixtures.json data/espn_leagues.json data/model_picks.json README.md

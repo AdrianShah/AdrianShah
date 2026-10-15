@@ -36,4 +36,5 @@ jobs:
         run: node scripts/render_readme.js
 
       - name: Commit & push
-        run: scripts/commit_and_push.sh "chore: score results" data/results.json data/model_results.json README.md
+        run: |
+          scripts/commit_and_push.sh "chore: score results" data/results.json data/model_results.json README.md

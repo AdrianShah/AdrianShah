@@ -35,4 +35,5 @@ jobs:
         run: node scripts/update_skills.js
 
       - name: Commit & push
-        run: scripts/commit_and_push.sh "chore: update tech stack icons" README.md
+        run: |
+          scripts/commit_and_push.sh "chore: update tech stack icons" README.md
