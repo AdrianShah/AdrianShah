@@ -532,5 +532,41 @@
     "winner": "draw",
     "score": "0-0",
     "finishedAt": "2026-10-05T00:06:00.497Z"
+  },
+  "espn:soccer:all:401915550": {
+    "sport": "soccer",
+    "competition": "UEFA Europa League",
+    "a": "Marseille",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-15T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "winner": "Olympiacos",
+    "score": "0-1",
+    "finishedAt": "2026-10-15T21:38:27.092Z"
+  },
+  "espn:soccer:all:401915853": {
+    "sport": "soccer",
+    "competition": "UEFA Conference League",
+    "a": "Brighton & Hove Albion",
+    "b": "Kauno Zalgiris",
+    "scheduledAt": "2026-10-15T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+    "winner": "Brighton & Hove Albion",
+    "score": "4-0",
+    "finishedAt": "2026-10-15T21:38:27.141Z"
+  },
+  "espn:soccer:all:401915562": {
+    "sport": "soccer",
+    "competition": "UEFA Europa League",
+    "a": "Benfica",
+    "b": "Celtic",
+    "scheduledAt": "2026-10-15T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+    "winner": "Benfica",
+    "score": "4-1",
+    "finishedAt": "2026-10-15T21:38:27.213Z"
   }
 }
