@@ -568,5 +568,17 @@
     "winner": "Benfica",
     "score": "4-1",
     "finishedAt": "2026-10-15T21:38:27.213Z"
+  },
+  "apib:508641": {
+    "sport": "basketball",
+    "competition": "Euroleague",
+    "a": "Barcelona",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-16T18:30:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/2329.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/1542.png",
+    "winner": "Olympiacos",
+    "score": "100-105",
+    "finishedAt": "2026-10-16T21:32:26.840Z"
   }
 }
