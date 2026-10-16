@@ -152,6 +152,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
 | Oct 16, 2026 | <img src="https://media.api-sports.io/basketball/teams/2329.png" width="20" height="20" alt="" /> Barcelona vs <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | Euroleague | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | — |
+| Oct 17, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea <sub>41%</sub> |
 
 <details><summary>Recent results</summary>
 
