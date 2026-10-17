@@ -580,5 +580,29 @@
     "winner": "Olympiacos",
     "score": "100-105",
     "finishedAt": "2026-10-16T21:32:26.840Z"
+  },
+  "espn:soccer:all:401878771": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Everton",
+    "b": "Chelsea",
+    "scheduledAt": "2026-10-17T11:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "winner": "Chelsea",
+    "score": "0-2",
+    "finishedAt": "2026-10-17T15:49:19.950Z"
+  },
+  "espn:soccer:all:401882843": {
+    "sport": "soccer",
+    "competition": "Spanish LALIGA",
+    "a": "Espanyol",
+    "b": "Atlético Madrid",
+    "scheduledAt": "2026-10-17T12:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "winner": "Atlético Madrid",
+    "score": "0-1",
+    "finishedAt": "2026-10-17T15:49:20.013Z"
   }
 }
