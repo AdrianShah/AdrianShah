@@ -724,5 +724,41 @@
     "winner": "AFC Bournemouth",
     "score": "2-0",
     "finishedAt": "2026-10-18T16:04:06.045Z"
+  },
+  "espn:soccer:all:401878769": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Nottingham Forest",
+    "b": "Arsenal",
+    "scheduledAt": "2026-10-18T15:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "winner": "Arsenal",
+    "score": "0-1",
+    "finishedAt": "2026-10-18T20:57:35.205Z"
+  },
+  "espn:soccer:all:401896746": {
+    "sport": "soccer",
+    "competition": "Greek Super League",
+    "a": "Panathinaikos",
+    "b": "Asteras Tripoli",
+    "scheduledAt": "2026-10-18T14:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8354.png",
+    "winner": "Panathinaikos",
+    "score": "5-1",
+    "finishedAt": "2026-10-18T20:57:35.292Z"
+  },
+  "espn:soccer:all:401874978": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "AC Milan",
+    "b": "Atalanta",
+    "scheduledAt": "2026-10-18T16:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+    "winner": "AC Milan",
+    "score": "3-2",
+    "finishedAt": "2026-10-18T20:57:35.369Z"
   }
 }
