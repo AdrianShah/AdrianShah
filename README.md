@@ -149,6 +149,10 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 40/59 (68%)</b> · Basketball: 4/5 (80%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 35/52 (67%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 18, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11431.png" width="20" height="20" alt="" /> Panetolikos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>52%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
