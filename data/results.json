@@ -688,5 +688,41 @@
     "winner": "Fulham",
     "score": "1-0",
     "finishedAt": "2026-10-17T20:50:15.565Z"
+  },
+  "espn:soccer:all:401896745": {
+    "sport": "soccer",
+    "competition": "Greek Super League",
+    "a": "Panetolikos",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-18T14:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11431.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "winner": "Olympiacos",
+    "score": "0-2",
+    "finishedAt": "2026-10-18T16:04:05.880Z"
+  },
+  "espn:soccer:all:401879261": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Brighton & Hove Albion",
+    "b": "Crystal Palace",
+    "scheduledAt": "2026-10-18T13:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+    "winner": "Brighton & Hove Albion",
+    "score": "5-0",
+    "finishedAt": "2026-10-18T16:04:05.965Z"
+  },
+  "espn:soccer:all:401879263": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "AFC Bournemouth",
+    "b": "Sunderland",
+    "scheduledAt": "2026-10-18T13:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+    "winner": "AFC Bournemouth",
+    "score": "2-0",
+    "finishedAt": "2026-10-18T16:04:06.045Z"
   }
 }
