@@ -255,6 +255,10 @@
     "name": "Brazilian Serie B",
     "slug": "bra.2"
   },
+  "5330": {
+    "name": "Scottish League Cup",
+    "slug": "sco.cis"
+  },
   "5331": {
     "name": "Scottish League Challenge Cup",
     "slug": "sco.challenge"
