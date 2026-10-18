@@ -760,5 +760,17 @@
     "winner": "AC Milan",
     "score": "3-2",
     "finishedAt": "2026-10-18T20:57:35.369Z"
+  },
+  "espn:soccer:all:401882839": {
+    "sport": "soccer",
+    "competition": "Spanish LALIGA",
+    "a": "Real Madrid",
+    "b": "Sevilla",
+    "scheduledAt": "2026-10-18T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "winner": "Real Madrid",
+    "score": "4-1",
+    "finishedAt": "2026-10-18T23:31:30.576Z"
   }
 }
