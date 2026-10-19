@@ -291,6 +291,10 @@
     "name": "NWSL",
     "slug": "usa.nwsl"
   },
+  "8306": {
+    "name": "Copa do Brasil",
+    "slug": "bra.copa_do_brazil"
+  },
   "8312": {
     "name": "Copa Chile",
     "slug": "chi.copa_chi"
