@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" width="56" height="56" alt="" /><br/><b>Tottenham Hotspur</b></td><td align="center" width="24%">vs<br/><sub>English Premier League<br/>Today 3:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="56" height="56" alt="" /><br/><b>Coventry City</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Tottenham Hotspur</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="56" height="56" alt="" /><br/><b>Real Madrid</b></td><td align="center" width="24%">vs<br/><sub>Spanish LALIGA<br/>4-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/243.png" width="56" height="56" alt="" /><br/><b>Sevilla</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Real Madrid</b></td></tr></table>
 
 <p align="center"><b>Record: 47/66 (71%)</b> · Basketball: 4/5 (80%) · NBA: 1/1 (100%) · NHL: 0/1 (0%) · Soccer: 42/59 (71%)</p>
 
