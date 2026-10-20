@@ -784,5 +784,17 @@
     "winner": "Tottenham Hotspur",
     "score": "3-1",
     "finishedAt": "2026-10-20T00:31:38.618Z"
+  },
+  "espn:soccer:all:401915404": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Sabah FK",
+    "b": "Borussia Dortmund",
+    "scheduledAt": "2026-10-20T16:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "winner": "Borussia Dortmund",
+    "score": "1-2",
+    "finishedAt": "2026-10-20T19:29:47.071Z"
   }
 }
