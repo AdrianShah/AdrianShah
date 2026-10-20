@@ -772,5 +772,17 @@
     "winner": "Real Madrid",
     "score": "4-1",
     "finishedAt": "2026-10-18T23:31:30.576Z"
+  },
+  "espn:soccer:all:401879257": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Tottenham Hotspur",
+    "b": "Coventry City",
+    "scheduledAt": "2026-10-19T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "winner": "Tottenham Hotspur",
+    "score": "3-1",
+    "finishedAt": "2026-10-20T00:31:38.618Z"
   }
 }
