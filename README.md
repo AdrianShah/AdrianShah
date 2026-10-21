@@ -149,6 +149,13 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 52/74 (70%)</b> · Basketball: 4/5 (80%) · NBA: 1/2 (50%) · NHL: 0/1 (0%) · Soccer: 47/66 (71%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid <sub>70%</sub> |
+| Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="20" height="20" alt="" /> Real Betis vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/142.png" width="20" height="20" alt="" /> Feyenoord Rotterdam | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="20" height="20" alt="" /> Real Betis | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" width="20" height="20" alt="" /> Real Betis <sub>43%</sub> |
+| Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/510.png" width="20" height="20" alt="" /> Viking FK | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa <sub>65%</sub> |
+| Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="20" height="20" alt="" /> Sporting CP vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4411.png" width="20" height="20" alt="" /> LASK Linz | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="20" height="20" alt="" /> Sporting CP | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="20" height="20" alt="" /> Sporting CP <sub>69%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
