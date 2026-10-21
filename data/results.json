@@ -868,5 +868,77 @@
     "winner": "Detroit Pistons",
     "score": "121-113",
     "finishedAt": "2026-10-21T00:01:52.710Z"
+  },
+  "espn:soccer:all:401915313": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Real Madrid",
+    "b": "RB Leipzig",
+    "scheduledAt": "2026-10-21T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "winner": "Real Madrid",
+    "score": "4-1",
+    "finishedAt": "2026-10-21T21:53:34.677Z"
+  },
+  "espn:soccer:all:401915389": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Real Betis",
+    "b": "Feyenoord Rotterdam",
+    "scheduledAt": "2026-10-21T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "winner": "Real Betis",
+    "score": "1-0",
+    "finishedAt": "2026-10-21T21:53:34.724Z"
+  },
+  "espn:soccer:all:401915394": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Aston Villa",
+    "b": "Viking FK",
+    "scheduledAt": "2026-10-21T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+    "winner": "Aston Villa",
+    "score": "3-1",
+    "finishedAt": "2026-10-21T21:53:34.763Z"
+  },
+  "espn:soccer:all:401915391": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Sporting CP",
+    "b": "LASK Linz",
+    "scheduledAt": "2026-10-21T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+    "winner": "LASK Linz",
+    "score": "2-3",
+    "finishedAt": "2026-10-21T21:53:34.816Z"
+  },
+  "espn:soccer:all:401915396": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Lille",
+    "b": "Galatasaray",
+    "scheduledAt": "2026-10-21T16:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "winner": "Galatasaray",
+    "score": "2-4",
+    "finishedAt": "2026-10-21T21:53:34.869Z"
+  },
+  "apib:522365": {
+    "sport": "basketball",
+    "competition": "FIBA Europe Cup",
+    "a": "AEK Larnaca",
+    "b": "Tartu Ulikool",
+    "scheduledAt": "2026-10-21T16:00:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/1389.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/485.png",
+    "winner": "AEK Larnaca",
+    "score": "99-93",
+    "finishedAt": "2026-10-21T21:53:35.014Z"
   }
 }
