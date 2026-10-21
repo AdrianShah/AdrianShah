@@ -145,7 +145,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png" width="56" height="56" alt="" /><br/><b>Detroit Pistons</b></td><td align="center" width="24%">vs<br/><sub>NBA<br/>121-113</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png" width="56" height="56" alt="" /><br/><b>Boston Celtics</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Boston Celtics</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1389.png" width="56" height="56" alt="" /><br/><b>AEK Larnaca</b></td><td align="center" width="24%">vs<br/><sub>FIBA Europe Cup<br/>Today 12:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/485.png" width="56" height="56" alt="" /><br/><b>Tartu Ulikool</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: AEK Larnaca</b></td></tr></table>
 
 <p align="center"><b>Record: 52/74 (70%)</b> · Basketball: 4/5 (80%) · NBA: 1/2 (50%) · NHL: 0/1 (0%) · Soccer: 47/66 (71%)</p>
 
@@ -176,7 +176,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 </details>
 
 <p align="center">🤖 <b>Me vs the Model</b>: on the 37 games we both called, <b>me 29/37 (78%)</b> vs <b>the model 31/37 (84%)</b>.<br/>
-<sub>Across all 1691 of its decided picks the model is 879/1691 (52%), Brier 0.587. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<sub>Across all 1712 of its decided picks the model is 889/1712 (52%), Brier 0.587. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
