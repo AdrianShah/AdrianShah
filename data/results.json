@@ -796,5 +796,77 @@
     "winner": "Borussia Dortmund",
     "score": "1-2",
     "finishedAt": "2026-10-20T19:29:47.071Z"
+  },
+  "espn:soccer:all:401915401": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Manchester City",
+    "b": "AEK Athens",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "winner": "Manchester City",
+    "score": "5-1",
+    "finishedAt": "2026-10-21T00:01:52.180Z"
+  },
+  "espn:soccer:all:401915392": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "VfB Stuttgart",
+    "b": "Atlético Madrid",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "winner": "draw",
+    "score": "1-1",
+    "finishedAt": "2026-10-21T00:01:52.257Z"
+  },
+  "espn:soccer:all:401915397": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Liverpool",
+    "b": "Villarreal",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "winner": "Liverpool",
+    "score": "4-3",
+    "finishedAt": "2026-10-21T00:01:52.485Z"
+  },
+  "espn:soccer:all:401915402": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "AS Roma",
+    "b": "Slovan Bratislava",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "winner": "AS Roma",
+    "score": "4-0",
+    "finishedAt": "2026-10-21T00:01:52.612Z"
+  },
+  "espn:soccer:all:401915399": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Paris Saint-Germain",
+    "b": "Barcelona",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "winner": "Paris Saint-Germain",
+    "score": "4-2",
+    "finishedAt": "2026-10-21T00:01:52.683Z"
+  },
+  "espn:basketball:nba:401909088": {
+    "sport": "nba",
+    "competition": "NBA",
+    "a": "Detroit Pistons",
+    "b": "Boston Celtics",
+    "scheduledAt": "2026-10-20T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+    "winner": "Detroit Pistons",
+    "score": "121-113",
+    "finishedAt": "2026-10-21T00:01:52.710Z"
   }
 }
