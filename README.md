@@ -145,13 +145,13 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>Today 7:00 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="56" height="56" alt="" /><br/><b>New York Rangers</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="56" height="56" alt="" /><br/><b>New York Rangers</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
 
 <p align="center"><b>Record: 61/88 (69%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 0/1 (0%) · Soccer: 53/77 (69%)</p>
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
-| Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers <sub>50%</sub> |
+| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers <sub>50%</sub> |
 
 <details><summary>Recent results</summary>
 
