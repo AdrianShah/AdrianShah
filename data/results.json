@@ -940,5 +940,17 @@
     "winner": "AEK Larnaca",
     "score": "99-93",
     "finishedAt": "2026-10-21T21:53:35.014Z"
+  },
+  "espn:soccer:all:401915846": {
+    "sport": "soccer",
+    "competition": "UEFA Conference League",
+    "a": "Kairat Almaty",
+    "b": "Panathinaikos",
+    "scheduledAt": "2026-10-22T14:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+    "winner": "Panathinaikos",
+    "score": "1-5",
+    "finishedAt": "2026-10-22T17:29:41.821Z"
   }
 }
