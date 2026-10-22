@@ -129,9 +129,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-10-02</td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor"><code>C-Sports-Predictor</code></a></td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor/commit/f5a56985464a9cdbef3d1de0c12706a73e2e769d"><code>f5a5698</code></a></td><td>C++ sports prediction model: ESPN history, Elo + Dixon-Cole…</td></tr>
-<tr><td>2026-10-02</td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor"><code>C-Sports-Predictor</code></a></td><td><a href="https://github.com/AdrianShah/C-Sports-Predictor/commit/e685d15e7ddfbffbdcc047eb147c2536b070fb5e"><code>e685d15</code></a></td><td>Dashboard on Vercel; carry team logos through model picks</td></tr>
-<tr><td>2026-10-01</td><td><a href="https://github.com/AdrianShah/portfolio-2.0"><code>portfolio-2.0</code></a></td><td><a href="https://github.com/AdrianShah/portfolio-2.0/commit/2d14d4fdef4ad5c748aa8342ac2a41bee013e8df"><code>2d14d4f</code></a></td><td>Updated the tech stack and changed the about section</td></tr>
+<tr><td>2026-10-22</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/16acedbf9b7af3c9b98efad00be039b1dec14199"><code>16acedb</code></a></td><td>Merge pull request #32 from AdrianShah/dependabot/npm_and_y…</td></tr>
+<tr><td>2026-10-22</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/591dcc1e7f589eb37a82e61d41f1adcc44f0ed4c"><code>591dcc1</code></a></td><td>Merge pull request #28 from AdrianShah/dependabot/npm_and_y…</td></tr>
+<tr><td>2026-10-22</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/78a8e177bc1143e0cb0671d6bf98a122cfaba173"><code>78a8e17</code></a></td><td>Merge pull request #29 from AdrianShah/dependabot/npm_and_y…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
