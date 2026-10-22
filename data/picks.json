@@ -1,4 +1,51 @@
 {
+  "favoriteTeams" : [
+    {
+      "name" : "Olympiacos BC",
+      "sport" : "basketball",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
+      "league" : "Greek Basket League",
+      "tsdbId" : "135635"
+    },
+    {
+      "name" : "Chelsea",
+      "sport" : "soccer",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
+      "league" : "English Premier League",
+      "tsdbId" : "133610"
+    },
+    {
+      "name" : "Olympiacos",
+      "sport" : "soccer",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+      "league" : "Greek Super League 1",
+      "tsdbId" : "133754"
+    }
+  ],
+  "manualEvents" : [
+    {
+      "score" : "0-1",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "sport" : "soccer",
+      "a" : "Germany",
+      "b" : "Greece",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "winner" : "Greece",
+      "competition" : "UEFA Nations League",
+      "status" : "finished"
+    },
+    {
+      "score" : "101-96",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "sport" : "nba",
+      "a" : "Olympiacos",
+      "b" : "PAOK",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "winner" : "Olympiacos",
+      "competition" : "Greek Basketball Super Cup",
+      "status" : "finished"
+    }
+  ],
   "picks" : [
     {
       "pick" : "Morocco",
@@ -437,53 +484,11 @@
       "pick" : "Bayer Leverkusen",
       "lockedAt" : "2026-10-22T11:59:03Z",
       "eventId" : "espn:soccer:all:401915559"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "status" : "finished",
-      "b" : "Greece",
-      "competition" : "UEFA Nations League",
-      "score" : "0-1",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "winner" : "Greece",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "a" : "Germany",
-      "sport" : "soccer"
     },
     {
-      "status" : "finished",
-      "b" : "PAOK",
-      "competition" : "Greek Basketball Super Cup",
-      "score" : "101-96",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "winner" : "Olympiacos",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "a" : "Olympiacos",
-      "sport" : "nba"
-    }
-  ],
-  "favoriteTeams" : [
-    {
-      "name" : "Olympiacos BC",
-      "sport" : "basketball",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
-      "league" : "Greek Basket League",
-      "tsdbId" : "135635"
-    },
-    {
-      "name" : "Chelsea",
-      "sport" : "soccer",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "league" : "English Premier League",
-      "tsdbId" : "133610"
-    },
-    {
-      "name" : "Olympiacos",
-      "sport" : "soccer",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-      "league" : "Greek Super League 1",
-      "tsdbId" : "133754"
+      "pick" : "Sunderland",
+      "lockedAt" : "2026-10-22T11:59:16Z",
+      "eventId" : "espn:soccer:all:401915546"
     }
   ]
 }
