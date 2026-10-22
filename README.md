@@ -145,9 +145,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="56" height="56" alt="" /><br/><b>Sporting CP</b></td><td align="center" width="24%">vs<br/><sub>UEFA Champions League<br/>2-3</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/4411.png" width="56" height="56" alt="" /><br/><b>LASK Linz</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Sporting CP</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" width="56" height="56" alt="" /><br/><b>Kairat Almaty</b></td><td align="center" width="24%">vs<br/><sub>UEFA Conference League<br/>Today 10:30 AM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="56" height="56" alt="" /><br/><b>Panathinaikos</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Panathinaikos</b></td></tr></table>
 
 <p align="center"><b>Record: 56/80 (70%)</b> · Basketball: 5/6 (83%) · NBA: 1/2 (50%) · NHL: 0/1 (0%) · Soccer: 50/71 (70%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" width="20" height="20" alt="" /> Kairat Almaty vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | UEFA Conference League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos <sub>54%</sub> |
+| Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7922.png" width="20" height="20" alt="" /> Jablonec vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion | UEFA Conference League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion | — |
+| Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" width="20" height="20" alt="" /> Sparta Prague | UEFA Europa League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>55%</sub> |
 
 <details><summary>Recent results</summary>
 
