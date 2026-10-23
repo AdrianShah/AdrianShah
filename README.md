@@ -151,7 +151,9 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
+| Oct 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/10388.png" width="20" height="20" alt="" /> SV Elversberg | German Bundesliga | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig <sub>57%</sub> |
 | Oct 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" width="20" height="20" alt="" /> Tottenham Hotspur | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea <sub>62%</sub> |
+| Oct 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/90.png" width="20" height="20" alt="" /> Deportivo | Spanish LALIGA | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid <sub>67%</sub> |
 
 <details><summary>Recent results</summary>
 
