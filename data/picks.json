@@ -1,4 +1,28 @@
 {
+  "manualEvents" : [
+    {
+      "sport" : "soccer",
+      "a" : "Germany",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "score" : "0-1",
+      "competition" : "UEFA Nations League",
+      "b" : "Greece",
+      "status" : "finished",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "winner" : "Greece"
+    },
+    {
+      "sport" : "nba",
+      "a" : "Olympiacos",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "score" : "101-96",
+      "competition" : "Greek Basketball Super Cup",
+      "b" : "PAOK",
+      "status" : "finished",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "winner" : "Olympiacos"
+    }
+  ],
   "picks" : [
     {
       "eventId" : "wc26:01",
@@ -467,53 +491,34 @@
       "eventId" : "espn:soccer:all:401878767",
       "pick" : "Chelsea",
       "lockedAt" : "2026-10-23T18:36:18Z"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "a" : "Germany",
-      "winner" : "Greece",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "status" : "finished",
-      "competition" : "UEFA Nations League",
-      "score" : "0-1",
-      "sport" : "soccer",
-      "b" : "Greece"
     },
     {
-      "a" : "Olympiacos",
-      "winner" : "Olympiacos",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "status" : "finished",
-      "competition" : "Greek Basketball Super Cup",
-      "score" : "101-96",
-      "sport" : "nba",
-      "b" : "PAOK"
+      "eventId" : "espn:soccer:all:401884762",
+      "pick" : "RB Leipzig",
+      "lockedAt" : "2026-10-23T18:36:33Z"
     }
   ],
   "favoriteTeams" : [
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
       "name" : "Olympiacos BC",
       "tsdbId" : "135635",
-      "league" : "Greek Basket League",
-      "sport" : "basketball"
+      "sport" : "basketball",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
+      "league" : "Greek Basket League"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
       "name" : "Chelsea",
       "tsdbId" : "133610",
-      "league" : "English Premier League",
-      "sport" : "soccer"
+      "sport" : "soccer",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
+      "league" : "English Premier League"
     },
     {
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
       "name" : "Olympiacos",
       "tsdbId" : "133754",
-      "league" : "Greek Super League 1",
-      "sport" : "soccer"
+      "sport" : "soccer",
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+      "league" : "Greek Super League 1"
     }
   ]
 }
