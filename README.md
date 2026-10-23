@@ -145,18 +145,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="56" height="56" alt="" /><br/><b>New York Rangers</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Toronto Maple Leafs</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="56" height="56" alt="" /><br/><b>Toronto Maple Leafs</b></td><td align="center" width="24%">vs<br/><sub>NHL<br/>5-4</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="56" height="56" alt="" /><br/><b>New York Rangers</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Toronto Maple Leafs</b></td></tr></table>
 
-<p align="center"><b>Record: 61/88 (69%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 0/1 (0%) · Soccer: 53/77 (69%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers | NHL | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers <sub>50%</sub> |
+<p align="center"><b>Record: 62/89 (70%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 1/2 (50%) · Soccer: 53/77 (69%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs vs <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png" width="20" height="20" alt="" /> New York Rangers<br/><sub>NHL</sub> | <img src="https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png" width="20" height="20" alt="" /> Toronto Maple Leafs | 5-4 | ✅ | ❌ <sub>New York Rangers</sub> |
 | Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3362.png" width="20" height="20" alt="" /> NK Celje vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2790.png" width="20" height="20" alt="" /> RB Salzburg<br/><sub>UEFA Europa League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2790.png" width="20" height="20" alt="" /> RB Salzburg | 2-2 | ❌ | ❌ <sub>RB Salzburg</sub> |
 | Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" width="20" height="20" alt="" /> Sparta Prague<br/><sub>UEFA Europa League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | 1-0 | ✅ | ✅ <sub>Olympiacos</sub> |
 | Oct 22, 2026 | <img src="https://media.api-sports.io/basketball/teams/722.png" width="20" height="20" alt="" /> Olimpia Milano vs <img src="https://media.api-sports.io/basketball/teams/2329.png" width="20" height="20" alt="" /> Barcelona<br/><sub>Euroleague</sub> | <img src="https://media.api-sports.io/basketball/teams/2329.png" width="20" height="20" alt="" /> Barcelona | 81-89 | ✅ | — |
@@ -166,12 +163,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7922.png" width="20" height="20" alt="" /> Jablonec vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion<br/><sub>UEFA Conference League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion | 0-0 | ❌ | — |
 | Oct 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" width="20" height="20" alt="" /> Kairat Almaty vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos<br/><sub>UEFA Conference League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | 1-5 | ✅ | ✅ <sub>Panathinaikos</sub> |
 | Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="20" height="20" alt="" /> Sporting CP vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4411.png" width="20" height="20" alt="" /> LASK Linz<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" width="20" height="20" alt="" /> Sporting CP | 2-3 | ❌ | ❌ <sub>Sporting CP</sub> |
-| Oct 21, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/510.png" width="20" height="20" alt="" /> Viking FK<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa | 3-1 | ✅ | ✅ <sub>Aston Villa</sub> |
 
 </details>
 
-<p align="center">🤖 <b>Me vs the Model</b>: on the 46 games we both called, <b>me 34/46 (74%)</b> vs <b>the model 36/46 (78%)</b>.<br/>
-<sub>Across all 1809 of its decided picks the model is 941/1809 (52%), Brier 0.586. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<p align="center">🤖 <b>Me vs the Model</b>: on the 47 games we both called, <b>me 35/47 (74%)</b> vs <b>the model 36/47 (77%)</b>.<br/>
+<sub>Across all 1828 of its decided picks the model is 949/1828 (52%), Brier 0.586. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->

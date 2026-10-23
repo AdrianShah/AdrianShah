@@ -1036,5 +1036,17 @@
     "winner": "Panathinaikos",
     "score": "85-79",
     "finishedAt": "2026-10-22T21:50:48.516Z"
+  },
+  "espn:hockey:nhl:401892553": {
+    "sport": "nhl",
+    "competition": "NHL",
+    "a": "Toronto Maple Leafs",
+    "b": "New York Rangers",
+    "scheduledAt": "2026-10-22T23:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+    "winner": "Toronto Maple Leafs",
+    "score": "5-4",
+    "finishedAt": "2026-10-23T05:11:42.903Z"
   }
 }
