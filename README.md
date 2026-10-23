@@ -149,6 +149,10 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 62/89 (70%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 1/2 (50%) · Soccer: 53/77 (69%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" width="20" height="20" alt="" /> Tottenham Hotspur | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea <sub>62%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
