@@ -1072,5 +1072,29 @@
     "winner": "Aston Villa",
     "score": "2-1",
     "finishedAt": "2026-10-24T16:09:46.094Z"
+  },
+  "espn:soccer:all:401878767": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Chelsea",
+    "b": "Tottenham Hotspur",
+    "scheduledAt": "2026-10-24T16:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "winner": "Tottenham Hotspur",
+    "score": "0-2",
+    "finishedAt": "2026-10-24T21:04:24.114Z"
+  },
+  "espn:soccer:all:401882834": {
+    "sport": "soccer",
+    "competition": "Spanish LALIGA",
+    "a": "Atlético Madrid",
+    "b": "Deportivo",
+    "scheduledAt": "2026-10-24T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "winner": "Atlético Madrid",
+    "score": "1-0",
+    "finishedAt": "2026-10-24T21:04:24.186Z"
   }
 }
