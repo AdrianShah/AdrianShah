@@ -1048,5 +1048,29 @@
     "winner": "Toronto Maple Leafs",
     "score": "5-4",
     "finishedAt": "2026-10-23T05:11:42.903Z"
+  },
+  "espn:soccer:all:401884762": {
+    "sport": "soccer",
+    "competition": "German Bundesliga",
+    "a": "RB Leipzig",
+    "b": "SV Elversberg",
+    "scheduledAt": "2026-10-24T13:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+    "winner": "RB Leipzig",
+    "score": "4-0",
+    "finishedAt": "2026-10-24T16:09:45.991Z"
+  },
+  "espn:soccer:all:401879256": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Aston Villa",
+    "b": "Manchester City",
+    "scheduledAt": "2026-10-24T11:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "winner": "Aston Villa",
+    "score": "2-1",
+    "finishedAt": "2026-10-24T16:09:46.094Z"
   }
 }
