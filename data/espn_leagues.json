@@ -143,6 +143,10 @@
     "name": "English National League",
     "slug": "eng.5"
   },
+  "3918": {
+    "name": "English FA Cup",
+    "slug": "eng.fa"
+  },
   "3920": {
     "name": "English Carabao Cup",
     "slug": "eng.league_cup"
