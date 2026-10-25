@@ -1096,5 +1096,17 @@
     "winner": "Atlético Madrid",
     "score": "1-0",
     "finishedAt": "2026-10-24T21:04:24.186Z"
+  },
+  "espn:soccer:all:401879255": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Coventry City",
+    "b": "Fulham",
+    "scheduledAt": "2026-10-24T14:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "winner": "Fulham",
+    "score": "0-1",
+    "finishedAt": "2026-10-25T23:27:37.583Z"
   }
 }
