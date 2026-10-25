@@ -129,9 +129,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-10-22</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/706bf2ce0ba20497ad9e1f333ecb9db5aa169452"><code>706bf2c</code></a></td><td>Merge pull request #17 from AdrianShah/dependabot/npm_and_y…</td></tr>
-<tr><td>2026-10-21</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/2d4326f3d7e0068dd13eedc1e0a3df4d05d9a7eb"><code>2d4326f</code></a></td><td>smoke.sh: SMOKE_RELAY runs the check against a deployed rel…</td></tr>
-<tr><td>2026-10-21</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/969b592e69650a37a08844c12a235b6d5106cf20"><code>969b592</code></a></td><td>Merge pull request #37 from AdrianShah/dependabot/npm_and_y…</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/7e193fb0bd8a055137f9b10c24ed91c0bf0ad70c"><code>7e193fb</code></a></td><td>Merge pull request #49 from AdrianShah/ui-landing  Landing …</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/12c9dd42ff85d17a574a3fa16e01325a907ae5af"><code>12c9dd4</code></a></td><td>Merge pull request #52 from AdrianShah/ui-docs-theme  Resty…</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/13a73ed0bb415afdd95c13b927e675ec597779e2"><code>13a73ed</code></a></td><td>Merge pull request #51 from AdrianShah/fix-admission-race  …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
