@@ -149,6 +149,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 64/93 (69%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 1/2 (50%) · Soccer: 55/81 (68%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Oct 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="20" height="20" alt="" /> Coventry City vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/370.png" width="20" height="20" alt="" /> Fulham | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/370.png" width="20" height="20" alt="" /> Fulham | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="20" height="20" alt="" /> Coventry City <sub>38%</sub> |
+| Oct 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain <sub>71%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
