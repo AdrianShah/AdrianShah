@@ -129,9 +129,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/7e193fb0bd8a055137f9b10c24ed91c0bf0ad70c"><code>7e193fb</code></a></td><td>Merge pull request #49 from AdrianShah/ui-landing  Landing …</td></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/12c9dd42ff85d17a574a3fa16e01325a907ae5af"><code>12c9dd4</code></a></td><td>Merge pull request #52 from AdrianShah/ui-docs-theme  Resty…</td></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/13a73ed0bb415afdd95c13b927e675ec597779e2"><code>13a73ed</code></a></td><td>Merge pull request #51 from AdrianShah/fix-admission-race  …</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/fc1014b50203fbc80c8dea56835de306571cc3b2"><code>fc1014b</code></a></td><td>Merge pull request #55 from AdrianShah/ui-polish  Polish: n…</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/cba7736ee2784e0cfdd006014f77895f1826bdb3"><code>cba7736</code></a></td><td>Merge pull request #50 from AdrianShah/fix-msal-alert  Exte…</td></tr>
+<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/0dd8544d893638c9d397a4163b948a5e726625e1"><code>0dd8544</code></a></td><td>Merge pull request #42 from AdrianShah/dependabot/docker/do…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
