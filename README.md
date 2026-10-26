@@ -159,7 +159,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
-| Oct 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain <sub>71%</sub> |
+| Oct 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain <sub>73%</sub> |
 
 <details><summary>Recent results</summary>
 
