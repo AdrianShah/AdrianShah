@@ -160,6 +160,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
 | Oct 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain <sub>73%</sub> |
+| Oct 27, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3891.png" width="20" height="20" alt="" /> Fleetwood Town vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal | English Carabao Cup | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal <sub>82%</sub> |
 
 <details><summary>Recent results</summary>
 
