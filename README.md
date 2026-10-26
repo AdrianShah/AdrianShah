@@ -100,6 +100,18 @@ Second Year **Computer Engineering** student at **York University** and a full-s
   </tr>
   <tr>
     <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" />
+      <br>Bash
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=ruby&theme=dark" width="48" height="48" alt="Ruby" />
+      <br>Ruby
+    </td>
+    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" />
       <br>C
     </td>
@@ -110,10 +122,6 @@ Second Year **Computer Engineering** student at **York University** and a full-s
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=go&theme=dark" width="48" height="48" alt="Go" />
       <br>Go
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" />
-      <br>Bash
     </td>
   </tr>
 </table>
