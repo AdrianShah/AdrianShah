@@ -1,99 +1,76 @@
 {
-  "favoriteTeams" : [
-    {
-      "tsdbId" : "135635",
-      "name" : "Olympiacos BC",
-      "league" : "Greek Basket League",
-      "sport" : "basketball",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png"
-    },
-    {
-      "tsdbId" : "133610",
-      "name" : "Chelsea",
-      "league" : "English Premier League",
-      "sport" : "soccer",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png"
-    },
-    {
-      "tsdbId" : "133754",
-      "name" : "Olympiacos",
-      "league" : "Greek Super League 1",
-      "sport" : "soccer",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png"
-    }
-  ],
   "picks" : [
     {
-      "eventId" : "wc26:01",
       "legacy" : true,
+      "eventId" : "wc26:01",
       "pick" : "Morocco"
     },
     {
-      "eventId" : "wc26:02",
       "legacy" : true,
+      "eventId" : "wc26:02",
       "pick" : "France"
     },
     {
-      "eventId" : "wc26:03",
       "legacy" : true,
+      "eventId" : "wc26:03",
       "pick" : "Brazil"
     },
     {
-      "eventId" : "wc26:04",
       "legacy" : true,
+      "eventId" : "wc26:04",
       "pick" : "England"
     },
     {
-      "eventId" : "wc26:05",
       "legacy" : true,
+      "eventId" : "wc26:05",
       "pick" : "Portugal"
     },
     {
-      "eventId" : "wc26:06",
       "legacy" : true,
+      "eventId" : "wc26:06",
       "pick" : "Belgium"
     },
     {
-      "eventId" : "wc26:07",
       "legacy" : true,
+      "eventId" : "wc26:07",
       "pick" : "Argentina"
     },
     {
-      "eventId" : "wc26:08",
       "legacy" : true,
+      "eventId" : "wc26:08",
       "pick" : "Colombia"
     },
     {
-      "eventId" : "wc26:09",
       "legacy" : true,
+      "eventId" : "wc26:09",
       "pick" : "France"
     },
     {
-      "eventId" : "wc26:10",
       "legacy" : true,
+      "eventId" : "wc26:10",
       "pick" : "Spain"
     },
     {
-      "eventId" : "wc26:11",
       "legacy" : true,
+      "eventId" : "wc26:11",
       "pick" : "Norway"
     },
     {
-      "void" : "result never recorded",
-      "eventId" : "wc26:12",
       "legacy" : true,
-      "pick" : "Argentina"
+      "eventId" : "wc26:12",
+      "pick" : "Argentina",
+      "void" : "result never recorded"
     },
     {
-      "eventId" : "wc26:13",
       "legacy" : true,
+      "eventId" : "wc26:13",
       "pick" : "France"
     },
     {
-      "void" : "result never recorded",
-      "eventId" : "wc26:14",
       "legacy" : true,
-      "pick" : "England"
+      "eventId" : "wc26:14",
+      "pick" : "England",
+      "void" : "result never recorded"
     },
     {
       "lockedAt" : "2026-09-27T14:22:37Z",
@@ -203,8 +180,8 @@
     {
       "lockedAt" : "2026-10-01T02:23:09Z",
       "eventId" : "espn:soccer:all:401927453",
-      "void" : "postponed",
-      "pick" : "Real Betis"
+      "pick" : "Real Betis",
+      "void" : "postponed"
     },
     {
       "lockedAt" : "2026-10-01T02:23:44Z",
@@ -565,6 +542,11 @@
       "lockedAt" : "2026-10-26T16:17:02Z",
       "eventId" : "espn:soccer:all:401874773",
       "pick" : "Internazionale"
+    },
+    {
+      "lockedAt" : "2026-10-26T16:17:10Z",
+      "eventId" : "espn:soccer:all:401874799",
+      "pick" : "Napoli"
     }
   ],
   "manualEvents" : [
@@ -589,6 +571,29 @@
       "score" : "101-96",
       "scheduledAt" : "2026-09-27T17:00:00Z",
       "b" : "PAOK"
+    }
+  ],
+  "favoriteTeams" : [
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
+      "tsdbId" : "135635",
+      "sport" : "basketball",
+      "league" : "Greek Basket League",
+      "name" : "Olympiacos BC"
+    },
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
+      "tsdbId" : "133610",
+      "sport" : "soccer",
+      "league" : "English Premier League",
+      "name" : "Chelsea"
+    },
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+      "tsdbId" : "133754",
+      "sport" : "soccer",
+      "league" : "Greek Super League 1",
+      "name" : "Olympiacos"
     }
   ]
 }
