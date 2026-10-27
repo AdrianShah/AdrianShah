@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="56" height="56" alt="" /><br/><b>Paris Saint-Germain</b></td><td align="center" width="24%">vs<br/><sub>French Ligue 1<br/>Today 3:30 PM EDT</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="56" height="56" alt="" /><br/><b>Lyon</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Paris Saint-Germain</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="56" height="56" alt="" /><br/><b>Atlético Madrid</b></td><td align="center" width="24%">vs<br/><sub>Spanish LALIGA<br/>1-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/90.png" width="56" height="56" alt="" /><br/><b>Deportivo</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Atlético Madrid</b></td></tr></table>
 
 <p align="center"><b>Record: 65/94 (69%)</b> · Basketball: 7/8 (88%) · NBA: 1/2 (50%) · NHL: 1/2 (50%) · Soccer: 56/82 (68%)</p>
 
