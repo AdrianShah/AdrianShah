@@ -1108,5 +1108,17 @@
     "winner": "Fulham",
     "score": "0-1",
     "finishedAt": "2026-10-25T23:27:37.583Z"
+  },
+  "espn:soccer:all:401876422": {
+    "sport": "soccer",
+    "competition": "French Ligue 1",
+    "a": "Paris Saint-Germain",
+    "b": "Lyon",
+    "scheduledAt": "2026-10-26T19:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+    "winner": "Paris Saint-Germain",
+    "score": "2-0",
+    "finishedAt": "2026-10-27T00:41:03.989Z"
   }
 }
