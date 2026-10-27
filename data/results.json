@@ -1120,5 +1120,28 @@
     "winner": "Paris Saint-Germain",
     "score": "2-0",
     "finishedAt": "2026-10-27T00:41:03.989Z"
+  },
+  "espn:soccer:all:401917027": {
+    "sport": "soccer",
+    "competition": "German Cup",
+    "a": "Rot-Weiss Essen",
+    "b": "RB Leipzig",
+    "scheduledAt": "2026-10-27T17:00:00.000Z",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "winner": "RB Leipzig",
+    "score": "1-2",
+    "finishedAt": "2026-10-27T20:12:52.136Z"
+  },
+  "espn:soccer:all:401917029": {
+    "sport": "soccer",
+    "competition": "German Cup",
+    "a": "VfL Bochum",
+    "b": "Mainz",
+    "scheduledAt": "2026-10-27T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+    "winner": "VfL Bochum",
+    "score": "2-0",
+    "finishedAt": "2026-10-27T20:12:52.244Z"
   }
 }
