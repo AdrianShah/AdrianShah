@@ -1179,5 +1179,89 @@
     "winner": "Olympiacos",
     "score": "0-2",
     "finishedAt": "2026-10-28T18:26:49.323Z"
+  },
+  "tsdb:2565523": {
+    "sport": "basketball",
+    "competition": "EuroLeague Basketball",
+    "a": "Besiktas Basketbol",
+    "b": "Olympiacos BC",
+    "scheduledAt": "2026-10-28T17:30:00.000Z",
+    "aLogo": "https://r2.thesportsdb.com/images/media/team/badge/rx0o811667119583.png",
+    "bLogo": "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
+    "winner": "Olympiacos BC",
+    "score": "73-81",
+    "finishedAt": "2026-10-28T22:46:48.519Z"
+  },
+  "espn:soccer:all:401917035": {
+    "sport": "soccer",
+    "competition": "German Cup",
+    "a": "Bayern Munich",
+    "b": "1. FC Magdeburg",
+    "scheduledAt": "2026-10-28T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10382.png",
+    "winner": "Bayern Munich",
+    "score": "6-1",
+    "finishedAt": "2026-10-28T22:46:48.573Z"
+  },
+  "espn:soccer:all:401921834": {
+    "sport": "soccer",
+    "competition": "English Carabao Cup",
+    "a": "Manchester City",
+    "b": "Brighton & Hove Albion",
+    "scheduledAt": "2026-10-28T19:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "winner": "Manchester City",
+    "score": "2-2",
+    "finishedAt": "2026-10-28T22:46:48.651Z"
+  },
+  "espn:soccer:all:401921840": {
+    "sport": "soccer",
+    "competition": "English Carabao Cup",
+    "a": "AFC Bournemouth",
+    "b": "Aston Villa",
+    "scheduledAt": "2026-10-28T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "winner": "AFC Bournemouth",
+    "score": "3-0",
+    "finishedAt": "2026-10-28T22:46:48.725Z"
+  },
+  "espn:soccer:all:401874773": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "Venezia",
+    "b": "Internazionale",
+    "scheduledAt": "2026-10-28T17:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    "winner": "Internazionale",
+    "score": "0-2",
+    "finishedAt": "2026-10-28T22:46:48.782Z"
+  },
+  "espn:soccer:all:401874799": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "Monza",
+    "b": "Napoli",
+    "scheduledAt": "2026-10-28T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "winner": "Napoli",
+    "score": "1-4",
+    "finishedAt": "2026-10-28T22:46:48.847Z"
+  },
+  "espn:soccer:all:401874993": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "AC Milan",
+    "b": "Bologna",
+    "scheduledAt": "2026-10-28T17:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+    "winner": "Bologna",
+    "score": "2-4",
+    "finishedAt": "2026-10-28T22:46:48.921Z"
   }
 }
