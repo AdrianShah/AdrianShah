@@ -1167,5 +1167,17 @@
     "winner": "Borussia Dortmund",
     "score": "3-2",
     "finishedAt": "2026-10-28T00:39:33.527Z"
+  },
+  "tsdb:2593120": {
+    "sport": "soccer",
+    "competition": "Greek Football Cup",
+    "a": "Marko",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-28T13:00:00.000Z",
+    "aLogo": "https://r2.thesportsdb.com/images/media/team/badge/2cllzs1757818856.png",
+    "bLogo": "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+    "winner": "Olympiacos",
+    "score": "0-2",
+    "finishedAt": "2026-10-28T18:26:49.323Z"
   }
 }
