@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-10-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/c2b63ddb43640c96ac9bae217c3276c076acaa90"><code>c2b63dd</code></a></td><td>Merge pull request #62 from AdrianShah/daemon-peer-auth  Da…</td></tr>
+<tr><td>2026-10-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/ea5ed5f37c788cb6ba10bcd6f89038da629adbc9"><code>ea5ed5f</code></a></td><td>Merge pull request #61 from AdrianShah/security-fixes  Secu…</td></tr>
 <tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/9a23950ac537230611a78dc3c4429f2142e65840"><code>9a23950</code></a></td><td>Merge pull request #54 from AdrianShah/bee-logo  Bee logo e…</td></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/fc1014b50203fbc80c8dea56835de306571cc3b2"><code>fc1014b</code></a></td><td>Merge pull request #55 from AdrianShah/ui-polish  Polish: n…</td></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/cba7736ee2784e0cfdd006014f77895f1826bdb3"><code>cba7736</code></a></td><td>Merge pull request #50 from AdrianShah/fix-msal-alert  Exte…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
