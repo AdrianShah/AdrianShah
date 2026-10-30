@@ -315,6 +315,10 @@
     "name": "Indian Super League",
     "slug": "ind.1"
   },
+  "8346": {
+    "name": "Argentine Supercopa",
+    "slug": "arg.supercopa"
+  },
   "8376": {
     "name": "Chinese Super League",
     "slug": "chn.1"
