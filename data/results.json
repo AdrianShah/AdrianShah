@@ -1263,5 +1263,53 @@
     "winner": "Bologna",
     "score": "2-4",
     "finishedAt": "2026-10-28T22:46:48.921Z"
+  },
+  "espn:soccer:all:401916920": {
+    "sport": "soccer",
+    "competition": "German Cup",
+    "a": "Hamburg SV",
+    "b": "Eintracht Frankfurt",
+    "scheduledAt": "2026-10-27T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+    "winner": "Eintracht Frankfurt",
+    "score": "1-3",
+    "finishedAt": "2026-10-30T01:16:21.454Z"
+  },
+  "espn:soccer:all:401921842": {
+    "sport": "soccer",
+    "competition": "English Carabao Cup",
+    "a": "Liverpool",
+    "b": "Chelsea",
+    "scheduledAt": "2026-10-28T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "winner": "Liverpool",
+    "score": "1-1",
+    "finishedAt": "2026-10-30T01:16:21.551Z"
+  },
+  "espn:soccer:all:401917033": {
+    "sport": "soccer",
+    "competition": "German Cup",
+    "a": "Bayer Leverkusen",
+    "b": "1. FC Nürnberg",
+    "scheduledAt": "2026-10-28T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/269.png",
+    "winner": "Bayer Leverkusen",
+    "score": "5-2",
+    "finishedAt": "2026-10-30T01:16:21.798Z"
+  },
+  "espn:basketball:nba:401909885": {
+    "sport": "nba",
+    "competition": "NBA",
+    "a": "Toronto Raptors",
+    "b": "Orlando Magic",
+    "scheduledAt": "2026-10-28T23:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+    "winner": "Toronto Raptors",
+    "score": "129-99",
+    "finishedAt": "2026-10-30T01:16:21.885Z"
   }
 }
