@@ -1311,5 +1311,101 @@
     "winner": "Toronto Raptors",
     "score": "129-99",
     "finishedAt": "2026-10-30T01:16:21.885Z"
+  },
+  "espn:soccer:all:401879245": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Manchester City",
+    "b": "Brighton & Hove Albion",
+    "scheduledAt": "2026-10-31T15:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "winner": "Brighton & Hove Albion",
+    "score": "0-1",
+    "finishedAt": "2026-10-31T19:28:02.544Z"
+  },
+  "espn:soccer:all:401879248": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Chelsea",
+    "b": "Manchester United",
+    "scheduledAt": "2026-10-31T12:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "winner": "Chelsea",
+    "score": "2-0",
+    "finishedAt": "2026-10-31T19:28:02.579Z"
+  },
+  "espn:soccer:all:401896738": {
+    "sport": "soccer",
+    "competition": "Greek Super League",
+    "a": "Kifisia",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-10-31T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21969.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "winner": "Olympiacos",
+    "score": "2-3",
+    "finishedAt": "2026-10-31T19:28:02.613Z"
+  },
+  "espn:soccer:all:401878763": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Hull City",
+    "b": "Ipswich Town",
+    "scheduledAt": "2026-10-31T15:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+    "winner": "draw",
+    "score": "2-2",
+    "finishedAt": "2026-10-31T19:28:02.709Z"
+  },
+  "espn:soccer:all:401879251": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "AFC Bournemouth",
+    "b": "Leeds United",
+    "scheduledAt": "2026-10-31T15:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+    "winner": "AFC Bournemouth",
+    "score": "2-0",
+    "finishedAt": "2026-10-31T19:28:02.779Z"
+  },
+  "espn:soccer:all:401884747": {
+    "sport": "soccer",
+    "competition": "German Bundesliga",
+    "a": "Schalke 04",
+    "b": "RB Leipzig",
+    "scheduledAt": "2026-10-31T14:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "winner": "RB Leipzig",
+    "score": "0-2",
+    "finishedAt": "2026-10-31T19:28:02.835Z"
+  },
+  "espn:soccer:all:401884753": {
+    "sport": "soccer",
+    "competition": "German Bundesliga",
+    "a": "Bayer Leverkusen",
+    "b": "VfB Stuttgart",
+    "scheduledAt": "2026-10-31T14:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+    "winner": "VfB Stuttgart",
+    "score": "2-4",
+    "finishedAt": "2026-10-31T19:28:02.881Z"
+  },
+  "espn:soccer:all:401874990": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "Udinese",
+    "b": "AS Roma",
+    "scheduledAt": "2026-10-31T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "winner": "AS Roma",
+    "score": "2-5",
+    "finishedAt": "2026-10-31T19:28:02.919Z"
   }
 }
