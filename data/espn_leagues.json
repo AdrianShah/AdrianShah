@@ -335,6 +335,10 @@
     "name": "Indian I-League",
     "slug": "ind.2"
   },
+  "18914": {
+    "name": "SAFF Championship",
+    "slug": "afc.saff.championship"
+  },
   "18992": {
     "name": "Australian A-League Women",
     "slug": "aus.w.1"
