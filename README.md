@@ -153,18 +153,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="56" height="56" alt="" /><br/><b>Lyon</b></td><td align="center" width="24%">vs<br/><sub>French Ligue 1<br/>Today 11:15 AM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="56" height="56" alt="" /><br/><b>Angers</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Lyon</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="56" height="56" alt="" /><br/><b>Lyon</b></td><td align="center" width="24%">vs<br/><sub>French Ligue 1<br/>2-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="56" height="56" alt="" /><br/><b>Angers</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Lyon</b></td></tr></table>
 
-<p align="center"><b>Record: 83/122 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 72/108 (67%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| Nov 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="20" height="20" alt="" /> Angers | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon <sub>68%</sub> |
+<p align="center"><b>Record: 84/123 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 73/109 (67%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Nov 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="20" height="20" alt="" /> Angers<br/><sub>French Ligue 1</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | 2-0 | ✅ | ✅ <sub>Lyon</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" width="20" height="20" alt="" /> Barcelona vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" width="20" height="20" alt="" /> Alavés<br/><sub>Spanish LALIGA</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" width="20" height="20" alt="" /> Barcelona | 6-1 | ✅ | ✅ <sub>Barcelona</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/370.png" width="20" height="20" alt="" /> Fulham<br/><sub>English Premier League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa | 1-1 | ❌ | ❌ <sub>Aston Villa</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" width="20" height="20" alt="" /> Bayern Munich vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" width="20" height="20" alt="" /> Borussia Dortmund<br/><sub>German Bundesliga</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" width="20" height="20" alt="" /> Bayern Munich | 2-2 | ❌ | ❌ <sub>Bayern Munich</sub> |
@@ -174,12 +171,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/306.png" width="20" height="20" alt="" /> Hull City vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/373.png" width="20" height="20" alt="" /> Ipswich Town<br/><sub>English Premier League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/373.png" width="20" height="20" alt="" /> Ipswich Town | 2-2 | ❌ | ❌ <sub>Ipswich Town</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion<br/><sub>English Premier League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City | 0-1 | ❌ | ❌ <sub>Manchester City</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131.png" width="20" height="20" alt="" /> Bayer Leverkusen vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/134.png" width="20" height="20" alt="" /> VfB Stuttgart<br/><sub>German Bundesliga</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131.png" width="20" height="20" alt="" /> Bayer Leverkusen | 2-4 | ❌ | ❌ <sub>Bayer Leverkusen</sub> |
-| Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/133.png" width="20" height="20" alt="" /> Schalke 04 vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig<br/><sub>German Bundesliga</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig | 0-2 | ✅ | ✅ <sub>RB Leipzig</sub> |
 
 </details>
 
-<p align="center">🤖 <b>Me vs the Model</b>: on the 77 games we both called, <b>me 53/77 (69%)</b> vs <b>the model 54/77 (70%)</b>.<br/>
-<sub>Across all 2875 of its decided picks the model is 1495/2875 (52%), Brier 0.583. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<p align="center">🤖 <b>Me vs the Model</b>: on the 78 games we both called, <b>me 54/78 (69%)</b> vs <b>the model 55/78 (71%)</b>.<br/>
+<sub>Across all 2934 of its decided picks the model is 1530/2934 (52%), Brier 0.582. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->

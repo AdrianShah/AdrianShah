@@ -1443,5 +1443,17 @@
     "winner": "Barcelona",
     "score": "6-1",
     "finishedAt": "2026-11-01T00:17:59.081Z"
+  },
+  "espn:soccer:all:401876418": {
+    "sport": "soccer",
+    "competition": "French Ligue 1",
+    "a": "Lyon",
+    "b": "Angers",
+    "scheduledAt": "2026-11-01T16:15:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+    "winner": "Lyon",
+    "score": "2-0",
+    "finishedAt": "2026-11-01T22:15:13.578Z"
   }
 }
