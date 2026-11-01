@@ -1407,5 +1407,41 @@
     "winner": "AS Roma",
     "score": "2-5",
     "finishedAt": "2026-10-31T19:28:02.919Z"
+  },
+  "espn:soccer:all:401879250": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Aston Villa",
+    "b": "Fulham",
+    "scheduledAt": "2026-10-31T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+    "winner": "draw",
+    "score": "1-1",
+    "finishedAt": "2026-11-01T00:17:58.947Z"
+  },
+  "espn:soccer:all:401884754": {
+    "sport": "soccer",
+    "competition": "German Bundesliga",
+    "a": "Bayern Munich",
+    "b": "Borussia Dortmund",
+    "scheduledAt": "2026-10-31T17:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "winner": "draw",
+    "score": "2-2",
+    "finishedAt": "2026-11-01T00:17:59.011Z"
+  },
+  "espn:soccer:all:401882822": {
+    "sport": "soccer",
+    "competition": "Spanish LALIGA",
+    "a": "Barcelona",
+    "b": "Alavés",
+    "scheduledAt": "2026-10-31T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "winner": "Barcelona",
+    "score": "6-1",
+    "finishedAt": "2026-11-01T00:17:59.081Z"
   }
 }
