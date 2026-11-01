@@ -351,6 +351,10 @@
     "name": "UEFA Women's Champions League",
     "slug": "uefa.wchampions"
   },
+  "19725": {
+    "name": "Non-FIFA Friendly",
+    "slug": "nonfifa"
+  },
   "19834": {
     "name": "Club Friendly",
     "slug": "club.friendly"

@@ -159,7 +159,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
-| Nov 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="20" height="20" alt="" /> Angers | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon <sub>66%</sub> |
+| Nov 1, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7868.png" width="20" height="20" alt="" /> Angers | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" width="20" height="20" alt="" /> Lyon <sub>68%</sub> |
 
 <details><summary>Recent results</summary>
 
