@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/f847b22fc036f8a9929c5fe0bde79dbdbbaffd77"><code>f847b22</code></a></td><td>Merge pull request #60 from AdrianShah/dependabot/github_ac…</td></tr>
+<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/e6dc85a50b1705259f2b36c5be9bac6bcbc4d831"><code>e6dc85a</code></a></td><td>Merge pull request #67 from AdrianShah/dependabot/pip/serve…</td></tr>
 <tr><td>2026-10-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/c2b63ddb43640c96ac9bae217c3276c076acaa90"><code>c2b63dd</code></a></td><td>Merge pull request #62 from AdrianShah/daemon-peer-auth  Da…</td></tr>
-<tr><td>2026-10-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/ea5ed5f37c788cb6ba10bcd6f89038da629adbc9"><code>ea5ed5f</code></a></td><td>Merge pull request #61 from AdrianShah/security-fixes  Secu…</td></tr>
-<tr><td>2026-10-25</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/9a23950ac537230611a78dc3c4429f2142e65840"><code>9a23950</code></a></td><td>Merge pull request #54 from AdrianShah/bee-logo  Bee logo e…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
