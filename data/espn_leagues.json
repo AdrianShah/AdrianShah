@@ -227,6 +227,10 @@
     "name": "Spanish Copa del Rey",
     "slug": "esp.copa_del_rey"
   },
+  "3952": {
+    "name": "Coupe de France",
+    "slug": "fra.coupe_de_france"
+  },
   "3954": {
     "name": "German Cup",
     "slug": "ger.dfb_pokal"
