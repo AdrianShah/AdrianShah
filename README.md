@@ -160,6 +160,8 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
 | Nov 4, 2026 | <img src="https://r2.thesportsdb.com/images/media/team/badge/ypturx1473504818.png" width="20" height="20" alt="" /> Rennes vs <img src="https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png" width="20" height="20" alt="" /> Olympiacos | UEFA Europa League | <img src="https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png" width="20" height="20" alt="" /> Olympiacos | — |
+| Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/887.png" width="20" height="20" alt="" /> AEK Athens vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid <sub>55%</sub> |
+| Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" width="20" height="20" alt="" /> Fenerbahce vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool <sub>37%</sub> |
 
 <details><summary>Recent results</summary>
 
