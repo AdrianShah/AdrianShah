@@ -1455,5 +1455,41 @@
     "winner": "Lyon",
     "score": "2-0",
     "finishedAt": "2026-11-01T22:15:13.578Z"
+  },
+  "tsdb:2594828": {
+    "sport": "soccer",
+    "competition": "UEFA Europa League",
+    "a": "Rennes",
+    "b": "Olympiacos",
+    "scheduledAt": "2026-11-04T15:30:00.000Z",
+    "aLogo": "https://r2.thesportsdb.com/images/media/team/badge/ypturx1473504818.png",
+    "bLogo": "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+    "winner": "draw",
+    "score": "0-0",
+    "finishedAt": "2026-11-04T19:57:47.324Z"
+  },
+  "espn:soccer:all:401915383": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "AEK Athens",
+    "b": "Real Madrid",
+    "scheduledAt": "2026-11-04T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "winner": "Real Madrid",
+    "score": "2-3",
+    "finishedAt": "2026-11-04T19:57:47.419Z"
+  },
+  "espn:soccer:all:401915382": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Fenerbahce",
+    "b": "Liverpool",
+    "scheduledAt": "2026-11-04T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "winner": "Fenerbahce",
+    "score": "3-2",
+    "finishedAt": "2026-11-04T19:57:47.543Z"
   }
 }
