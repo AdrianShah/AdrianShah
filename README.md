@@ -157,6 +157,10 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 84/123 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 73/109 (67%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 4, 2026 | <img src="https://r2.thesportsdb.com/images/media/team/badge/ypturx1473504818.png" width="20" height="20" alt="" /> Rennes vs <img src="https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png" width="20" height="20" alt="" /> Olympiacos | UEFA Europa League | <img src="https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png" width="20" height="20" alt="" /> Olympiacos | — |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
