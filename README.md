@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="56" height="56" alt="" /><br/><b>RB Leipzig</b></td><td align="center" width="24%">vs<br/><sub>UEFA Champions League<br/>Today 3:00 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="56" height="56" alt="" /><br/><b>Manchester City</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Manchester City</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" width="56" height="56" alt="" /><br/><b>Fenerbahce</b></td><td align="center" width="24%">vs<br/><sub>UEFA Champions League<br/>3-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="56" height="56" alt="" /><br/><b>Liverpool</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Liverpool</b></td></tr></table>
 
 <p align="center"><b>Record: 85/126 (67%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 74/112 (66%)</p>
 
