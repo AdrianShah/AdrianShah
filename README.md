@@ -157,6 +157,10 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 87/128 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 76/114 (67%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 6, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="20" height="20" alt="" /> Coventry City | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton <sub>51%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
