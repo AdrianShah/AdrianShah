@@ -1491,5 +1491,29 @@
     "winner": "Fenerbahce",
     "score": "3-2",
     "finishedAt": "2026-11-04T19:57:47.543Z"
+  },
+  "espn:soccer:all:401915306": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "RB Leipzig",
+    "b": "Manchester City",
+    "scheduledAt": "2026-11-04T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "winner": "Manchester City",
+    "score": "2-3",
+    "finishedAt": "2026-11-05T01:40:55.431Z"
+  },
+  "espn:soccer:all:401915381": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Slavia Prague",
+    "b": "Arsenal",
+    "scheduledAt": "2026-11-04T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "winner": "Arsenal",
+    "score": "1-2",
+    "finishedAt": "2026-11-05T01:40:55.570Z"
   }
 }
