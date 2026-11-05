@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/f847b22fc036f8a9929c5fe0bde79dbdbbaffd77"><code>f847b22</code></a></td><td>Merge pull request #60 from AdrianShah/dependabot/github_ac…</td></tr>
-<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/e6dc85a50b1705259f2b36c5be9bac6bcbc4d831"><code>e6dc85a</code></a></td><td>Merge pull request #67 from AdrianShah/dependabot/pip/serve…</td></tr>
-<tr><td>2026-10-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/c2b63ddb43640c96ac9bae217c3276c076acaa90"><code>c2b63dd</code></a></td><td>Merge pull request #62 from AdrianShah/daemon-peer-auth  Da…</td></tr>
+<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/ef0b4fb0ce9d11c7f6240c67ef41eead6b51708b"><code>ef0b4fb</code></a></td><td>Merge pull request #68 from AdrianShah/dependabot/pip/hivel…</td></tr>
+<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/538cf1c617d711d12e83321fee6cbbb84bc636d2"><code>538cf1c</code></a></td><td>Merge pull request #71 from AdrianShah/docs-arch-onboarding…</td></tr>
+<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/b180ae43ff5fd3c5bcbb4199380ecbe9a5f77785"><code>b180ae4</code></a></td><td>Merge pull request #64 from AdrianShah/dependabot/npm_and_y…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
