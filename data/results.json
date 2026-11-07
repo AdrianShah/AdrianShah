@@ -1527,5 +1527,17 @@
     "winner": "Everton",
     "score": "3-1",
     "finishedAt": "2026-11-07T01:03:36.400Z"
+  },
+  "apib:508679": {
+    "sport": "basketball",
+    "competition": "Euroleague",
+    "a": "Olympiacos",
+    "b": "Crvena Zvezda Meridianbet",
+    "scheduledAt": "2026-11-06T19:15:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/1542.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/1065.png",
+    "winner": "Crvena Zvezda Meridianbet",
+    "score": "57-62",
+    "finishedAt": "2026-11-07T17:49:12.139Z"
   }
 }
