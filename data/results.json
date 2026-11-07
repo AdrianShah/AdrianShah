@@ -1515,5 +1515,17 @@
     "winner": "Arsenal",
     "score": "1-2",
     "finishedAt": "2026-11-05T01:40:55.570Z"
+  },
+  "espn:soccer:all:401879242": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Everton",
+    "b": "Coventry City",
+    "scheduledAt": "2026-11-06T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "winner": "Everton",
+    "score": "3-1",
+    "finishedAt": "2026-11-07T01:03:36.400Z"
   }
 }

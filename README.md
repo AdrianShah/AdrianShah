@@ -153,18 +153,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/494.png" width="56" height="56" alt="" /><br/><b>Slavia Prague</b></td><td align="center" width="24%">vs<br/><sub>UEFA Champions League<br/>1-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="56" height="56" alt="" /><br/><b>Arsenal</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Arsenal</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="56" height="56" alt="" /><br/><b>Everton</b></td><td align="center" width="24%">vs<br/><sub>English Premier League<br/>3-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="56" height="56" alt="" /><br/><b>Coventry City</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Everton</b></td></tr></table>
 
-<p align="center"><b>Record: 87/128 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 76/114 (67%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| Nov 6, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="20" height="20" alt="" /> Coventry City | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton <sub>51%</sub> |
+<p align="center"><b>Record: 88/129 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 77/115 (67%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Nov 6, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="20" height="20" alt="" /> Coventry City<br/><sub>English Premier League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="20" height="20" alt="" /> Everton | 3-1 | ✅ | ✅ <sub>Everton</sub> |
 | Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/494.png" width="20" height="20" alt="" /> Slavia Prague vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal | 1-2 | ✅ | ✅ <sub>Arsenal</sub> |
 | Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City | 2-3 | ✅ | ✅ <sub>Manchester City</sub> |
 | Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" width="20" height="20" alt="" /> Fenerbahce vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool | 3-2 | ❌ | ❌ <sub>Liverpool</sub> |
@@ -174,12 +171,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" width="20" height="20" alt="" /> Barcelona vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" width="20" height="20" alt="" /> Alavés<br/><sub>Spanish LALIGA</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" width="20" height="20" alt="" /> Barcelona | 6-1 | ✅ | ✅ <sub>Barcelona</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/370.png" width="20" height="20" alt="" /> Fulham<br/><sub>English Premier League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" width="20" height="20" alt="" /> Aston Villa | 1-1 | ❌ | ❌ <sub>Aston Villa</sub> |
 | Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" width="20" height="20" alt="" /> Bayern Munich vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" width="20" height="20" alt="" /> Borussia Dortmund<br/><sub>German Bundesliga</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" width="20" height="20" alt="" /> Bayern Munich | 2-2 | ❌ | ❌ <sub>Bayern Munich</sub> |
-| Oct 31, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/118.png" width="20" height="20" alt="" /> Udinese vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" width="20" height="20" alt="" /> AS Roma<br/><sub>Italian Serie A</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" width="20" height="20" alt="" /> AS Roma | 2-5 | ✅ | ✅ <sub>AS Roma</sub> |
 
 </details>
 
-<p align="center">🤖 <b>Me vs the Model</b>: on the 82 games we both called, <b>me 57/82 (70%)</b> vs <b>the model 58/82 (71%)</b>.<br/>
-<sub>Across all 3245 of its decided picks the model is 1712/3245 (53%), Brier 0.577. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<p align="center">🤖 <b>Me vs the Model</b>: on the 83 games we both called, <b>me 58/83 (70%)</b> vs <b>the model 59/83 (71%)</b>.<br/>
+<sub>Across all 3283 of its decided picks the model is 1730/3283 (53%), Brier 0.578. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
