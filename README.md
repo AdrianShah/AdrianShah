@@ -153,13 +153,16 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/368.png" width="56" height="56" alt="" /><br/><b>Everton</b></td><td align="center" width="24%">vs<br/><sub>English Premier League<br/>3-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" width="56" height="56" alt="" /><br/><b>Coventry City</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Everton</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" width="56" height="56" alt="" /><br/><b>Nottingham Forest</b></td><td align="center" width="24%">vs<br/><sub>English Premier League<br/>Today 12:30 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="56" height="56" alt="" /><br/><b>Manchester City</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Manchester City</b></td></tr></table>
 
 <p align="center"><b>Record: 88/129 (68%)</b> · Basketball: 8/9 (89%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 77/115 (67%)</p>
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
 | Nov 6, 2026 | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://media.api-sports.io/basketball/teams/1065.png" width="20" height="20" alt="" /> Crvena Zvezda Meridianbet | Euroleague | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | — |
+| Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" width="20" height="20" alt="" /> Nottingham Forest vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City <sub>61%</sub> |
+| Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/94.png" width="20" height="20" alt="" /> Valencia vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | Spanish LALIGA | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid <sub>69%</sub> |
+| Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/170.png" width="20" height="20" alt="" /> Troyes | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain <sub>92%</sub> |
 
 <details><summary>Recent results</summary>
 
