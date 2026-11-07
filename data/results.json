@@ -1539,5 +1539,53 @@
     "winner": "Crvena Zvezda Meridianbet",
     "score": "57-62",
     "finishedAt": "2026-11-07T17:49:12.139Z"
+  },
+  "espn:soccer:all:401878757": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Nottingham Forest",
+    "b": "Manchester City",
+    "scheduledAt": "2026-11-07T17:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "winner": "Nottingham Forest",
+    "score": "3-1",
+    "finishedAt": "2026-11-07T22:11:48.603Z"
+  },
+  "espn:soccer:all:401882808": {
+    "sport": "soccer",
+    "competition": "Spanish LALIGA",
+    "a": "Valencia",
+    "b": "Real Madrid",
+    "scheduledAt": "2026-11-07T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "winner": "Real Madrid",
+    "score": "0-3",
+    "finishedAt": "2026-11-07T22:11:48.674Z"
+  },
+  "espn:soccer:all:401876407": {
+    "sport": "soccer",
+    "competition": "French Ligue 1",
+    "a": "Paris Saint-Germain",
+    "b": "Troyes",
+    "scheduledAt": "2026-11-07T20:05:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+    "winner": "Paris Saint-Germain",
+    "score": "1-0",
+    "finishedAt": "2026-11-07T22:11:48.852Z"
+  },
+  "espn:soccer:all:401874803": {
+    "sport": "soccer",
+    "competition": "Italian Serie A",
+    "a": "AS Roma",
+    "b": "Sassuolo",
+    "scheduledAt": "2026-11-07T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+    "winner": "AS Roma",
+    "score": "3-0",
+    "finishedAt": "2026-11-07T22:11:48.943Z"
   }
 }
