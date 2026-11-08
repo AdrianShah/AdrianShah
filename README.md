@@ -153,12 +153,13 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Greek Super League<br/>Today 2:00 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="56" height="56" alt="" /><br/><b>PAOK</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Olympiacos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="56" height="56" alt="" /><br/><b>Iraklis</b></td><td align="center" width="24%">vs<br/><sub>Greek Super League<br/>Today 10:30 AM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="56" height="56" alt="" /><br/><b>Panathinaikos</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Panathinaikos</b></td></tr></table>
 
 <p align="center"><b>Record: 91/134 (68%)</b> · Basketball: 8/10 (80%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 80/119 (67%)</p>
 
 | When | Match | Competition | My pick | Model |
 |---|---|---|---|---|
+| Nov 8, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | — |
 | Nov 8, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="20" height="20" alt="" /> PAOK | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>51%</sub> |
 
 <details><summary>Recent results</summary>
