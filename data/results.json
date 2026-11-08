@@ -1587,5 +1587,29 @@
     "winner": "AS Roma",
     "score": "3-0",
     "finishedAt": "2026-11-07T22:11:48.943Z"
+  },
+  "espn:soccer:all:401896730": {
+    "sport": "soccer",
+    "competition": "Greek Super League",
+    "a": "Olympiacos",
+    "b": "PAOK",
+    "scheduledAt": "2026-11-08T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/605.png",
+    "winner": "draw",
+    "score": "1-1",
+    "finishedAt": "2026-11-08T22:21:08.893Z"
+  },
+  "espn:soccer:all:401896811": {
+    "sport": "soccer",
+    "competition": "Greek Super League",
+    "a": "Iraklis",
+    "b": "Panathinaikos",
+    "scheduledAt": "2026-11-08T15:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2575.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+    "winner": "Panathinaikos",
+    "score": "1-2",
+    "finishedAt": "2026-11-08T22:21:08.983Z"
   }
 }

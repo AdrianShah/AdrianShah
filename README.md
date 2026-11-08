@@ -153,19 +153,16 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="56" height="56" alt="" /><br/><b>Iraklis</b></td><td align="center" width="24%">vs<br/><sub>Greek Super League<br/>🔴 Live now</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="56" height="56" alt="" /><br/><b>Panathinaikos</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Panathinaikos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Greek Super League<br/>1-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="56" height="56" alt="" /><br/><b>PAOK</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Olympiacos</b></td></tr></table>
 
-<p align="center"><b>Record: 91/134 (68%)</b> · Basketball: 8/10 (80%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 80/119 (67%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| 🔴 Live | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | — |
-| Nov 8, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="20" height="20" alt="" /> PAOK | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>51%</sub> |
+<p align="center"><b>Record: 92/136 (68%)</b> · Basketball: 8/10 (80%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 81/121 (67%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Nov 8, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="20" height="20" alt="" /> PAOK<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | 1-1 | ❌ | ❌ <sub>Olympiacos</sub> |
+| Nov 8, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | 1-2 | ✅ | — |
 | Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/170.png" width="20" height="20" alt="" /> Troyes<br/><sub>French Ligue 1</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" width="20" height="20" alt="" /> Paris Saint-Germain | 1-0 | ✅ | ✅ <sub>Paris Saint-Germain</sub> |
 | Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/94.png" width="20" height="20" alt="" /> Valencia vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid<br/><sub>Spanish LALIGA</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | 0-3 | ✅ | ✅ <sub>Real Madrid</sub> |
 | Nov 7, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" width="20" height="20" alt="" /> AS Roma vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3997.png" width="20" height="20" alt="" /> Sassuolo<br/><sub>Italian Serie A</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" width="20" height="20" alt="" /> AS Roma | 3-0 | ✅ | ✅ <sub>AS Roma</sub> |
@@ -174,13 +171,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Nov 6, 2026 | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://media.api-sports.io/basketball/teams/1065.png" width="20" height="20" alt="" /> Crvena Zvezda Meridianbet<br/><sub>Euroleague</sub> | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | 57-62 | ❌ | — |
 | Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/494.png" width="20" height="20" alt="" /> Slavia Prague vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal | 1-2 | ✅ | ✅ <sub>Arsenal</sub> |
 | Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" width="20" height="20" alt="" /> Manchester City | 2-3 | ✅ | ✅ <sub>Manchester City</sub> |
-| Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" width="20" height="20" alt="" /> Fenerbahce vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" width="20" height="20" alt="" /> Liverpool | 3-2 | ❌ | ❌ <sub>Liverpool</sub> |
-| Nov 4, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/887.png" width="20" height="20" alt="" /> AEK Athens vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | 2-3 | ✅ | ✅ <sub>Real Madrid</sub> |
 
 </details>
 
-<p align="center">🤖 <b>Me vs the Model</b>: on the 87 games we both called, <b>me 61/87 (70%)</b> vs <b>the model 62/87 (71%)</b>.<br/>
-<sub>Across all 3536 of its decided picks the model is 1882/3536 (53%), Brier 0.575. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<p align="center">🤖 <b>Me vs the Model</b>: on the 88 games we both called, <b>me 61/88 (69%)</b> vs <b>the model 62/88 (70%)</b>.<br/>
+<sub>Across all 3602 of its decided picks the model is 1919/3602 (53%), Brier 0.574. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
