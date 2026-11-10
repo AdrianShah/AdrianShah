@@ -1611,5 +1611,29 @@
     "winner": "Panathinaikos",
     "score": "1-2",
     "finishedAt": "2026-11-08T22:21:08.983Z"
+  },
+  "espn:soccer:all:401906332": {
+    "sport": "soccer",
+    "competition": "English EFL Trophy",
+    "a": "Leicester City",
+    "b": "Walsall",
+    "scheduledAt": "2026-11-10T19:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/401.png",
+    "winner": "Leicester City",
+    "score": "2-1",
+    "finishedAt": "2026-11-10T21:23:19.827Z"
+  },
+  "apib:503561": {
+    "sport": "basketball",
+    "competition": "Eurocup",
+    "a": "Balkan",
+    "b": "PAOK",
+    "scheduledAt": "2026-11-10T17:00:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/1369.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/613.png",
+    "winner": "PAOK",
+    "score": "56-79",
+    "finishedAt": "2026-11-10T21:23:19.982Z"
   }
 }
