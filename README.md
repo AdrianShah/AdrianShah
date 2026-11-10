@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-11-08</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/3c52d56500e14f843c151824a356278b24dd9c30"><code>3c52d56</code></a></td><td>Merge pull request #73 from AdrianShah/untangle/shared-lane…</td></tr>
-<tr><td>2026-11-07</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/9f5366dfe92b5cc5c04be2fe0df4064c2de9740f"><code>9f5366d</code></a></td><td>Build lane records through a Map instead of defineProperty …</td></tr>
-<tr><td>2026-11-03</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/ef0b4fb0ce9d11c7f6240c67ef41eead6b51708b"><code>ef0b4fb</code></a></td><td>Merge pull request #68 from AdrianShah/dependabot/pip/hivel…</td></tr>
+<tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/d37efc76ede1c5a2fa6316208c447c516cfc64f0"><code>d37efc7</code></a></td><td>Merge pull request #77 from AdrianShah/dependabot/npm_and_y…</td></tr>
+<tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/8f04f0d0b1ff94d8464de82e63f9a7430dc5a7f9"><code>8f04f0d</code></a></td><td>Merge pull request #84 from AdrianShah/dependabot/pip/googl…</td></tr>
+<tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/76351b8738aa9fdffc00d093b27ea57b71f19175"><code>76351b8</code></a></td><td>Merge pull request #85 from AdrianShah/vscode-publish-ready…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
