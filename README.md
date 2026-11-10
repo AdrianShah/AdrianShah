@@ -153,9 +153,14 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Greek Super League<br/>1-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/605.png" width="56" height="56" alt="" /><br/><b>PAOK</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Olympiacos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1369.png" width="56" height="56" alt="" /><br/><b>Balkan</b></td><td align="center" width="24%">vs<br/><sub>Eurocup<br/>Today 12:00 PM EST</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/613.png" width="56" height="56" alt="" /><br/><b>PAOK</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: PAOK</b></td></tr></table>
 
 <p align="center"><b>Record: 92/136 (68%)</b> · Basketball: 8/10 (80%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 81/121 (67%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 10, 2026 | <img src="https://media.api-sports.io/basketball/teams/1369.png" width="20" height="20" alt="" /> Balkan vs <img src="https://media.api-sports.io/basketball/teams/613.png" width="20" height="20" alt="" /> PAOK | Eurocup | <img src="https://media.api-sports.io/basketball/teams/613.png" width="20" height="20" alt="" /> PAOK | — |
+| Nov 10, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/375.png" width="20" height="20" alt="" /> Leicester City vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/401.png" width="20" height="20" alt="" /> Walsall | English EFL Trophy | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/375.png" width="20" height="20" alt="" /> Leicester City | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/375.png" width="20" height="20" alt="" /> Leicester City <sub>60%</sub> |
 
 <details><summary>Recent results</summary>
 
