@@ -153,9 +153,13 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/375.png" width="56" height="56" alt="" /><br/><b>Leicester City</b></td><td align="center" width="24%">vs<br/><sub>English EFL Trophy<br/>2-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/401.png" width="56" height="56" alt="" /><br/><b>Walsall</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Leicester City</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="56" height="56" alt="" /><br/><b>Czechia</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="56" height="56" alt="" /><br/><b>Spain</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Spain</b></td></tr></table>
 
 <p align="center"><b>Record: 94/138 (68%)</b> · Basketball: 9/11 (82%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 82/122 (67%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 12, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="20" height="20" alt="" /> Czechia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain <sub>67%</sub> |
 
 <details><summary>Recent results</summary>
 
