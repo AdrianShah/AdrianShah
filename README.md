@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/dcda6ad0eb9c9a157687b6b0998da2fbc63ec3b2"><code>dcda6ad</code></a></td><td>Merge pull request #74 from AdrianShah/dependabot/npm_and_y…</td></tr>
 <tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/0499de77326d29ddf75a1c7f8427fbfa6bf242a2"><code>0499de7</code></a></td><td>Merge pull request #76 from AdrianShah/dependabot/pip/serve…</td></tr>
 <tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/86e07b10bc86bf2a8acafd838bfabf6f80a4cc9d"><code>86e07b1</code></a></td><td>Merge pull request #80 from AdrianShah/dependabot/npm_and_y…</td></tr>
-<tr><td>2026-11-09</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/ebb5443f526d65ca5faed8900f03a42b35b9d107"><code>ebb5443</code></a></td><td>Start the extension only on a command and clean up its list…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
