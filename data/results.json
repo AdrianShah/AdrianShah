@@ -1635,5 +1635,17 @@
     "winner": "PAOK",
     "score": "56-79",
     "finishedAt": "2026-11-10T21:23:19.982Z"
+  },
+  "espn:soccer:all:401861145": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Türkiye",
+    "b": "Belgium",
+    "scheduledAt": "2026-11-12T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+    "winner": "Belgium",
+    "score": "1-2",
+    "finishedAt": "2026-11-12T20:16:32.704Z"
   }
 }
