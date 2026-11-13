@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="56" height="56" alt="" /><br/><b>Czechia</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="56" height="56" alt="" /><br/><b>Spain</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Spain</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="56" height="56" alt="" /><br/><b>Türkiye</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>1-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="56" height="56" alt="" /><br/><b>Belgium</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Belgium</b></td></tr></table>
 
 <p align="center"><b>Record: 95/139 (68%)</b> · Basketball: 9/11 (82%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 83/123 (67%)</p>
 
