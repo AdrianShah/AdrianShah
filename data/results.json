@@ -1647,5 +1647,53 @@
     "winner": "Belgium",
     "score": "1-2",
     "finishedAt": "2026-11-12T20:16:32.704Z"
+  },
+  "espn:soccer:all:401861148": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Czechia",
+    "b": "Spain",
+    "scheduledAt": "2026-11-12T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+    "winner": "Spain",
+    "score": "0-2",
+    "finishedAt": "2026-11-13T02:01:41.174Z"
+  },
+  "espn:soccer:all:401861151": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Italy",
+    "b": "France",
+    "scheduledAt": "2026-11-12T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+    "winner": "Italy",
+    "score": "3-1",
+    "finishedAt": "2026-11-13T02:01:41.281Z"
+  },
+  "espn:soccer:all:401861150": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "England",
+    "b": "Croatia",
+    "scheduledAt": "2026-11-12T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+    "winner": "England",
+    "score": "2-1",
+    "finishedAt": "2026-11-13T02:01:41.369Z"
+  },
+  "espn:soccer:all:401861147": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Albania",
+    "b": "Finland",
+    "scheduledAt": "2026-11-12T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png",
+    "winner": "Albania",
+    "score": "2-0",
+    "finishedAt": "2026-11-13T02:01:41.520Z"
   }
 }
