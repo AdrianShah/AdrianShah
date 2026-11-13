@@ -1695,5 +1695,17 @@
     "winner": "Albania",
     "score": "2-0",
     "finishedAt": "2026-11-13T02:01:41.520Z"
+  },
+  "espn:soccer:all:401861146": {
+    "sport": "soccer",
+    "competition": "UEFA Nations League",
+    "a": "Armenia",
+    "b": "Cyprus",
+    "scheduledAt": "2026-11-12T17:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
+    "winner": "draw",
+    "score": "1-1",
+    "finishedAt": "2026-11-13T19:56:47.824Z"
   }
 }
