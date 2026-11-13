@@ -1,4 +1,51 @@
 {
+  "manualEvents" : [
+    {
+      "competition" : "UEFA Nations League",
+      "b" : "Greece",
+      "a" : "Germany",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "sport" : "soccer",
+      "scheduledAt" : "2026-09-27T18:45:00Z",
+      "status" : "finished",
+      "score" : "0-1",
+      "winner" : "Greece"
+    },
+    {
+      "competition" : "Greek Basketball Super Cup",
+      "b" : "PAOK",
+      "a" : "Olympiacos",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "sport" : "nba",
+      "scheduledAt" : "2026-09-27T17:00:00Z",
+      "status" : "finished",
+      "score" : "101-96",
+      "winner" : "Olympiacos"
+    }
+  ],
+  "favoriteTeams" : [
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
+      "sport" : "basketball",
+      "name" : "Olympiacos BC",
+      "league" : "Greek Basket League",
+      "tsdbId" : "135635"
+    },
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
+      "sport" : "soccer",
+      "name" : "Chelsea",
+      "league" : "English Premier League",
+      "tsdbId" : "133610"
+    },
+    {
+      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
+      "sport" : "soccer",
+      "name" : "Olympiacos",
+      "league" : "Greek Super League 1",
+      "tsdbId" : "133754"
+    }
+  ],
   "picks" : [
     {
       "legacy" : true,
@@ -57,9 +104,9 @@
     },
     {
       "legacy" : true,
-      "void" : "result never recorded",
       "eventId" : "wc26:12",
-      "pick" : "Argentina"
+      "pick" : "Argentina",
+      "void" : "result never recorded"
     },
     {
       "legacy" : true,
@@ -68,9 +115,9 @@
     },
     {
       "legacy" : true,
-      "void" : "result never recorded",
       "eventId" : "wc26:14",
-      "pick" : "England"
+      "pick" : "England",
+      "void" : "result never recorded"
     },
     {
       "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
@@ -178,9 +225,9 @@
       "lockedAt" : "2026-10-01T02:22:57Z"
     },
     {
-      "void" : "postponed",
       "eventId" : "espn:soccer:all:401927453",
       "pick" : "Real Betis",
+      "void" : "postponed",
       "lockedAt" : "2026-10-01T02:23:09Z"
     },
     {
@@ -747,53 +794,11 @@
       "eventId" : "espn:soccer:all:401861161",
       "pick" : "Scotland",
       "lockedAt" : "2026-11-13T17:30:02Z"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "status" : "finished",
-      "competition" : "UEFA Nations League",
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "winner" : "Greece",
-      "a" : "Germany",
-      "score" : "0-1",
-      "sport" : "soccer",
-      "b" : "Greece"
     },
     {
-      "status" : "finished",
-      "competition" : "Greek Basketball Super Cup",
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "winner" : "Olympiacos",
-      "a" : "Olympiacos",
-      "score" : "101-96",
-      "sport" : "nba",
-      "b" : "PAOK"
-    }
-  ],
-  "favoriteTeams" : [
-    {
-      "sport" : "basketball",
-      "tsdbId" : "135635",
-      "league" : "Greek Basket League",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
-      "name" : "Olympiacos BC"
-    },
-    {
-      "sport" : "soccer",
-      "tsdbId" : "133610",
-      "league" : "English Premier League",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "name" : "Chelsea"
-    },
-    {
-      "sport" : "soccer",
-      "tsdbId" : "133754",
-      "league" : "Greek Super League 1",
-      "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-      "name" : "Olympiacos"
+      "eventId" : "espn:soccer:all:401921325",
+      "pick" : "Colombia",
+      "lockedAt" : "2026-11-13T17:30:12Z"
     }
   ]
 }
