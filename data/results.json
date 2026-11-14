@@ -1731,5 +1731,29 @@
     "winner": "Scotland",
     "score": "2-1",
     "finishedAt": "2026-11-14T01:36:37.510Z"
+  },
+  "espn:soccer:all:401921325": {
+    "sport": "soccer",
+    "competition": "International Friendly",
+    "a": "Colombia",
+    "b": "Chile",
+    "scheduledAt": "2026-11-14T00:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+    "winner": "Colombia",
+    "score": "1-0",
+    "finishedAt": "2026-11-14T10:47:24.431Z"
+  },
+  "espn:soccer:all:401929711": {
+    "sport": "soccer",
+    "competition": "Concacaf Nations League",
+    "a": "Guatemala",
+    "b": "Canada",
+    "scheduledAt": "2026-11-14T02:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/countries/500/gua.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+    "winner": "Canada",
+    "score": "2-3",
+    "finishedAt": "2026-11-14T10:47:24.499Z"
   }
 }
