@@ -175,7 +175,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 </details>
 
 <p align="center">🤖 <b>Me vs the Model</b>: on the 99 games we both called, <b>me 69/99 (70%)</b> vs <b>the model 71/99 (72%)</b>.<br/>
-<sub>Across all 3902 of its decided picks the model is 2088/3902 (54%), Brier 0.572. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<sub>Across all 3944 of its decided picks the model is 2111/3944 (54%), Brier 0.571. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
