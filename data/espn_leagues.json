@@ -423,6 +423,10 @@
     "name": "Spanish Liga F",
     "slug": "esp.w.1"
   },
+  "21211": {
+    "name": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+    "slug": "fifa.wwcq.ply"
+  },
   "21231": {
     "name": "Saudi Pro League",
     "slug": "ksa.1"
