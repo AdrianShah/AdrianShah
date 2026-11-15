@@ -153,9 +153,16 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/gua.png" width="56" height="56" alt="" /><br/><b>Guatemala</b></td><td align="center" width="24%">vs<br/><sub>Concacaf Nations League<br/>2-3</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="56" height="56" alt="" /><br/><b>Canada</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Canada</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="56" height="56" alt="" /><br/><b>Belgium</b></td><td align="center" width="24%">vs<br/><sub>UEFA Nations League<br/>Today 2:45 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="56" height="56" alt="" /><br/><b>Italy</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Draw</b></td></tr></table>
 
 <p align="center"><b>Record: 101/148 (68%)</b> · Basketball: 9/11 (82%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 89/132 (67%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy | UEFA Nations League | Draw | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium <sub>51%</sub> |
+| Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France <sub>69%</sub> |
+| Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain <sub>45%</sub> |
+| Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cro.png" width="20" height="20" alt="" /> Croatia vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/cze.png" width="20" height="20" alt="" /> Czechia | UEFA Nations League | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cro.png" width="20" height="20" alt="" /> Croatia | <img src="https://a.espncdn.com/i/teamlogos/countries/500/cro.png" width="20" height="20" alt="" /> Croatia <sub>47%</sub> |
 
 <details><summary>Recent results</summary>
 
