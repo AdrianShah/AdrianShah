@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/f75891016a8a7ecd2a91c1d0969d893cc1a8b26b"><code>f758910</code></a></td><td>Merge pull request #4 from AdrianShah/feat/approval  Phase …</td></tr>
-<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/e7796eceb5eae96facbd6888af83677f56f61302"><code>e7796ec</code></a></td><td>Merge remote-tracking branch 'origin/main' into HEAD  # Con…</td></tr>
-<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/b04d6014923d99876fb323acdc62f928ce72b670"><code>b04d601</code></a></td><td>Docs: 20-second jailbreak stage beat in DEMO.md, README sec…</td></tr>
+<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/35050f1fae7c2b92fa12f4b7f7b893fd59f0a611"><code>35050f1</code></a></td><td>Merge feat/kill-switch into feat/precedent-memory so both l…</td></tr>
+<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/a52380aa5bc3d6a2fc393d30fe53990c72ba6396"><code>a52380a</code></a></td><td>Merge pull request #7 from AdrianShah/feat/redteam-panel  D…</td></tr>
+<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/b571b6807939829d39bbac884c6277c0e06f1a1e"><code>b571b68</code></a></td><td>Merge pull request #6 from AdrianShah/feat/jailbreak-demo  …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
