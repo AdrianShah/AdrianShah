@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/3e66ffbcbede49fdab1f9677ea5eefd42aa6208d"><code>3e66ffb</code></a></td><td>Merge pull request #3 from AdrianShah/feat/agent  Phase 3 a…</td></tr>
 <tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/35050f1fae7c2b92fa12f4b7f7b893fd59f0a611"><code>35050f1</code></a></td><td>Merge feat/kill-switch into feat/precedent-memory so both l…</td></tr>
 <tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/a52380aa5bc3d6a2fc393d30fe53990c72ba6396"><code>a52380a</code></a></td><td>Merge pull request #7 from AdrianShah/feat/redteam-panel  D…</td></tr>
-<tr><td>2026-11-14</td><td><a href="https://github.com/AdrianShah/MONGODB"><code>MONGODB</code></a></td><td><a href="https://github.com/AdrianShah/MONGODB/commit/b571b6807939829d39bbac884c6277c0e06f1a1e"><code>b571b68</code></a></td><td>Merge pull request #6 from AdrianShah/feat/jailbreak-demo  …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
