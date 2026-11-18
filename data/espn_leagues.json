@@ -239,6 +239,10 @@
     "name": "Greek Super League",
     "slug": "gre.1"
   },
+  "3956": {
+    "name": "Coppa Italia",
+    "slug": "ita.coppa_italia"
+  },
   "3957": {
     "name": "Dutch KNVB Beker",
     "slug": "ned.cup"
@@ -378,6 +382,10 @@
   "19945": {
     "name": "Dutch Vrouwen Eredivisie",
     "slug": "ned.w.1"
+  },
+  "19968": {
+    "name": "Swedish Allsvenskan Promotion/Relegation Playoffs",
+    "slug": "swe.1.promotion.relegation"
   },
   "20114": {
     "name": "UEFA European Under-21 Championship Qualifying",
