@@ -387,6 +387,10 @@
     "name": "Swedish Allsvenskan Promotion/Relegation Playoffs",
     "slug": "swe.1.promotion.relegation"
   },
+  "19989": {
+    "name": "Norwegian Eliteserien Promotion/Relegation Playoffs",
+    "slug": "nor.1.promotion.relegation"
+  },
   "20114": {
     "name": "UEFA European Under-21 Championship Qualifying",
     "slug": "uefa.euro_u21_qual"
