@@ -157,6 +157,12 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 103/152 (68%)</b> · Basketball: 9/11 (82%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 91/136 (67%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 22, 2026 | <img src="https://media.api-sports.io/basketball/teams/590.png" width="20" height="20" alt="" /> AS Karditsas vs <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | Greece Basket League | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | — |
+| Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis | Greek Super League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>61%</sub> |
+| Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4057.png" width="20" height="20" alt="" /> Frosinone | Italian Serie A | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan <sub>52%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
