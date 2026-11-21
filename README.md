@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/96c1220e9c7b32e694f8f0b38e9e6a932300975e"><code>96c1220</code></a></td><td>Add room tasks: a shared task list whose claims reserve fil…</td></tr>
 <tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/81f2f7cee788807ee3c78a90830a3b73f7bbd849"><code>81f2f7c</code></a></td><td>Break the import cycle between the CLI and the task command…</td></tr>
 <tr><td>2026-11-18</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/f80c9ca6559b9a23916cb376da748cd7016c7ed4"><code>f80c9ca</code></a></td><td>Merge pull request #88 from AdrianShah/dependabot/npm_and_y…</td></tr>
-<tr><td>2026-11-18</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/7c75db0b68c39894a48e6e3ae96945f5d121fcbc"><code>7c75db0</code></a></td><td>Let any tool take the main lane, and let the cwd beat sessi…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
