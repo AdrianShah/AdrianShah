@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/96c1220e9c7b32e694f8f0b38e9e6a932300975e"><code>96c1220</code></a></td><td>Add room tasks: a shared task list whose claims reserve fil…</td></tr>
-<tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/81f2f7cee788807ee3c78a90830a3b73f7bbd849"><code>81f2f7c</code></a></td><td>Break the import cycle between the CLI and the task command…</td></tr>
-<tr><td>2026-11-18</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/f80c9ca6559b9a23916cb376da748cd7016c7ed4"><code>f80c9ca</code></a></td><td>Merge pull request #88 from AdrianShah/dependabot/npm_and_y…</td></tr>
+<tr><td>2026-11-21</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/2f610aaab4189b71cb3b63c2533b765ad5993396"><code>2f610aa</code></a></td><td>Merge pull request #104 from AdrianShah/fix/v3-review  Desk…</td></tr>
+<tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/8bbe8a9cd4a417dcdb4202076c4570a8ce7e8b9f"><code>8bbe8a9</code></a></td><td>Refresh graphify knowledge graph</td></tr>
+<tr><td>2026-11-20</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/07ba1d1f82e87322c6263b39d3912477d2c87f57"><code>07ba1d1</code></a></td><td>Merge pull request #94 from AdrianShah/fix/codeql-remote-pr…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
