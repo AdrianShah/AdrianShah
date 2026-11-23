@@ -157,6 +157,10 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 109/158 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 96/141 (68%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/148.png" width="20" height="20" alt="" /> PSV Eindhoven | UEFA Champions League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/86.png" width="20" height="20" alt="" /> Real Madrid <sub>64%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
