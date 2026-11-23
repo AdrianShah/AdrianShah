@@ -153,18 +153,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="56" height="56" alt="" /><br/><b>AC Milan</b></td><td align="center" width="24%">vs<br/><sub>Italian Serie A<br/>5-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/4057.png" width="56" height="56" alt="" /><br/><b>Frosinone</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>AC Milan</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2922.png" width="56" height="56" alt="" /><br/><b>Getafe</b></td><td align="center" width="24%">vs<br/><sub>Spanish LALIGA<br/>0-3</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="56" height="56" alt="" /><br/><b>Atlético Madrid</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Atlético Madrid</b></td></tr></table>
 
-<p align="center"><b>Record: 108/157 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 95/140 (68%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2922.png" width="20" height="20" alt="" /> Getafe vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid | Spanish LALIGA | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid <sub>57%</sub> |
+<p align="center"><b>Record: 109/158 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 96/141 (68%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2922.png" width="20" height="20" alt="" /> Getafe vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid<br/><sub>Spanish LALIGA</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid | 0-3 | ✅ | ✅ <sub>Atlético Madrid</sub> |
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4057.png" width="20" height="20" alt="" /> Frosinone<br/><sub>Italian Serie A</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan | 5-1 | ✅ | ✅ <sub>AC Milan</sub> |
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | 6-2 | ✅ | ✅ <sub>Olympiacos</sub> |
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1010.png" width="20" height="20" alt="" /> OFI Crete<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | 2-0 | ✅ | — |
@@ -174,12 +171,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/eng.png" width="20" height="20" alt="" /> England<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/esp.png" width="20" height="20" alt="" /> Spain | 2-3 | ❌ | ❌ <sub>Spain</sub> |
 | Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/tur.png" width="20" height="20" alt="" /> Türkiye<br/><sub>UEFA Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/fra.png" width="20" height="20" alt="" /> France | 2-1 | ✅ | ✅ <sub>France</sub> |
 | Nov 15, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/bel.png" width="20" height="20" alt="" /> Belgium vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/ita.png" width="20" height="20" alt="" /> Italy<br/><sub>UEFA Nations League</sub> | Draw | 4-1 | ❌ | ✅ <sub>Belgium</sub> |
-| Nov 13, 2026 | <img src="https://a.espncdn.com/i/teamlogos/countries/500/gua.png" width="20" height="20" alt="" /> Guatemala vs <img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="20" height="20" alt="" /> Canada<br/><sub>Concacaf Nations League</sub> | <img src="https://a.espncdn.com/i/teamlogos/countries/500/can.png" width="20" height="20" alt="" /> Canada | 2-3 | ✅ | ✅ <sub>Canada</sub> |
 
 </details>
 
-<p align="center">🤖 <b>Me vs the Model</b>: on the 106 games we both called, <b>me 74/106 (70%)</b> vs <b>the model 77/106 (73%)</b>.<br/>
-<sub>Across all 4526 of its decided picks the model is 2413/4526 (53%), Brier 0.573. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<p align="center">🤖 <b>Me vs the Model</b>: on the 107 games we both called, <b>me 75/107 (70%)</b> vs <b>the model 78/107 (73%)</b>.<br/>
+<sub>Across all 4567 of its decided picks the model is 2432/4567 (53%), Brier 0.573. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
