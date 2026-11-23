@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/2922.png" width="56" height="56" alt="" /><br/><b>Getafe</b></td><td align="center" width="24%">vs<br/><sub>Spanish LALIGA<br/>Today 3:00 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="56" height="56" alt="" /><br/><b>Atlético Madrid</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Atlético Madrid</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="56" height="56" alt="" /><br/><b>AC Milan</b></td><td align="center" width="24%">vs<br/><sub>Italian Serie A<br/>5-1</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/4057.png" width="56" height="56" alt="" /><br/><b>Frosinone</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>AC Milan</b></td></tr></table>
 
 <p align="center"><b>Record: 108/157 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 95/140 (68%)</p>
 
