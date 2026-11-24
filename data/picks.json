@@ -1,85 +1,85 @@
 {
   "picks" : [
     {
-      "pick" : "Morocco",
-      "eventId" : "wc26:01",
-      "legacy" : true
-    },
-    {
-      "pick" : "France",
-      "eventId" : "wc26:02",
-      "legacy" : true
-    },
-    {
-      "pick" : "Brazil",
-      "eventId" : "wc26:03",
-      "legacy" : true
-    },
-    {
-      "pick" : "England",
-      "eventId" : "wc26:04",
-      "legacy" : true
-    },
-    {
-      "pick" : "Portugal",
-      "eventId" : "wc26:05",
-      "legacy" : true
-    },
-    {
-      "pick" : "Belgium",
-      "eventId" : "wc26:06",
-      "legacy" : true
-    },
-    {
-      "pick" : "Argentina",
-      "eventId" : "wc26:07",
-      "legacy" : true
-    },
-    {
-      "pick" : "Colombia",
-      "eventId" : "wc26:08",
-      "legacy" : true
-    },
-    {
-      "pick" : "France",
-      "eventId" : "wc26:09",
-      "legacy" : true
-    },
-    {
-      "pick" : "Spain",
       "legacy" : true,
+      "pick" : "Morocco",
+      "eventId" : "wc26:01"
+    },
+    {
+      "legacy" : true,
+      "pick" : "France",
+      "eventId" : "wc26:02"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Brazil",
+      "eventId" : "wc26:03"
+    },
+    {
+      "legacy" : true,
+      "pick" : "England",
+      "eventId" : "wc26:04"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Portugal",
+      "eventId" : "wc26:05"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Belgium",
+      "eventId" : "wc26:06"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Argentina",
+      "eventId" : "wc26:07"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Colombia",
+      "eventId" : "wc26:08"
+    },
+    {
+      "legacy" : true,
+      "pick" : "France",
+      "eventId" : "wc26:09"
+    },
+    {
+      "legacy" : true,
+      "pick" : "Spain",
       "eventId" : "wc26:10"
     },
     {
-      "pick" : "Norway",
       "legacy" : true,
+      "pick" : "Norway",
       "eventId" : "wc26:11"
     },
     {
+      "eventId" : "wc26:12",
       "pick" : "Argentina",
       "void" : "result never recorded",
-      "legacy" : true,
-      "eventId" : "wc26:12"
+      "legacy" : true
     },
     {
+      "eventId" : "wc26:13",
       "pick" : "France",
-      "legacy" : true,
-      "eventId" : "wc26:13"
+      "legacy" : true
     },
     {
-      "pick" : "England",
       "eventId" : "wc26:14",
-      "legacy" : true,
-      "void" : "result never recorded"
+      "pick" : "England",
+      "void" : "result never recorded",
+      "legacy" : true
     },
     {
-      "pick" : "Germany",
       "eventId" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "pick" : "Germany",
       "lockedAt" : "2026-09-27T14:22:37Z"
     },
     {
-      "pick" : "Olympiacos",
       "eventId" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "pick" : "Olympiacos",
       "lockedAt" : "2026-09-27T14:29:05Z"
     },
     {
@@ -249,19 +249,19 @@
       "lockedAt" : "2026-10-03T15:10:32Z"
     },
     {
-      "lockedAt" : "2026-10-15T17:32:27Z",
       "pick" : "Olympiacos",
-      "eventId" : "espn:soccer:all:401915550"
+      "eventId" : "espn:soccer:all:401915550",
+      "lockedAt" : "2026-10-15T17:32:27Z"
     },
     {
-      "lockedAt" : "2026-10-15T17:32:35Z",
       "pick" : "Brighton & Hove Albion",
-      "eventId" : "espn:soccer:all:401915853"
+      "eventId" : "espn:soccer:all:401915853",
+      "lockedAt" : "2026-10-15T17:32:35Z"
     },
     {
-      "lockedAt" : "2026-10-15T17:32:40Z",
       "pick" : "Benfica",
-      "eventId" : "espn:soccer:all:401915562"
+      "eventId" : "espn:soccer:all:401915562",
+      "lockedAt" : "2026-10-15T17:32:40Z"
     },
     {
       "lockedAt" : "2026-10-15T17:34:35Z",
@@ -609,183 +609,183 @@
       "eventId" : "espn:soccer:all:401884747"
     },
     {
-      "eventId" : "espn:soccer:all:401884753",
+      "lockedAt" : "2026-10-29T21:44:01Z",
       "pick" : "Bayer Leverkusen",
-      "lockedAt" : "2026-10-29T21:44:01Z"
+      "eventId" : "espn:soccer:all:401884753"
     },
     {
-      "eventId" : "espn:soccer:all:401884754",
+      "lockedAt" : "2026-10-29T21:44:04Z",
       "pick" : "Bayern Munich",
-      "lockedAt" : "2026-10-29T21:44:04Z"
+      "eventId" : "espn:soccer:all:401884754"
     },
     {
-      "eventId" : "espn:soccer:all:401876418",
+      "lockedAt" : "2026-10-29T21:44:11Z",
       "pick" : "Lyon",
-      "lockedAt" : "2026-10-29T21:44:11Z"
+      "eventId" : "espn:soccer:all:401876418"
     },
     {
-      "eventId" : "espn:soccer:all:401882822",
       "pick" : "Barcelona",
+      "eventId" : "espn:soccer:all:401882822",
       "lockedAt" : "2026-10-29T21:44:15Z"
     },
     {
-      "eventId" : "espn:soccer:all:401874990",
       "pick" : "AS Roma",
+      "eventId" : "espn:soccer:all:401874990",
       "lockedAt" : "2026-10-29T21:44:26Z"
     },
     {
-      "eventId" : "tsdb:2594828",
       "pick" : "Olympiacos",
+      "eventId" : "tsdb:2594828",
       "lockedAt" : "2026-11-04T00:21:35Z"
     },
     {
-      "eventId" : "espn:soccer:all:401915383",
       "pick" : "Real Madrid",
+      "eventId" : "espn:soccer:all:401915383",
       "lockedAt" : "2026-11-04T00:21:50Z"
     },
     {
-      "eventId" : "espn:soccer:all:401915382",
       "pick" : "Liverpool",
+      "eventId" : "espn:soccer:all:401915382",
       "lockedAt" : "2026-11-04T00:21:57Z"
     },
     {
-      "eventId" : "espn:soccer:all:401915306",
       "pick" : "Manchester City",
+      "eventId" : "espn:soccer:all:401915306",
       "lockedAt" : "2026-11-04T00:22:09Z"
     },
     {
-      "eventId" : "espn:soccer:all:401915381",
       "pick" : "Arsenal",
+      "eventId" : "espn:soccer:all:401915381",
       "lockedAt" : "2026-11-04T00:22:13Z"
     },
     {
-      "eventId" : "espn:soccer:all:401879242",
       "pick" : "Everton",
+      "eventId" : "espn:soccer:all:401879242",
       "lockedAt" : "2026-11-05T22:22:09Z"
     },
     {
-      "eventId" : "apib:508679",
       "pick" : "Olympiacos",
+      "eventId" : "apib:508679",
       "lockedAt" : "2026-11-05T22:22:22Z"
     },
     {
-      "eventId" : "espn:soccer:all:401878757",
       "pick" : "Manchester City",
+      "eventId" : "espn:soccer:all:401878757",
       "lockedAt" : "2026-11-07T15:02:07Z"
     },
     {
-      "eventId" : "espn:soccer:all:401882808",
       "pick" : "Real Madrid",
+      "eventId" : "espn:soccer:all:401882808",
       "lockedAt" : "2026-11-07T15:02:12Z"
     },
     {
-      "eventId" : "espn:soccer:all:401876407",
       "pick" : "Paris Saint-Germain",
+      "eventId" : "espn:soccer:all:401876407",
       "lockedAt" : "2026-11-07T15:02:15Z"
     },
     {
-      "eventId" : "espn:soccer:all:401874803",
       "pick" : "AS Roma",
+      "eventId" : "espn:soccer:all:401874803",
       "lockedAt" : "2026-11-07T15:02:21Z"
     },
     {
-      "eventId" : "espn:soccer:all:401896730",
       "pick" : "Olympiacos",
+      "eventId" : "espn:soccer:all:401896730",
       "lockedAt" : "2026-11-08T15:19:30Z"
     },
     {
-      "eventId" : "espn:soccer:all:401896811",
       "pick" : "Panathinaikos",
+      "eventId" : "espn:soccer:all:401896811",
       "lockedAt" : "2026-11-08T15:19:56Z"
     },
     {
-      "eventId" : "espn:soccer:all:401906332",
       "pick" : "Leicester City",
+      "eventId" : "espn:soccer:all:401906332",
       "lockedAt" : "2026-11-10T15:14:21Z"
     },
     {
-      "eventId" : "apib:503561",
       "pick" : "PAOK",
+      "eventId" : "apib:503561",
       "lockedAt" : "2026-11-10T15:14:28Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861148",
       "pick" : "Spain",
+      "eventId" : "espn:soccer:all:401861148",
       "lockedAt" : "2026-11-12T15:16:07Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861145",
       "pick" : "Belgium",
+      "eventId" : "espn:soccer:all:401861145",
       "lockedAt" : "2026-11-12T15:16:36Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861151",
       "pick" : "France",
+      "eventId" : "espn:soccer:all:401861151",
       "lockedAt" : "2026-11-12T15:16:43Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861150",
       "pick" : "England",
+      "eventId" : "espn:soccer:all:401861150",
       "lockedAt" : "2026-11-12T15:16:44Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861147",
       "pick" : "Finland",
+      "eventId" : "espn:soccer:all:401861147",
       "lockedAt" : "2026-11-12T15:16:48Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861146",
       "pick" : "Cyprus",
+      "eventId" : "espn:soccer:all:401861146",
       "lockedAt" : "2026-11-12T15:16:53Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861158",
       "pick" : "Germany",
+      "eventId" : "espn:soccer:all:401861158",
       "lockedAt" : "2026-11-13T17:29:50Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861161",
       "pick" : "Scotland",
+      "eventId" : "espn:soccer:all:401861161",
       "lockedAt" : "2026-11-13T17:30:02Z"
     },
     {
-      "eventId" : "espn:soccer:all:401921325",
       "pick" : "Colombia",
+      "eventId" : "espn:soccer:all:401921325",
       "lockedAt" : "2026-11-13T17:30:12Z"
     },
     {
-      "eventId" : "espn:soccer:all:401929711",
       "pick" : "Canada",
+      "eventId" : "espn:soccer:all:401929711",
       "lockedAt" : "2026-11-13T17:30:18Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861176",
       "pick" : "draw",
+      "eventId" : "espn:soccer:all:401861176",
       "lockedAt" : "2026-11-15T18:54:57Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861177",
       "pick" : "France",
+      "eventId" : "espn:soccer:all:401861177",
       "lockedAt" : "2026-11-15T18:55:03Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861175",
       "pick" : "Spain",
+      "eventId" : "espn:soccer:all:401861175",
       "lockedAt" : "2026-11-15T18:55:07Z"
     },
     {
-      "eventId" : "espn:soccer:all:401861178",
       "pick" : "Croatia",
+      "eventId" : "espn:soccer:all:401861178",
       "lockedAt" : "2026-11-15T18:55:08Z"
     },
     {
-      "eventId" : "espn:soccer:all:401896809",
       "pick" : "Olympiacos",
+      "eventId" : "espn:soccer:all:401896809",
       "lockedAt" : "2026-11-21T22:16:22Z"
     },
     {
-      "eventId" : "apib:521971",
       "pick" : "Olympiacos",
+      "eventId" : "apib:521971",
       "lockedAt" : "2026-11-21T22:16:23Z"
     },
     {
@@ -804,71 +804,76 @@
       "lockedAt" : "2026-11-21T22:16:41Z"
     },
     {
+      "lockedAt" : "2026-11-22T14:18:41Z",
       "pick" : "Atlético Madrid",
-      "eventId" : "espn:soccer:all:401882803",
-      "lockedAt" : "2026-11-22T14:18:41Z"
+      "eventId" : "espn:soccer:all:401882803"
     },
     {
+      "lockedAt" : "2026-11-23T22:47:22Z",
       "pick" : "Real Madrid",
-      "eventId" : "espn:soccer:all:401915298",
-      "lockedAt" : "2026-11-23T22:47:22Z"
+      "eventId" : "espn:soccer:all:401915298"
     },
     {
+      "lockedAt" : "2026-11-24T16:17:39Z",
       "pick" : "Como",
-      "eventId" : "espn:soccer:all:401915296",
-      "lockedAt" : "2026-11-24T16:17:39Z"
+      "eventId" : "espn:soccer:all:401915296"
     },
     {
+      "lockedAt" : "2026-11-24T16:17:40Z",
       "pick" : "Aston Villa",
-      "eventId" : "espn:soccer:all:401915300",
-      "lockedAt" : "2026-11-24T16:17:40Z"
-    }
-  ],
-  "manualEvents" : [
-    {
-      "scheduledAt" : "2026-09-27T18:45:00Z",
-      "winner" : "Greece",
-      "competition" : "UEFA Nations League",
-      "status" : "finished",
-      "a" : "Germany",
-      "sport" : "soccer",
-      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
-      "b" : "Greece",
-      "score" : "0-1"
+      "eventId" : "espn:soccer:all:401915300"
     },
     {
-      "scheduledAt" : "2026-09-27T17:00:00Z",
-      "winner" : "Olympiacos",
-      "competition" : "Greek Basketball Super Cup",
-      "status" : "finished",
-      "a" : "Olympiacos",
-      "sport" : "nba",
-      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
-      "b" : "PAOK",
-      "score" : "101-96"
+      "lockedAt" : "2026-11-24T16:17:43Z",
+      "pick" : "RB Leipzig",
+      "eventId" : "espn:soccer:all:401915299"
     }
   ],
   "favoriteTeams" : [
     {
       "league" : "Greek Basket League",
-      "name" : "Olympiacos BC",
       "sport" : "basketball",
+      "tsdbId" : "135635",
       "badge" : "https://r2.thesportsdb.com/images/media/team/badge/4s5lug1676581220.png",
-      "tsdbId" : "135635"
+      "name" : "Olympiacos BC"
     },
     {
       "league" : "English Premier League",
-      "name" : "Chelsea",
       "sport" : "soccer",
+      "tsdbId" : "133610",
       "badge" : "https://r2.thesportsdb.com/images/media/team/badge/pbf4ul1782638263.png",
-      "tsdbId" : "133610"
+      "name" : "Chelsea"
     },
     {
       "league" : "Greek Super League 1",
-      "name" : "Olympiacos",
       "sport" : "soccer",
+      "tsdbId" : "133754",
       "badge" : "https://r2.thesportsdb.com/images/media/team/badge/xckasq1721291508.png",
-      "tsdbId" : "133754"
+      "name" : "Olympiacos"
+    }
+  ],
+  "manualEvents" : [
+    {
+      "status" : "finished",
+      "competition" : "UEFA Nations League",
+      "winner" : "Greece",
+      "score" : "0-1",
+      "id" : "manual:88bc32d7-5d1e-4c1a-ac68-cf51d0b73be7",
+      "a" : "Germany",
+      "sport" : "soccer",
+      "b" : "Greece",
+      "scheduledAt" : "2026-09-27T18:45:00Z"
+    },
+    {
+      "status" : "finished",
+      "competition" : "Greek Basketball Super Cup",
+      "winner" : "Olympiacos",
+      "score" : "101-96",
+      "id" : "manual:752abf9a-9055-4fbc-b8d6-265f68e8eefe",
+      "a" : "Olympiacos",
+      "sport" : "nba",
+      "b" : "PAOK",
+      "scheduledAt" : "2026-09-27T17:00:00Z"
     }
   ]
 }
