@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/21d505a72d08d947fe01eebd99edfacf84070a76"><code>21d505a</code></a></td><td>Explain bare excepts in Windows bee desktop attachment and …</td></tr>
 <tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/33900fd916052148fc0b62891fef80dd960c0e5c"><code>33900fd</code></a></td><td>Override minimatch to 11.0.9 in VS Code extension (fixes GH…</td></tr>
 <tr><td>2026-11-23</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/a3a892f087e8f2739776c779adfd953162ef7cca"><code>a3a892f</code></a></td><td>Merge pull request #106 from AdrianShah/fix/small-cleanups</td></tr>
-<tr><td>2026-11-21</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/69b55e1fb61f5f2b7f942d5babf10b15dc8aa350"><code>69b55e1</code></a></td><td>Drop the unused dashboard-link re-exports from cli.py  Code…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
