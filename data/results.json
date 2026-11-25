@@ -1875,5 +1875,77 @@
     "winner": "Atlético Madrid",
     "score": "0-3",
     "finishedAt": "2026-11-23T01:53:59.190Z"
+  },
+  "espn:soccer:all:401915298": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Real Madrid",
+    "b": "PSV Eindhoven",
+    "scheduledAt": "2026-11-24T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "winner": "Real Madrid",
+    "score": "5-1",
+    "finishedAt": "2026-11-25T00:00:07.209Z"
+  },
+  "espn:soccer:all:401915296": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Como",
+    "b": "AEK Athens",
+    "scheduledAt": "2026-11-24T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "winner": "Como",
+    "score": "1-0",
+    "finishedAt": "2026-11-25T00:00:09.096Z"
+  },
+  "espn:soccer:all:401915300": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Galatasaray",
+    "b": "Aston Villa",
+    "scheduledAt": "2026-11-24T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "winner": "Galatasaray",
+    "score": "1-0",
+    "finishedAt": "2026-11-25T00:00:09.175Z"
+  },
+  "espn:soccer:all:401915299": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "RB Leipzig",
+    "b": "Lens",
+    "scheduledAt": "2026-11-24T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "winner": "RB Leipzig",
+    "score": "3-1",
+    "finishedAt": "2026-11-25T00:00:09.259Z"
+  },
+  "espn:soccer:all:401915295": {
+    "sport": "soccer",
+    "competition": "UEFA Champions League",
+    "a": "Arsenal",
+    "b": "Borussia Dortmund",
+    "scheduledAt": "2026-11-24T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "winner": "draw",
+    "score": "1-1",
+    "finishedAt": "2026-11-25T00:00:09.322Z"
+  },
+  "espn:soccer:all:401880141": {
+    "sport": "soccer",
+    "competition": "English League Championship",
+    "a": "Wolverhampton Wanderers",
+    "b": "Derby County",
+    "scheduledAt": "2026-11-24T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
+    "winner": "Wolverhampton Wanderers",
+    "score": "3-0",
+    "finishedAt": "2026-11-25T00:00:09.385Z"
   }
 }
