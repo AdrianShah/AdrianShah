@@ -1947,5 +1947,17 @@
     "winner": "Wolverhampton Wanderers",
     "score": "3-0",
     "finishedAt": "2026-11-25T00:00:09.385Z"
+  },
+  "apib:508719": {
+    "sport": "basketball",
+    "competition": "Euroleague",
+    "a": "Olympiacos",
+    "b": "Hapoel Tel Aviv",
+    "scheduledAt": "2026-11-25T19:15:00.000Z",
+    "aLogo": "https://media.api-sports.io/basketball/teams/1542.png",
+    "bLogo": "https://media.api-sports.io/basketball/teams/682.png",
+    "winner": "Olympiacos",
+    "score": "104-79",
+    "finishedAt": "2026-11-26T03:42:21.941Z"
   }
 }

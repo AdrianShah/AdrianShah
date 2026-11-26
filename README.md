@@ -153,18 +153,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/380.png" width="56" height="56" alt="" /><br/><b>Wolverhampton Wanderers</b></td><td align="center" width="24%">vs<br/><sub>English League Championship<br/>3-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/374.png" width="56" height="56" alt="" /><br/><b>Derby County</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Wolverhampton Wanderers</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1542.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Euroleague<br/>104-79</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/682.png" width="56" height="56" alt="" /><br/><b>Hapoel Tel Aviv</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Olympiacos</b></td></tr></table>
 
-<p align="center"><b>Record: 113/164 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 100/147 (68%)</p>
-
-| When | Match | Competition | My pick | Model |
-|---|---|---|---|---|
-| Nov 25, 2026 | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://media.api-sports.io/basketball/teams/682.png" width="20" height="20" alt="" /> Hapoel Tel Aviv | Euroleague | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | — |
+<p align="center"><b>Record: 114/165 (69%)</b> · Basketball: 11/13 (85%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 100/147 (68%)</p>
 
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
 |---|---|---|---|---|---|
+| Nov 25, 2026 | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://media.api-sports.io/basketball/teams/682.png" width="20" height="20" alt="" /> Hapoel Tel Aviv<br/><sub>Euroleague</sub> | <img src="https://media.api-sports.io/basketball/teams/1542.png" width="20" height="20" alt="" /> Olympiacos | 104-79 | ✅ | — |
 | Nov 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/380.png" width="20" height="20" alt="" /> Wolverhampton Wanderers vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/374.png" width="20" height="20" alt="" /> Derby County<br/><sub>English League Championship</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/380.png" width="20" height="20" alt="" /> Wolverhampton Wanderers | 3-0 | ✅ | ✅ <sub>Wolverhampton Wanderers</sub> |
 | Nov 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" width="20" height="20" alt="" /> Borussia Dortmund<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/359.png" width="20" height="20" alt="" /> Arsenal | 1-1 | ❌ | ❌ <sub>Arsenal</sub> |
 | Nov 24, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/175.png" width="20" height="20" alt="" /> Lens<br/><sub>UEFA Champions League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" width="20" height="20" alt="" /> RB Leipzig | 3-1 | ✅ | ✅ <sub>RB Leipzig</sub> |
@@ -174,12 +171,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2922.png" width="20" height="20" alt="" /> Getafe vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid<br/><sub>Spanish LALIGA</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="20" height="20" alt="" /> Atlético Madrid | 0-3 | ✅ | ✅ <sub>Atlético Madrid</sub> |
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4057.png" width="20" height="20" alt="" /> Frosinone<br/><sub>Italian Serie A</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan | 5-1 | ✅ | ✅ <sub>AC Milan</sub> |
 | Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2575.png" width="20" height="20" alt="" /> Iraklis<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos | 6-2 | ✅ | ✅ <sub>Olympiacos</sub> |
-| Nov 22, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/1010.png" width="20" height="20" alt="" /> OFI Crete<br/><sub>Greek Super League</sub> | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="20" height="20" alt="" /> Panathinaikos | 2-0 | ✅ | — |
 
 </details>
 
 <p align="center">🤖 <b>Me vs the Model</b>: on the 113 games we both called, <b>me 79/113 (70%)</b> vs <b>the model 82/113 (73%)</b>.<br/>
-<sub>Across all 4697 of its decided picks the model is 2505/4697 (53%), Brier 0.573. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<sub>Across all 4741 of its decided picks the model is 2534/4741 (53%), Brier 0.572. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
