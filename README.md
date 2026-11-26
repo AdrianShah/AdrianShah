@@ -157,6 +157,11 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 
 <p align="center"><b>Record: 114/165 (69%)</b> · Basketball: 11/13 (85%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 100/147 (68%)</p>
 
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan | UEFA Europa League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="20" height="20" alt="" /> AC Milan | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="20" height="20" alt="" /> Olympiacos <sub>41%</sub> |
+| Nov 26, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/8089.png" width="20" height="20" alt="" /> CSU Craiova | UEFA Conference League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" width="20" height="20" alt="" /> Brighton & Hove Albion <sub>76%</sub> |
+
 <details><summary>Recent results</summary>
 
 | Date | Match | Pick | Result | Me | Model |
