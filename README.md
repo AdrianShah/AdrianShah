@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/dd9fe73d2d337d67177ddfccf88310e252030ccf"><code>dd9fe73</code></a></td><td>Join a room without a committed config; draw the logo bee o…</td></tr>
+<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/a4e3cd3deedf7f1ee6de3ddaf78af90e3ef1da9a"><code>a4e3cd3</code></a></td><td>Clean room codes for logs in a way CodeQL recognizes  The s…</td></tr>
 <tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/21d505a72d08d947fe01eebd99edfacf84070a76"><code>21d505a</code></a></td><td>Explain bare excepts in Windows bee desktop attachment and …</td></tr>
-<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/33900fd916052148fc0b62891fef80dd960c0e5c"><code>33900fd</code></a></td><td>Override minimatch to 11.0.9 in VS Code extension (fixes GH…</td></tr>
-<tr><td>2026-11-23</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/a3a892f087e8f2739776c779adfd953162ef7cca"><code>a3a892f</code></a></td><td>Merge pull request #106 from AdrianShah/fix/small-cleanups</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1542.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Euroleague<br/>104-79</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/682.png" width="56" height="56" alt="" /><br/><b>Hapoel Tel Aviv</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Olympiacos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>UEFA Europa League<br/>Today 12:45 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" width="56" height="56" alt="" /><br/><b>AC Milan</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: AC Milan</b></td></tr></table>
 
 <p align="center"><b>Record: 114/165 (69%)</b> · Basketball: 11/13 (85%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 100/147 (68%)</p>
 
