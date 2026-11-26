@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/1542.png" width="56" height="56" alt="" /><br/><b>Olympiacos</b></td><td align="center" width="24%">vs<br/><sub>Euroleague<br/>Today 2:15 PM EST</sub></td><td align="center" width="38%"><img src="https://media.api-sports.io/basketball/teams/682.png" width="56" height="56" alt="" /><br/><b>Hapoel Tel Aviv</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Olympiacos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/380.png" width="56" height="56" alt="" /><br/><b>Wolverhampton Wanderers</b></td><td align="center" width="24%">vs<br/><sub>English League Championship<br/>3-0</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/374.png" width="56" height="56" alt="" /><br/><b>Derby County</b></td></tr><tr><td colspan="3" align="center">Latest result: ✅ picked <b>Wolverhampton Wanderers</b></td></tr></table>
 
 <p align="center"><b>Record: 113/164 (69%)</b> · Basketball: 10/12 (83%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 100/147 (68%)</p>
 
