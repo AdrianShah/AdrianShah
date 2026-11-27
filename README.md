@@ -153,9 +153,15 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/3101.png" width="56" height="56" alt="" /><br/><b>FC Nordsjælland</b></td><td align="center" width="24%">vs<br/><sub>UEFA Conference League<br/>3-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/443.png" width="56" height="56" alt="" /><br/><b>Panathinaikos</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Panathinaikos</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/137.png" width="56" height="56" alt="" /><br/><b>Werder Bremen</b></td><td align="center" width="24%">vs<br/><sub>German Bundesliga<br/>Today 2:30 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/268.png" width="56" height="56" alt="" /><br/><b>Borussia Mönchengladbach</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Borussia Mönchengladbach</b></td></tr></table>
 
 <p align="center"><b>Record: 117/169 (69%)</b> · Basketball: 11/13 (85%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 103/151 (68%)</p>
+
+| When | Match | Competition | My pick | Model |
+|---|---|---|---|---|
+| Nov 27, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/137.png" width="20" height="20" alt="" /> Werder Bremen vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/268.png" width="20" height="20" alt="" /> Borussia Mönchengladbach | German Bundesliga | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/268.png" width="20" height="20" alt="" /> Borussia Mönchengladbach | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/137.png" width="20" height="20" alt="" /> Werder Bremen <sub>52%</sub> |
+| Nov 27, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/6997.png" width="20" height="20" alt="" /> Brest vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/6851.png" width="20" height="20" alt="" /> Paris FC | French Ligue 1 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/6851.png" width="20" height="20" alt="" /> Paris FC | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/6997.png" width="20" height="20" alt="" /> Brest <sub>38%</sub> |
+| Nov 27, 2026 | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" width="20" height="20" alt="" /> Nottingham Forest vs <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | English Premier League | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea | <img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="20" height="20" alt="" /> Chelsea <sub>38%</sub> |
 
 <details><summary>Recent results</summary>
 
