@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
+<tr><td>2026-11-26</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/1c0b5c33f076e669ed6d6830d66d2582872f4990"><code>1c0b5c3</code></a></td><td>Merge pull request #112 from AdrianShah/chore/dependency-bu…</td></tr>
+<tr><td>2026-11-26</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/1765ba65941873d53e2a73635d11c6f4f31d3493"><code>1765ba6</code></a></td><td>Fix smoke and CodeQL findings on the coordination upgrades …</td></tr>
 <tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/dd9fe73d2d337d67177ddfccf88310e252030ccf"><code>dd9fe73</code></a></td><td>Join a room without a committed config; draw the logo bee o…</td></tr>
-<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/a4e3cd3deedf7f1ee6de3ddaf78af90e3ef1da9a"><code>a4e3cd3</code></a></td><td>Clean room codes for logs in a way CodeQL recognizes  The s…</td></tr>
-<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/21d505a72d08d947fe01eebd99edfacf84070a76"><code>21d505a</code></a></td><td>Explain bare excepts in Windows bee desktop attachment and …</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
