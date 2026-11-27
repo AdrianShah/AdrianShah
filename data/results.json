@@ -2007,5 +2007,41 @@
     "winner": "Bayer Leverkusen",
     "score": "0-2",
     "finishedAt": "2026-11-27T01:51:51.769Z"
+  },
+  "espn:soccer:all:401879225": {
+    "sport": "soccer",
+    "competition": "English Premier League",
+    "a": "Nottingham Forest",
+    "b": "Chelsea",
+    "scheduledAt": "2026-11-27T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "winner": "Nottingham Forest",
+    "score": "3-2",
+    "finishedAt": "2026-11-27T23:39:18.910Z"
+  },
+  "espn:soccer:all:401876392": {
+    "sport": "soccer",
+    "competition": "French Ligue 1",
+    "a": "Brest",
+    "b": "Paris FC",
+    "scheduledAt": "2026-11-27T19:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+    "winner": "Brest",
+    "score": "1-0",
+    "finishedAt": "2026-11-27T23:39:18.963Z"
+  },
+  "espn:soccer:all:401884720": {
+    "sport": "soccer",
+    "competition": "German Bundesliga",
+    "a": "Werder Bremen",
+    "b": "Borussia Mönchengladbach",
+    "scheduledAt": "2026-11-27T19:30:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+    "winner": "draw",
+    "score": "3-3",
+    "finishedAt": "2026-11-27T23:39:19.022Z"
   }
 }
