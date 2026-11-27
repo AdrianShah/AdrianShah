@@ -1959,5 +1959,53 @@
     "winner": "Olympiacos",
     "score": "104-79",
     "finishedAt": "2026-11-26T03:42:21.941Z"
+  },
+  "espn:soccer:all:401915521": {
+    "sport": "soccer",
+    "competition": "UEFA Europa League",
+    "a": "Olympiacos",
+    "b": "AC Milan",
+    "scheduledAt": "2026-11-26T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "winner": "AC Milan",
+    "score": "2-4",
+    "finishedAt": "2026-11-27T01:51:51.576Z"
+  },
+  "espn:soccer:all:401915814": {
+    "sport": "soccer",
+    "competition": "UEFA Conference League",
+    "a": "Brighton & Hove Albion",
+    "b": "CSU Craiova",
+    "scheduledAt": "2026-11-26T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
+    "winner": "Brighton & Hove Albion",
+    "score": "4-0",
+    "finishedAt": "2026-11-27T01:51:51.637Z"
+  },
+  "espn:soccer:all:401915807": {
+    "sport": "soccer",
+    "competition": "UEFA Conference League",
+    "a": "FC Nordsjælland",
+    "b": "Panathinaikos",
+    "scheduledAt": "2026-11-26T20:00:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+    "winner": "FC Nordsjælland",
+    "score": "3-2",
+    "finishedAt": "2026-11-27T01:51:51.717Z"
+  },
+  "espn:soccer:all:401915517": {
+    "sport": "soccer",
+    "competition": "UEFA Europa League",
+    "a": "Dinamo Zagreb",
+    "b": "Bayer Leverkusen",
+    "scheduledAt": "2026-11-26T17:45:00.000Z",
+    "aLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+    "bLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "winner": "Bayer Leverkusen",
+    "score": "0-2",
+    "finishedAt": "2026-11-27T01:51:51.769Z"
   }
 }
