@@ -137,9 +137,9 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 <!-- COMMITS:AUTO:START -->
 <table>
 <tr><th>When</th><th>Repo</th><th>Commit</th><th>Message</th></tr>
-<tr><td>2026-11-26</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/1c0b5c33f076e669ed6d6830d66d2582872f4990"><code>1c0b5c3</code></a></td><td>Merge pull request #112 from AdrianShah/chore/dependency-bu…</td></tr>
-<tr><td>2026-11-26</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/1765ba65941873d53e2a73635d11c6f4f31d3493"><code>1765ba6</code></a></td><td>Fix smoke and CodeQL findings on the coordination upgrades …</td></tr>
-<tr><td>2026-11-24</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/dd9fe73d2d337d67177ddfccf88310e252030ccf"><code>dd9fe73</code></a></td><td>Join a room without a committed config; draw the logo bee o…</td></tr>
+<tr><td>2026-11-27</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/42e8bcf187468bf1841ab1238984a85d9cd0f706"><code>42e8bcf</code></a></td><td>Merge pull request #121 from AdrianShah/chore/hivelane-rena…</td></tr>
+<tr><td>2026-11-28</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/f50484f77b80d4c59219cea8624f0caf2367cc4f"><code>f50484f</code></a></td><td>Prompt blame tests: decode git output as UTF-8, not the loc…</td></tr>
+<tr><td>2026-11-26</td><td><a href="https://github.com/AdrianShah/Hivelane"><code>Hivelane</code></a></td><td><a href="https://github.com/AdrianShah/Hivelane/commit/454624e95f1b2634eac3c8f6ad4a2137f0013dba"><code>454624e</code></a></td><td>Dashboard: keep the invite secret in memory only  The invit…</td></tr>
 </table>
 <!-- COMMITS:AUTO:END -->
 
