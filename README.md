@@ -153,7 +153,7 @@ Second Year **Computer Engineering** student at **York University** and a full-s
 My calls on upcoming matches, made on my phone and stored in [`data/picks.json`](./data/picks.json).
 
 <!-- PREDICTIONS:AUTO:START -->
-<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" width="56" height="56" alt="" /><br/><b>Nottingham Forest</b></td><td align="center" width="24%">vs<br/><sub>English Premier League<br/>3-2</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" width="56" height="56" alt="" /><br/><b>Chelsea</b></td></tr><tr><td colspan="3" align="center">Latest result: ❌ picked <b>Chelsea</b></td></tr></table>
+<table align="center"><tr><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/3751.png" width="56" height="56" alt="" /><br/><b>Elche</b></td><td align="center" width="24%">vs<br/><sub>Spanish LALIGA<br/>Today 12:30 PM EST</sub></td><td align="center" width="38%"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" width="56" height="56" alt="" /><br/><b>Atlético Madrid</b></td></tr><tr><td colspan="3" align="center">🎯 <b>My pick: Atlético Madrid</b></td></tr></table>
 
 <p align="center"><b>Record: 117/172 (68%)</b> · Basketball: 11/13 (85%) · NBA: 2/3 (67%) · NHL: 1/2 (50%) · Soccer: 103/154 (67%)</p>
 
@@ -180,7 +180,7 @@ My calls on upcoming matches, made on my phone and stored in [`data/picks.json`]
 </details>
 
 <p align="center">🤖 <b>Me vs the Model</b>: on the 120 games we both called, <b>me 82/120 (68%)</b> vs <b>the model 85/120 (71%)</b>.<br/>
-<sub>Across all 4823 of its decided picks the model is 2575/4823 (53%), Brier 0.572. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
+<sub>Across all 4861 of its decided picks the model is 2594/4861 (53%), Brier 0.572. <a href="https://c-sports-predictor.vercel.app">Every prediction it makes →</a></sub></p>
 
 <sub>Picks lock at kickoff and are committed from my phone, so git history is the audit trail. Draw is a valid pick; knockout ties are settled by extra time and penalties. Cancelled matches are void. Times in Toronto. The model's picks come from [C-Sports-Predictor](https://github.com/AdrianShah/C-Sports-Predictor) and follow the same rules.</sub>
 <!-- PREDICTIONS:AUTO:END -->
